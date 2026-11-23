@@ -1,0 +1,140 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87e1c988461dd8f448b57509c0c4ba6a, type: 3}
+  m_Name: holeout-c01-small-static
+  m_EditorClassIdentifier: Garden.Runtime::Garden.Runtime.GardenLevelSO
+  displayName: "Tr\xE1i tim \u0111\u1EA7u ti\xEAn"
+  source: campaign:1
+  visuals: {fileID: 0}
+  data:
+    levelId: holeout-c01-small-static
+    grid:
+    - LLLLLLLLLL
+    - LLBBLLBBLL
+    - LBBBBBBBBL
+    - LBBBBBBBBL
+    - LLBBBBBBLL
+    - LLLBBBBLLL
+    - LLLLBBLLLL
+    - LLLLLLLLLL
+    - LLLLLLLLLL
+    - LLLLLLLLLL
+    displayMode: 1
+    visibleRows: 10
+    pictureScale: 1
+    dockSlots: 5
+    waves:
+    - blocks:
+      - id: 0
+        gx: 1
+        gy: 1
+        w: 1
+        h: 1
+        shape: 0
+        color: L
+        capacity: 23
+        mystery: 0
+      - id: 1
+        gx: 3
+        gy: 1
+        w: 1
+        h: 1
+        shape: 0
+        color: L
+        capacity: 23
+        mystery: 0
+      - id: 2
+        gx: 1
+        gy: 2
+        w: 1
+        h: 1
+        shape: 0
+        color: L
+        capacity: 22
+        mystery: 0
+      - id: 3
+        gx: 3
+        gy: 2
+        w: 1
+        h: 1
+        shape: 0
+        color: B
+        capacity: 32
+        mystery: 0
+    gates:
+    - color: L
+      side: 0
+      start: 1
+      len: 2
+    - color: B
+      side: 1
+      start: 3
+      len: 2
+  charScale: 0
+  tutorialFirstDrag: 1
+  tutorialFirstScroll: 0
+  solution:
+    levelId: holeout-c01-small-static
+    dataVersion: 720780635
+    verifiedMode: 1
+    seed: 1
+    steps:
+    - kind: 1
+      block: 0
+      path:
+      - x: 1
+        y: 0
+      door: 0
+    - kind: 1
+      block: 1
+      path:
+      - x: 3
+        y: 0
+      - x: 2
+        y: 0
+      door: 0
+    - kind: 1
+      block: 3
+      path:
+      - x: 3
+        y: 3
+      door: 1
+    - kind: 1
+      block: 2
+      path:
+      - x: 1
+        y: 1
+      - x: 1
+        y: 0
+      door: 0
+  lastReplay: "\u0110\u1EA1t: 4 b\u01B0\u1EDBc, 19.4s m\xF4 ph\u1ECFng"
+  targetTier: "D\u1EC5"
+  lastReport:
+    solvable: 0
+    robust: 0
+    searchExhausted: 0
+    referenceSource: 
+    referenceOrder: 
+    randomSamples: 0
+    randomWins: 0
+    greedy: []
+    greedyLosses: 0
+    wrongCapacityTraps: 0
+    wrongCapacityTrapsWave1: 0
+    boardAnalyzed: 0
+    boardError: 
+    baitSteps: 0
+    totalUnlockMoves: 0
+    longestBreather: 0
+    steps: []
+    notes: []
+  lastReportVersion: 0

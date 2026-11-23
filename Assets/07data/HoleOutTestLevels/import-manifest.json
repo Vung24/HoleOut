@@ -1,0 +1,131 @@
+{
+  "comment": "Bộ mẫu test HoleOut. source: campaign (theo id) hoặc file JSON trong Reference/HoleSortGarden. mode bỏ trống = suy từ noScroll.",
+  "entries": [
+    {
+      "id": "holeout-c01-small-static",
+      "source": "campaign",
+      "sourceId": 1
+    },
+    {
+      "id": "holeout-c04-long-scroll",
+      "source": "campaign",
+      "sourceId": 4,
+      "mode": "FullPicture"
+    },
+    {
+      "id": "holeout-c10-wide",
+      "source": "campaign",
+      "sourceId": 10,
+      "mode": "FullPicture",
+      "pictureScale": 0.52
+    },
+    {
+      "id": "holeout-c11-tall-window16",
+      "source": "campaign",
+      "sourceId": 11,
+      "mode": "FullPicture",
+      "pictureScale": 0.89
+    },
+    {
+      "id": "holeout-c14-waves",
+      "source": "campaign",
+      "sourceId": 14,
+      "mode": "FullPicture",
+      "pictureScale": 0.86,
+      "lBlocks": [
+        3
+      ]
+    },
+    {
+      "id": "holeout-c17-waves",
+      "source": "campaign",
+      "sourceId": 17,
+      "mode": "FullPicture",
+      "pictureScale": 0.89
+    },
+    {
+      "id": "holeout-l18-full-25x25",
+      "source": "file",
+      "file": "levels/18.json",
+      "mode": "FullPicture"
+    },
+    {
+      "id": "holeout-c02",
+      "source": "campaign",
+      "sourceId": 2,
+      "mode": "FullPicture"
+    },
+    {
+      "id": "holeout-c03",
+      "source": "campaign",
+      "sourceId": 3,
+      "mode": "FullPicture"
+    },
+    {
+      "id": "holeout-c05",
+      "source": "campaign",
+      "sourceId": 5,
+      "mode": "FullPicture"
+    },
+    {
+      "id": "holeout-c06",
+      "source": "campaign",
+      "sourceId": 6,
+      "mode": "FullPicture"
+    },
+    {
+      "id": "holeout-c07",
+      "source": "campaign",
+      "sourceId": 7,
+      "mode": "FullPicture"
+    },
+    {
+      "id": "holeout-c08",
+      "source": "campaign",
+      "sourceId": 8,
+      "mode": "FullPicture"
+    },
+    {
+      "id": "holeout-c09",
+      "source": "campaign",
+      "sourceId": 9,
+      "mode": "FullPicture"
+    },
+    {
+      "id": "holeout-c12",
+      "source": "campaign",
+      "sourceId": 12,
+      "mode": "WindowedScroll"
+    },
+    {
+      "id": "holeout-c13",
+      "source": "campaign",
+      "sourceId": 13,
+      "mode": "WindowedScroll"
+    },
+    {
+      "id": "holeout-l14",
+      "source": "file",
+      "file": "levels/14.json",
+      "mode": "WindowedScroll"
+    },
+    {
+      "id": "holeout-l15",
+      "source": "file",
+      "file": "levels/15.json",
+      "mode": "WindowedScroll"
+    },
+    {
+      "id": "holeout-l16",
+      "source": "file",
+      "file": "levels/16.json",
+      "mode": "FullPicture"
+    },
+    {
+      "id": "holeout-l17",
+      "source": "file",
+      "file": "levels/17.json",
+      "mode": "WindowedScroll"
+    }
+  ]
+}

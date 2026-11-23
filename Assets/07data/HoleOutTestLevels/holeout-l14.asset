@@ -1,0 +1,689 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87e1c988461dd8f448b57509c0c4ba6a, type: 3}
+  m_Name: holeout-l14
+  m_EditorClassIdentifier: HoleOut.Runtime::HoleOut.Runtime.HoleOutLevelSO
+  displayName: "B\xE1nh kem d\xE2u"
+  source: file:levels/14.json
+  visuals: {fileID: 0}
+  data:
+    levelId: holeout-l14
+    grid:
+    - AAAAAAAAAAAAAA
+    - AAAAAAYYAAAAAA
+    - AAAAAYYYYAAAAA
+    - AAAAAAYYAAAAAA
+    - AAAAAAWWAAAAAA
+    - AAAAAAWWAAAAAA
+    - AAAAAAWWAAAAAA
+    - AAARRAWWARRAAA
+    - AARRRRWWRRRRAA
+    - ARRRRRRRRRRRRA
+    - ABBBBBBBBBBBBA
+    - ABBWBBBWBBBWBA
+    - AWWWWWWWWWWWWA
+    - ATTTTTTTTTTTTA
+    - ATTTTTTTTTTTTA
+    - ATTTTTTTTTTTTA
+    - AWWWWWWWWWWWWA
+    - ABBBBBBBBBBBBA
+    - ABBRBBBBBBRBBA
+    - ABBBBBBBBBBBBA
+    - AWWWWWWWWWWWWA
+    - ATTTTTTTTTTTTA
+    - ATTTTTTTTTTTTA
+    - ATTTTTTTTTTTTA
+    - LLLLLLLLLLLLLL
+    - ALLLLLLLLLLLLA
+    - AAAAAAAAAAAAAA
+    - GGGGGGGGGGGGGG
+    - GGGGGGGGGGGGGG
+    displayMode: 0
+    visibleRows: 16
+    pictureScale: 1
+    dockSlots: 4
+    waves:
+    - blocks:
+      - id: 0
+        gx: 0
+        gy: 3
+        w: 1
+        h: 1
+        shape: 0
+        color: G
+        capacity: 6
+        mystery: 0
+      - id: 1
+        gx: 1
+        gy: 2
+        w: 1
+        h: 1
+        shape: 0
+        color: G
+        capacity: 14
+        mystery: 0
+      - id: 2
+        gx: 5
+        gy: 0
+        w: 1
+        h: 2
+        shape: 0
+        color: A
+        capacity: 47
+        mystery: 0
+      - id: 3
+        gx: 2
+        gy: 0
+        w: 2
+        h: 2
+        shape: 0
+        color: A
+        capacity: 48
+        mystery: 0
+      - id: 4
+        gx: 1
+        gy: 1
+        w: 1
+        h: 1
+        shape: 0
+        color: A
+        capacity: 47
+        mystery: 0
+      - id: 5
+        gx: 3
+        gy: 2
+        w: 1
+        h: 1
+        shape: 0
+        color: L
+        capacity: 3
+        mystery: 0
+      - id: 6
+        gx: 4
+        gy: 1
+        w: 1
+        h: 1
+        shape: 0
+        color: L
+        capacity: 10
+        mystery: 0
+      - id: 7
+        gx: 0
+        gy: 2
+        w: 1
+        h: 1
+        shape: 0
+        color: T
+        capacity: 24
+        mystery: 0
+      - id: 8
+        gx: 0
+        gy: 1
+        w: 1
+        h: 1
+        shape: 0
+        color: T
+        capacity: 24
+        mystery: 0
+      - id: 9
+        gx: 4
+        gy: 0
+        w: 1
+        h: 1
+        shape: 0
+        color: T
+        capacity: 24
+        mystery: 0
+      - id: 15
+        gx: 1
+        gy: 0
+        w: 1
+        h: 1
+        shape: 0
+        color: B
+        capacity: 18
+        mystery: 0
+    - blocks:
+      - id: 10
+        gx: 4
+        gy: 1
+        w: 1
+        h: 1
+        shape: 0
+        color: W
+        capacity: 16
+        mystery: 0
+      - id: 11
+        gx: 5
+        gy: 1
+        w: 1
+        h: 1
+        shape: 0
+        color: W
+        capacity: 17
+        mystery: 0
+      - id: 12
+        gx: 2
+        gy: 3
+        w: 1
+        h: 1
+        shape: 0
+        color: W
+        capacity: 16
+        mystery: 0
+      - id: 13
+        gx: 1
+        gy: 2
+        w: 1
+        h: 2
+        shape: 0
+        color: B
+        capacity: 18
+        mystery: 0
+      - id: 14
+        gx: 3
+        gy: 2
+        w: 2
+        h: 2
+        shape: 0
+        color: B
+        capacity: 19
+        mystery: 0
+      - id: 16
+        gx: 0
+        gy: 1
+        w: 1
+        h: 1
+        shape: 0
+        color: R
+        capacity: 13
+        mystery: 0
+      - id: 17
+        gx: 1
+        gy: 0
+        w: 1
+        h: 1
+        shape: 0
+        color: R
+        capacity: 13
+        mystery: 0
+      - id: 18
+        gx: 2
+        gy: 0
+        w: 1
+        h: 1
+        shape: 0
+        color: Y
+        capacity: 8
+        mystery: 0
+      - id: 19
+        gx: 0
+        gy: 3
+        w: 1
+        h: 1
+        shape: 0
+        color: L
+        capacity: 13
+        mystery: 0
+      - id: 20
+        gx: 0
+        gy: 0
+        w: 1
+        h: 1
+        shape: 0
+        color: G
+        capacity: 8
+        mystery: 0
+    gates:
+    - color: G
+      side: 2
+      start: 1
+      len: 1
+    - color: A
+      side: 1
+      start: 0
+      len: 2
+    - color: L
+      side: 0
+      start: 1
+      len: 1
+    - color: T
+      side: 2
+      start: 0
+      len: 1
+    - color: W
+      side: 1
+      start: 2
+      len: 1
+    - color: B
+      side: 1
+      start: 4
+      len: 2
+    - color: R
+      side: 0
+      start: 3
+      len: 1
+    - color: Y
+      side: 0
+      start: 2
+      len: 1
+  charScale: 0
+  tutorialFirstDrag: 0
+  tutorialFirstScroll: 0
+  solution:
+    levelId: holeout-l14
+    dataVersion: 1699367423
+    verifiedMode: 0
+    seed: 1
+    steps:
+    - kind: 0
+      block: 1
+      path:
+      - x: 2
+        y: 2
+      door: 0
+    - kind: 0
+      block: 7
+      path:
+      - x: 1
+        y: 2
+      door: 0
+    - kind: 0
+      block: 8
+      path:
+      - x: 0
+        y: 0
+      door: 0
+    - kind: 1
+      block: 0
+      path:
+      - x: 0
+        y: 2
+      - x: 0
+        y: 1
+      door: 2
+    - kind: 1
+      block: 1
+      path:
+      - x: 2
+        y: 3
+      - x: 1
+        y: 3
+      - x: 0
+        y: 3
+      - x: 0
+        y: 2
+      - x: 0
+        y: 1
+      door: 2
+    - kind: 0
+      block: 4
+      path:
+      - x: 0
+        y: 1
+      door: 0
+    - kind: 0
+      block: 5
+      path:
+      - x: 2
+        y: 2
+      door: 0
+    - kind: 0
+      block: 7
+      path:
+      - x: 1
+        y: 1
+      door: 0
+    - kind: 0
+      block: 5
+      path:
+      - x: 1
+        y: 2
+      door: 0
+    - kind: 0
+      block: 5
+      path:
+      - x: 0
+        y: 2
+      door: 0
+    - kind: 1
+      block: 2
+      path:
+      - x: 5
+        y: 1
+      - x: 5
+        y: 2
+      - x: 4
+        y: 2
+      - x: 3
+        y: 2
+      - x: 2
+        y: 2
+      - x: 1
+        y: 2
+      door: 1
+    - kind: 0
+      block: 5
+      path:
+      - x: 1
+        y: 2
+      door: 0
+    - kind: 0
+      block: 5
+      path:
+      - x: 2
+        y: 2
+      door: 0
+    - kind: 0
+      block: 5
+      path:
+      - x: 3
+        y: 2
+      door: 0
+    - kind: 0
+      block: 5
+      path:
+      - x: 4
+        y: 2
+      door: 0
+    - kind: 1
+      block: 3
+      path:
+      - x: 2
+        y: 1
+      - x: 2
+        y: 2
+      - x: 1
+        y: 2
+      - x: 0
+        y: 2
+      door: 1
+    - kind: 1
+      block: 4
+      path:
+      - x: 0
+        y: 2
+      - x: 0
+        y: 3
+      door: 1
+    - kind: 0
+      block: 7
+      path:
+      - x: 2
+        y: 1
+      door: 0
+    - kind: 0
+      block: 15
+      path:
+      - x: 2
+        y: 0
+      door: 0
+    - kind: 1
+      block: 5
+      path:
+      - x: 3
+        y: 2
+      - x: 2
+        y: 2
+      - x: 1
+        y: 2
+      - x: 1
+        y: 1
+      - x: 1
+        y: 0
+      door: 0
+    - kind: 1
+      block: 6
+      path:
+      - x: 4
+        y: 2
+      - x: 3
+        y: 2
+      - x: 2
+        y: 2
+      - x: 1
+        y: 2
+      - x: 1
+        y: 1
+      - x: 1
+        y: 0
+      door: 0
+    - kind: 0
+      block: 8
+      path:
+      - x: 1
+        y: 0
+      door: 0
+    - kind: 1
+      block: 7
+      path:
+      - x: 1
+        y: 1
+      - x: 0
+        y: 1
+      - x: 0
+        y: 0
+      door: 2
+    - kind: 1
+      block: 8
+      path:
+      - x: 0
+        y: 0
+      door: 2
+    - kind: 1
+      block: 9
+      path:
+      - x: 4
+        y: 1
+      - x: 3
+        y: 1
+      - x: 2
+        y: 1
+      - x: 1
+        y: 1
+      - x: 1
+        y: 0
+      - x: 0
+        y: 0
+      door: 2
+    - kind: 1
+      block: 15
+      path:
+      - x: 3
+        y: 0
+      - x: 4
+        y: 0
+      - x: 4
+        y: 1
+      - x: 4
+        y: 2
+      - x: 4
+        y: 3
+      door: 1
+    - kind: 0
+      block: 12
+      path:
+      - x: 2
+        y: 2
+      door: 0
+    - kind: 0
+      block: 14
+      path:
+      - x: 4
+        y: 2
+      door: 0
+    - kind: 1
+      block: 10
+      path:
+      - x: 3
+        y: 1
+      - x: 3
+        y: 2
+      - x: 3
+        y: 3
+      - x: 2
+        y: 3
+      door: 1
+    - kind: 1
+      block: 11
+      path:
+      - x: 4
+        y: 1
+      - x: 3
+        y: 1
+      - x: 3
+        y: 2
+      - x: 3
+        y: 3
+      - x: 2
+        y: 3
+      door: 1
+    - kind: 0
+      block: 12
+      path:
+      - x: 2
+        y: 1
+      door: 0
+    - kind: 0
+      block: 13
+      path:
+      - x: 2
+        y: 2
+      door: 0
+    - kind: 0
+      block: 18
+      path:
+      - x: 3
+        y: 0
+      door: 0
+    - kind: 0
+      block: 17
+      path:
+      - x: 2
+        y: 0
+      door: 0
+    - kind: 1
+      block: 19
+      path:
+      - x: 0
+        y: 2
+      - x: 1
+        y: 2
+      - x: 1
+        y: 1
+      - x: 1
+        y: 0
+      door: 0
+    - kind: 0
+      block: 16
+      path:
+      - x: 1
+        y: 1
+      door: 0
+    - kind: 1
+      block: 20
+      path:
+      - x: 0
+        y: 1
+      door: 2
+    - kind: 0
+      block: 13
+      path:
+      - x: 3
+        y: 2
+      door: 0
+    - kind: 1
+      block: 12
+      path:
+      - x: 2
+        y: 2
+      - x: 2
+        y: 3
+      door: 1
+    - kind: 0
+      block: 14
+      path:
+      - x: 4
+        y: 1
+      door: 0
+    - kind: 0
+      block: 14
+      path:
+      - x: 4
+        y: 0
+      door: 0
+    - kind: 1
+      block: 13
+      path:
+      - x: 4
+        y: 2
+      door: 1
+    - kind: 1
+      block: 14
+      path:
+      - x: 4
+        y: 1
+      - x: 4
+        y: 2
+      door: 1
+    - kind: 0
+      block: 18
+      path:
+      - x: 4
+        y: 0
+      door: 0
+    - kind: 1
+      block: 16
+      path:
+      - x: 2
+        y: 1
+      - x: 3
+        y: 1
+      - x: 3
+        y: 0
+      door: 0
+    - kind: 1
+      block: 17
+      path:
+      - x: 3
+        y: 0
+      door: 0
+    - kind: 1
+      block: 18
+      path:
+      - x: 3
+        y: 0
+      - x: 2
+        y: 0
+      door: 0
+  lastReplay: "\u0110\u1EA1t: 47 b\u01B0\u1EDBc, 90.2s m\xF4 ph\u1ECFng"
+  targetTier: "Kh\xF3"
+  lastReport:
+    solvable: 0
+    robust: 0
+    searchExhausted: 0
+    referenceSource: 
+    referenceOrder: 
+    randomSamples: 0
+    randomWins: 0
+    greedy: []
+    greedyLosses: 0
+    wrongCapacityTraps: 0
+    wrongCapacityTrapsWave1: 0
+    boardAnalyzed: 0
+    boardError: 
+    baitSteps: 0
+    totalUnlockMoves: 0
+    longestBreather: 0
+    steps: []
+    notes: []
+  lastReportVersion: 0

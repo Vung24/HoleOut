@@ -1,0 +1,430 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87e1c988461dd8f448b57509c0c4ba6a, type: 3}
+  m_Name: holeout-p53-cactus
+  m_EditorClassIdentifier: HoleOut.Runtime::HoleOut.Runtime.LevelSO
+  displayName: "X\u01B0\u01A1ng r\u1ED3ng"
+  source: "p53-cactus (thi\u1EBFt k\u1EBF tay)"
+  visuals: {fileID: 0}
+  data:
+    levelId: holeout-p53-cactus
+    grid:
+    - LLLLLLLRRLLLLLLL
+    - LLLLLLRRRRLLLLLL
+    - LLLLLLLRRLLLLLLL
+    - LLLLLLGGGGLLLLLL
+    - LLLLLLGWGGLLLLLL
+    - LLGGLLGGGGLLGGLL
+    - LLGWLLGGWGLLGGLL
+    - LLGGGGGGGGGGGWLL
+    - LLLLGGGWGGGGLLLL
+    - LLLLLLGGGGLLLLLL
+    - LLLLLLGGWGLLLLLL
+    - LLLLRRRRRRRRLLLL
+    - LLLLLRRRRRRLLLLL
+    - LLLLLRRRRRRLLLLL
+    - LLLLLLRRRRLLLLLL
+    - AAAAAAAAAAAAAAAA
+    displayMode: 1
+    visibleRows: 16
+    pictureScale: 1
+    dockSlots: 5
+    waves:
+    - blocks:
+      - id: 0
+        gx: 0
+        gy: 0
+        w: 3
+        h: 3
+        shape: 3
+        color: G
+        capacity: 34
+        mystery: 0
+      - id: 1
+        gx: 0
+        gy: 0
+        w: 1
+        h: 1
+        shape: 0
+        color: W
+        capacity: 2
+        mystery: 0
+      - id: 2
+        gx: 2
+        gy: 0
+        w: 1
+        h: 1
+        shape: 0
+        color: R
+        capacity: 6
+        mystery: 1
+      - id: 3
+        gx: 0
+        gy: 2
+        w: 1
+        h: 1
+        shape: 0
+        color: A
+        capacity: 16
+        mystery: 0
+      - id: 4
+        gx: 2
+        gy: 2
+        w: 1
+        h: 1
+        shape: 0
+        color: W
+        capacity: 2
+        mystery: 0
+      - id: 5
+        gx: 3
+        gy: 2
+        w: 3
+        h: 2
+        shape: 2
+        color: L
+        capacity: 120
+        mystery: 0
+      - id: 6
+        gx: 3
+        gy: 2
+        w: 1
+        h: 1
+        shape: 0
+        color: R
+        capacity: 6
+        mystery: 0
+      - id: 7
+        gx: 4
+        gy: 0
+        w: 2
+        h: 2
+        shape: 1
+        color: R
+        capacity: 20
+        mystery: 0
+      - id: 8
+        gx: 5
+        gy: 0
+        w: 1
+        h: 1
+        shape: 0
+        color: W
+        capacity: 2
+        mystery: 1
+      - id: 9
+        gx: 3
+        gy: 0
+        w: 1
+        h: 1
+        shape: 0
+        color: L
+        capacity: 36
+        mystery: 0
+      - id: 10
+        gx: 0
+        gy: 3
+        w: 2
+        h: 1
+        shape: 0
+        color: G
+        capacity: 12
+        mystery: 0
+    gates:
+    - color: G
+      side: 0
+      start: 0
+      len: 3
+    - color: L
+      side: 1
+      start: 3
+      len: 3
+    - color: R
+      side: 0
+      start: 4
+      len: 2
+    - color: W
+      side: 3
+      start: 0
+      len: 2
+    - color: A
+      side: 2
+      start: 2
+      len: 1
+  charScale: 0
+  tutorialFirstDrag: 0
+  solution:
+    levelId: holeout-p53-cactus
+    dataVersion: 1918644835
+    verifiedMode: 1
+    seed: 1
+    steps:
+    - kind: 1
+      block: 0
+      path: []
+      door: 0
+    - kind: 1
+      block: 7
+      path: []
+      door: 0
+    - kind: 1
+      block: 3
+      path: []
+      door: 2
+    - kind: 1
+      block: 5
+      path: []
+      door: 1
+    - kind: 1
+      block: 8
+      path: []
+      door: 3
+    - kind: 1
+      block: 6
+      path:
+      - x: 3
+        y: 1
+      - x: 4
+        y: 1
+      - x: 4
+        y: 0
+      door: 0
+    - kind: 1
+      block: 1
+      path:
+      - x: 1
+        y: 0
+      - x: 1
+        y: 1
+      - x: 2
+        y: 1
+      - x: 3
+        y: 1
+      - x: 4
+        y: 1
+      - x: 5
+        y: 1
+      door: 3
+    - kind: 1
+      block: 4
+      path:
+      - x: 2
+        y: 1
+      - x: 3
+        y: 1
+      - x: 4
+        y: 1
+      - x: 5
+        y: 1
+      door: 3
+    - kind: 1
+      block: 2
+      path:
+      - x: 2
+        y: 1
+      - x: 3
+        y: 1
+      - x: 4
+        y: 1
+      - x: 4
+        y: 0
+      door: 0
+    - kind: 1
+      block: 9
+      path:
+      - x: 3
+        y: 1
+      - x: 3
+        y: 2
+      - x: 3
+        y: 3
+      door: 1
+    - kind: 1
+      block: 10
+      path:
+      - x: 0
+        y: 2
+      - x: 0
+        y: 1
+      - x: 0
+        y: 0
+      door: 0
+  lastReplay: "\u0110\u1EA1t. \u0110\u1EA1t: 11 b\u01B0\u1EDBc, 43.9s m\xF4 ph\u1ECFng;
+    \u0110\u1EA1t: 11 b\u01B0\u1EDBc, 42.3s m\xF4 ph\u1ECFng; \u0110\u1EA1t: 11 b\u01B0\u1EDBc,
+    45.9s m\xF4 ph\u1ECFng;  Th\u1EE9 t\u1EF1 0,7,3,5,8,6,1,4,2,9,10"
+  targetTier: "V\u1EEBa"
+  lastReport:
+    solvable: 1
+    robust: 1
+    searchExhausted: 0
+    referenceSource: solution
+    referenceOrder: 000000000700000003000000050000000800000006000000010000000400000002000000090000000a000000
+    randomSamples: 300
+    randomWins: 126
+    greedy:
+    - policy: 0
+      won: 1
+      launched: 11
+    - policy: 1
+      won: 1
+      launched: 11
+    - policy: 2
+      won: 1
+      launched: 11
+    - policy: 3
+      won: 1
+      launched: 11
+    greedyLosses: 0
+    wrongCapacityTraps: 0
+    wrongCapacityTrapsWave1: 0
+    boardAnalyzed: 1
+    boardError: 
+    baitSteps: 0
+    totalUnlockMoves: 0
+    longestBreather: 11
+    steps:
+    - blockId: 0
+      wave: 0
+      color: G
+      capacity: 34
+      wrongCapacityTraps: 0
+      losingChoices: 0
+      choices: 11
+      directBlocks: 4
+      baitBlocks: 0
+      wrongCapacityBait: 0
+      unlockMoves: 0
+      freeSlotsAfter: 4
+    - blockId: 7
+      wave: 0
+      color: R
+      capacity: 20
+      wrongCapacityTraps: 0
+      losingChoices: 0
+      choices: 10
+      directBlocks: 3
+      baitBlocks: 0
+      wrongCapacityBait: 0
+      unlockMoves: 0
+      freeSlotsAfter: 3
+    - blockId: 3
+      wave: 0
+      color: A
+      capacity: 16
+      wrongCapacityTraps: 0
+      losingChoices: 0
+      choices: 9
+      directBlocks: 6
+      baitBlocks: 0
+      wrongCapacityBait: 0
+      unlockMoves: 0
+      freeSlotsAfter: 5
+    - blockId: 5
+      wave: 0
+      color: L
+      capacity: 120
+      wrongCapacityTraps: 0
+      losingChoices: 0
+      choices: 8
+      directBlocks: 5
+      baitBlocks: 0
+      wrongCapacityBait: 0
+      unlockMoves: 0
+      freeSlotsAfter: 5
+    - blockId: 8
+      wave: 0
+      color: W
+      capacity: 2
+      wrongCapacityTraps: 0
+      losingChoices: 0
+      choices: 7
+      directBlocks: 5
+      baitBlocks: 0
+      wrongCapacityBait: 0
+      unlockMoves: 0
+      freeSlotsAfter: 5
+    - blockId: 6
+      wave: 0
+      color: R
+      capacity: 6
+      wrongCapacityTraps: 0
+      losingChoices: 0
+      choices: 6
+      directBlocks: 4
+      baitBlocks: 0
+      wrongCapacityBait: 0
+      unlockMoves: 0
+      freeSlotsAfter: 4
+    - blockId: 1
+      wave: 0
+      color: W
+      capacity: 2
+      wrongCapacityTraps: 0
+      losingChoices: 0
+      choices: 5
+      directBlocks: 3
+      baitBlocks: 0
+      wrongCapacityBait: 0
+      unlockMoves: 0
+      freeSlotsAfter: 4
+    - blockId: 4
+      wave: 0
+      color: W
+      capacity: 2
+      wrongCapacityTraps: 0
+      losingChoices: 0
+      choices: 4
+      directBlocks: 3
+      baitBlocks: 0
+      wrongCapacityBait: 0
+      unlockMoves: 0
+      freeSlotsAfter: 4
+    - blockId: 2
+      wave: 0
+      color: R
+      capacity: 6
+      wrongCapacityTraps: 0
+      losingChoices: 0
+      choices: 3
+      directBlocks: 2
+      baitBlocks: 0
+      wrongCapacityBait: 0
+      unlockMoves: 0
+      freeSlotsAfter: 3
+    - blockId: 9
+      wave: 0
+      color: L
+      capacity: 36
+      wrongCapacityTraps: 0
+      losingChoices: 0
+      choices: 2
+      directBlocks: 1
+      baitBlocks: 0
+      wrongCapacityBait: 0
+      unlockMoves: 0
+      freeSlotsAfter: 5
+    - blockId: 10
+      wave: 0
+      color: G
+      capacity: 12
+      wrongCapacityTraps: 0
+      losingChoices: 0
+      choices: 1
+      directBlocks: 0
+      baitBlocks: 0
+      wrongCapacityBait: 0
+      unlockMoves: 0
+      freeSlotsAfter: 5
+    notes:
+    - "C\xF3 kh\u1ED1i b\xED \u1EA9n: ph\u1EA7n b\xE0n coi m\u1ECDi kh\u1ED1i \u0111\xE3
+      l\u1ED9 m\xE0u."
+  lastReportVersion: 1918644835

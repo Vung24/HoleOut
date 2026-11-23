@@ -1,0 +1,6876 @@
+[
+  {
+    "file": "Textures/Blocks/Black/ConvexUpLeft1.png",
+    "role": "block_part",
+    "sprite": "1-Convex-UpLeft_3",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      718,
+      576,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Black/LinearXUp2.png",
+    "role": "block_part",
+    "sprite": "2-LinearX-Up_2",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      752,
+      396,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Black/ConvexUpRight3.png",
+    "role": "block_part",
+    "sprite": "3-Convex-UpRight_3",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      685,
+      288,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Black/LinearYLeft4.png",
+    "role": "block_part",
+    "sprite": "4-LinearY-Left_8",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      901,
+      252,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Black/Close5.png",
+    "role": "block_part",
+    "sprite": "5-Close_9",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      824,
+      432,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Black/LinearYRight6.png",
+    "role": "block_part",
+    "sprite": "6-LinearY-Right_5",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      755,
+      180,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Black/ConvexDownLeft7.png",
+    "role": "block_part",
+    "sprite": "7-Convex-DownLeft_1",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      790,
+      540,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Black/LinearXDown8.png",
+    "role": "block_part",
+    "sprite": "8-LinearX-Down_6",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      721,
+      288,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Black/ConvexDownRight9.png",
+    "role": "block_part",
+    "sprite": "9-Convex-DownRight_2",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      862,
+      576,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Black/ConcaveUpLeftUpConnection10.png",
+    "role": "block_part",
+    "sprite": "10-ConcaveUpLeft-UpConnection_5",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      758,
+      36,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Black/ConcaveUpRightUpConnection11.png",
+    "role": "block_part",
+    "sprite": "11-ConcaveUpRight-UpConnection_4",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      482,
+      518,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Black/ConcaveUpLeftRightConnection12.png",
+    "role": "block_part",
+    "sprite": "12-ConcaveUpLeft-RightConnection_5",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      788,
+      432,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Black/ConcaveUpLeft13.png",
+    "role": "block_part",
+    "sprite": "13-ConcaveUpLeft_5",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      791,
+      144,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Black/ConcaveUpRight14.png",
+    "role": "block_part",
+    "sprite": "14-ConcaveUpRight_9",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      609,
+      756,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Black/ConcaveUpRightLeftConnection15.png",
+    "role": "block_part",
+    "sprite": "15-ConcaveUpRight-LeftConnection_3",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      523,
+      108,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Black/ConcaveDownLeftRightConnection16.png",
+    "role": "block_part",
+    "sprite": "16-ConcaveDownLeft-RightConnection_1",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      574,
+      612,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Black/ConcaveDownLeft17.png",
+    "role": "block_part",
+    "sprite": "17-ConcaveDownLeft_6",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      500,
+      359,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Black/ConcaveDownRight18.png",
+    "role": "block_part",
+    "sprite": "18-ConcaveDownRight_4",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      716,
+      324,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Black/ConcaveDownRightLeftConnection19.png",
+    "role": "block_part",
+    "sprite": "19-ConcaveDownRight-LeftConnection_9",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      0,
+      969,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Black/ConcaveDownLeftDownConnection20.png",
+    "role": "block_part",
+    "sprite": "20-ConcaveDownLeft-DownConnection_9",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      788,
+      324,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Black/ConcaveDownRightDownConnection21.png",
+    "role": "block_part",
+    "sprite": "21-ConcaveDownRight-DownConnection_1",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      790,
+      576,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Black/ConvexDownLeftShadow22.png",
+    "role": "block_part",
+    "sprite": "22-Convex-DownLeft-Shadow_5",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      542,
+      72,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Black/LinearXShadow23.png",
+    "role": "block_part",
+    "sprite": "23-LinearX-Shadow_4",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      716,
+      432,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Black/ConvexDownRightShadow24.png",
+    "role": "block_part",
+    "sprite": "24-Convex-DownRight-Shadow_6",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      344,
+      896,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Black/ConcaveDownLeftCornerConnection25.png",
+    "role": "block_part",
+    "sprite": "25-ConcaveDownLeft-CornerConnection_1",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      575,
+      144,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Black/ConcaveDownRightCornerConnection26.png",
+    "role": "block_part",
+    "sprite": "26-ConcaveDownRight-CornerConnection_7",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      573,
+      720,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Black/ConcaveUpLeftCornerConnection27.png",
+    "role": "block_part",
+    "sprite": "27-ConcaveUpLeft-CornerConnection_5",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      899,
+      144,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Black/ConcaveUpRightCornerConnection28.png",
+    "role": "block_part",
+    "sprite": "28-ConcaveUpRight-CornerConnection_8",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      501,
+      785,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Black/DotSprite.png",
+    "role": "raised_stud",
+    "sprite": "stud_black",
+    "width": 52,
+    "height": 52,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      56,
+      663,
+      52,
+      52
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Blue/ConvexUpLeft1.png",
+    "role": "block_part",
+    "sprite": "1-Convex-UpLeft_1",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      538,
+      612,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Blue/LinearXUp2.png",
+    "role": "block_part",
+    "sprite": "2-LinearX-Up_5",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      573,
+      756,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Blue/ConvexUpRight3.png",
+    "role": "block_part",
+    "sprite": "3-Convex-UpRight_8",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      842,
+      468,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Blue/LinearYLeft4.png",
+    "role": "block_part",
+    "sprite": "4-LinearY-Left_0",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      577,
+      252,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Blue/Close5.png",
+    "role": "block_part",
+    "sprite": "5-Close_2",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      393,
+      842,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Blue/LinearYRight6.png",
+    "role": "block_part",
+    "sprite": "6-LinearY-Right_0",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      719,
+      180,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Blue/ConvexDownLeft7.png",
+    "role": "block_part",
+    "sprite": "7-Convex-DownLeft_5",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      718,
+      648,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Blue/LinearXDown8.png",
+    "role": "block_part",
+    "sprite": "8-LinearX-Down_7",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      734,
+      504,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Blue/ConvexDownRight9.png",
+    "role": "block_part",
+    "sprite": "9-Convex-DownRight_4",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      645,
+      756,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Blue/ConcaveUpLeftUpConnection10.png",
+    "role": "block_part",
+    "sprite": "10-ConcaveUpLeft-UpConnection_3",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      596,
+      900,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Blue/ConcaveUpRightUpConnection11.png",
+    "role": "block_part",
+    "sprite": "11-ConcaveUpRight-UpConnection_7",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      501,
+      749,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Blue/ConcaveUpLeftRightConnection12.png",
+    "role": "block_part",
+    "sprite": "12-ConcaveUpLeft-RightConnection",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      683,
+      180,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Blue/ConcaveUpLeft13.png",
+    "role": "block_part",
+    "sprite": "13-ConcaveUpLeft",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      754,
+      648,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Blue/ConcaveUpRight14.png",
+    "role": "block_part",
+    "sprite": "14-ConcaveUpRight_0",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      830,
+      36,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Blue/ConcaveUpRightLeftConnection15.png",
+    "role": "block_part",
+    "sprite": "15-ConcaveUpRight-LeftConnection_8",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      740,
+      828,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Blue/ConcaveDownLeftRightConnection16.png",
+    "role": "block_part",
+    "sprite": "16-ConcaveDownLeft-RightConnection",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      644,
+      432,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Blue/ConcaveDownLeft17.png",
+    "role": "block_part",
+    "sprite": "17-ConcaveDownLeft_8",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      488,
+      920,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Blue/ConcaveDownRight18.png",
+    "role": "block_part",
+    "sprite": "18-ConcaveDownRight_1",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      794,
+      0,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Blue/ConcaveDownRightLeftConnection19.png",
+    "role": "block_part",
+    "sprite": "19-ConcaveDownRight-LeftConnection_2",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      537,
+      806,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Blue/ConcaveDownLeftDownConnection20.png",
+    "role": "block_part",
+    "sprite": "20-ConcaveDownLeft-DownConnection_8",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      539,
+      144,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Blue/ConcaveDownRightDownConnection21.png",
+    "role": "block_part",
+    "sprite": "21-ConcaveDownRight-DownConnection_3",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      932,
+      324,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Blue/ConvexDownLeftShadow22.png",
+    "role": "block_part",
+    "sprite": "22-Convex-DownLeft-Shadow_4",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      518,
+      504,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Blue/LinearXShadow23.png",
+    "role": "block_part",
+    "sprite": "23-LinearX-Shadow_0",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      505,
+      276,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Blue/ConvexDownRightShadow24.png",
+    "role": "block_part",
+    "sprite": "24-Convex-DownRight-Shadow",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      518,
+      468,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Blue/ConcaveDownLeftCornerConnection25.png",
+    "role": "block_part",
+    "sprite": "25-ConcaveDownLeft-CornerConnection_9",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      393,
+      878,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Blue/ConcaveDownRightCornerConnection26.png",
+    "role": "block_part",
+    "sprite": "26-ConcaveDownRight-CornerConnection_1",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      683,
+      144,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Blue/ConcaveUpLeftCornerConnection27.png",
+    "role": "block_part",
+    "sprite": "27-ConcaveUpLeft-CornerConnection_0",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      500,
+      395,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Blue/ConcaveUpRightCornerConnection28.png",
+    "role": "block_part",
+    "sprite": "28-ConcaveUpRight-CornerConnection_0",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      559,
+      108,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Blue/DotSprite.png",
+    "role": "raised_stud",
+    "sprite": "stud_blue",
+    "width": 52,
+    "height": 52,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      307,
+      482,
+      52,
+      52
+    ]
+  },
+  {
+    "file": "Textures/Blocks/DarkBlue/ConvexUpLeft1.png",
+    "role": "block_part",
+    "sprite": "1-Convex-UpLeft_2",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      955,
+      108,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/DarkBlue/LinearXUp2.png",
+    "role": "block_part",
+    "sprite": "2-LinearX-Up_9",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      487,
+      132,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/DarkBlue/ConvexUpRight3.png",
+    "role": "block_part",
+    "sprite": "3-Convex-UpRight",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      488,
+      884,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/DarkBlue/LinearYLeft4.png",
+    "role": "block_part",
+    "sprite": "4-LinearY-Left_9",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      830,
+      0,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/DarkBlue/Close5.png",
+    "role": "block_part",
+    "sprite": "5-Close_3",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      382,
+      986,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/DarkBlue/LinearYRight6.png",
+    "role": "block_part",
+    "sprite": "6-LinearY-Right_6",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      722,
+      72,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/DarkBlue/ConvexDownLeft7.png",
+    "role": "block_part",
+    "sprite": "7-Convex-DownLeft_6",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      466,
+      677,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/DarkBlue/LinearXDown8.png",
+    "role": "block_part",
+    "sprite": "8-LinearX-Down_9",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      865,
+      288,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/DarkBlue/ConvexDownRight9.png",
+    "role": "block_part",
+    "sprite": "9-Convex-DownRight_5",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      974,
+      0,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/DarkBlue/ConcaveUpLeftUpConnection10.png",
+    "role": "block_part",
+    "sprite": "10-ConcaveUpLeft-UpConnection_0",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      538,
+      648,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/DarkBlue/ConcaveUpRightUpConnection11.png",
+    "role": "block_part",
+    "sprite": "11-ConcaveUpRight-UpConnection",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      536,
+      396,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/DarkBlue/ConcaveUpLeftRightConnection12.png",
+    "role": "block_part",
+    "sprite": "12-ConcaveUpLeft-RightConnection_8",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      524,
+      857,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/DarkBlue/ConcaveUpLeft13.png",
+    "role": "block_part",
+    "sprite": "13-ConcaveUpLeft_0",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      791,
+      216,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/DarkBlue/ConcaveUpRight14.png",
+    "role": "block_part",
+    "sprite": "14-ConcaveUpRight_6",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      536,
+      324,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/DarkBlue/ConcaveUpRightLeftConnection15.png",
+    "role": "block_part",
+    "sprite": "15-ConcaveUpRight-LeftConnection_6",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      596,
+      828,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/DarkBlue/ConcaveDownLeftRightConnection16.png",
+    "role": "block_part",
+    "sprite": "16-ConcaveDownLeft-RightConnection_6",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      560,
+      914,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/DarkBlue/ConcaveDownLeft17.png",
+    "role": "block_part",
+    "sprite": "17-ConcaveDownLeft_2",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      465,
+      812,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/DarkBlue/ConcaveDownRight18.png",
+    "role": "block_part",
+    "sprite": "18-ConcaveDownRight_5",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      465,
+      848,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/DarkBlue/ConcaveDownRightLeftConnection19.png",
+    "role": "block_part",
+    "sprite": "19-ConcaveDownRight-LeftConnection_1",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      862,
+      648,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/DarkBlue/ConcaveDownLeftDownConnection20.png",
+    "role": "block_part",
+    "sprite": "20-ConcaveDownLeft-DownConnection_1",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      824,
+      396,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/DarkBlue/ConcaveDownRightDownConnection21.png",
+    "role": "block_part",
+    "sprite": "21-ConcaveDownRight-DownConnection_2",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      393,
+      806,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/DarkBlue/ConvexDownLeftShadow22.png",
+    "role": "block_part",
+    "sprite": "22-Convex-DownLeft-Shadow_9",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      593,
+      684,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/DarkBlue/LinearXShadow23.png",
+    "role": "block_part",
+    "sprite": "23-LinearX-Shadow",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      650,
+      0,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/DarkBlue/ConvexDownRightShadow24.png",
+    "role": "block_part",
+    "sprite": "24-Convex-DownRight-Shadow_5",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      703,
+      108,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/DarkBlue/ConcaveDownLeftCornerConnection25.png",
+    "role": "block_part",
+    "sprite": "25-ConcaveDownLeft-CornerConnection_3",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      166,
+      923,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/DarkBlue/ConcaveDownRightCornerConnection26.png",
+    "role": "block_part",
+    "sprite": "26-ConcaveDownRight-CornerConnection_0",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      631,
+      108,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/DarkBlue/ConcaveUpLeftCornerConnection27.png",
+    "role": "block_part",
+    "sprite": "27-ConcaveUpLeft-CornerConnection_1",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      466,
+      605,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/DarkBlue/ConcaveUpRightCornerConnection28.png",
+    "role": "block_part",
+    "sprite": "28-ConcaveUpRight-CornerConnection_1",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      429,
+      878,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/DarkBlue/DotSprite.png",
+    "role": "raised_stud",
+    "sprite": "stud_darkblue",
+    "width": 52,
+    "height": 52,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      251,
+      444,
+      52,
+      52
+    ]
+  },
+  {
+    "file": "Textures/Blocks/DarkGreen/ConvexUpLeft1.png",
+    "role": "block_part",
+    "sprite": "1-Convex-UpLeft_7",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      773,
+      684,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/DarkGreen/LinearXUp2.png",
+    "role": "block_part",
+    "sprite": "2-LinearX-Up",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      595,
+      108,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/DarkGreen/ConvexUpRight3.png",
+    "role": "block_part",
+    "sprite": "3-Convex-UpRight_5",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      790,
+      648,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/DarkGreen/LinearYLeft4.png",
+    "role": "block_part",
+    "sprite": "4-LinearY-Left_4",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      739,
+      108,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/DarkGreen/Close5.png",
+    "role": "block_part",
+    "sprite": "5-Close_8",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      686,
+      36,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/DarkGreen/LinearYRight6.png",
+    "role": "block_part",
+    "sprite": "6-LinearY-Right_4",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      572,
+      324,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/DarkGreen/ConvexDownLeft7.png",
+    "role": "block_part",
+    "sprite": "7-Convex-DownLeft_0",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      860,
+      432,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/DarkGreen/LinearXDown8.png",
+    "role": "block_part",
+    "sprite": "8-LinearX-Down_8",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      557,
+      684,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/DarkGreen/ConvexDownRight9.png",
+    "role": "block_part",
+    "sprite": "9-Convex-DownRight",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      609,
+      720,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/DarkGreen/ConcaveUpLeftUpConnection10.png",
+    "role": "block_part",
+    "sprite": "10-ConcaveUpLeft-UpConnection_8",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      754,
+      576,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/DarkGreen/ConcaveUpRightUpConnection11.png",
+    "role": "block_part",
+    "sprite": "11-ConcaveUpRight-UpConnection_5",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      826,
+      576,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/DarkGreen/ConcaveUpLeftRightConnection12.png",
+    "role": "block_part",
+    "sprite": "12-ConcaveUpLeft-RightConnection_6",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      788,
+      360,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/DarkGreen/ConcaveUpLeft13.png",
+    "role": "block_part",
+    "sprite": "13-ConcaveUpLeft_4",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      829,
+      252,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/DarkGreen/ConcaveUpRight14.png",
+    "role": "block_part",
+    "sprite": "14-ConcaveUpRight_1",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      668,
+      864,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/DarkGreen/ConcaveUpRightLeftConnection15.png",
+    "role": "block_part",
+    "sprite": "15-ConcaveUpRight-LeftConnection_4",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      466,
+      641,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/DarkGreen/ConcaveDownLeftRightConnection16.png",
+    "role": "block_part",
+    "sprite": "16-ConcaveDownLeft-RightConnection_3",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      380,
+      950,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/DarkGreen/ConcaveDownLeft17.png",
+    "role": "block_part",
+    "sprite": "17-ConcaveDownLeft_0",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      610,
+      612,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/DarkGreen/ConcaveDownRight18.png",
+    "role": "block_part",
+    "sprite": "18-ConcaveDownRight_3",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      681,
+      756,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/DarkGreen/ConcaveDownRightLeftConnection19.png",
+    "role": "block_part",
+    "sprite": "19-ConcaveDownRight-LeftConnection_0",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      608,
+      432,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/DarkGreen/ConcaveDownLeftDownConnection20.png",
+    "role": "block_part",
+    "sprite": "20-ConcaveDownLeft-DownConnection_6",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      681,
+      792,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/DarkGreen/ConcaveDownRightDownConnection21.png",
+    "role": "block_part",
+    "sprite": "21-ConcaveDownRight-DownConnection",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      826,
+      540,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/DarkGreen/ConvexDownLeftShadow22.png",
+    "role": "block_part",
+    "sprite": "22-Convex-DownLeft-Shadow_3",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      573,
+      792,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/DarkGreen/LinearXShadow23.png",
+    "role": "block_part",
+    "sprite": "23-LinearX-Shadow_3",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      413,
+      770,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/DarkGreen/ConvexDownRightShadow24.png",
+    "role": "block_part",
+    "sprite": "24-Convex-DownRight-Shadow_0",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      719,
+      144,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/DarkGreen/ConcaveDownLeftCornerConnection25.png",
+    "role": "block_part",
+    "sprite": "25-ConcaveDownLeft-CornerConnection_0",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      503,
+      204,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/DarkGreen/ConcaveDownRightCornerConnection26.png",
+    "role": "block_part",
+    "sprite": "26-ConcaveDownRight-CornerConnection_3",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      826,
+      648,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/DarkGreen/ConcaveUpLeftCornerConnection27.png",
+    "role": "block_part",
+    "sprite": "27-ConcaveUpLeft-CornerConnection_6",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      919,
+      108,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/DarkGreen/ConcaveUpRightCornerConnection28.png",
+    "role": "block_part",
+    "sprite": "28-ConcaveUpRight-CornerConnection_4",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      716,
+      360,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/DarkGreen/DotSprite.png",
+    "role": "raised_stud",
+    "sprite": "stud_darkgreen",
+    "width": 52,
+    "height": 52,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      213,
+      517,
+      52,
+      52
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Green/ConvexUpLeft1.png",
+    "role": "block_part",
+    "sprite": "Convex-UpLeft_1",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      502,
+      662,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Green/LinearXUp2.png",
+    "role": "block_part",
+    "sprite": "LinearX-Up_0",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      682,
+      612,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Green/ConvexUpRight3.png",
+    "role": "block_part",
+    "sprite": "Convex-UpRight_1",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      902,
+      72,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Green/LinearYLeft4.png",
+    "role": "block_part",
+    "sprite": "LinearY-Left_1",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      938,
+      36,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Green/Close5.png",
+    "role": "block_part",
+    "sprite": "Close",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      811,
+      108,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Green/LinearYRight6.png",
+    "role": "block_part",
+    "sprite": "LinearY-Right",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      686,
+      72,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Green/ConvexDownLeft7.png",
+    "role": "block_part",
+    "sprite": "Convex-DownLeft_1",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      722,
+      36,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Green/LinearXDown8.png",
+    "role": "block_part",
+    "sprite": "LinearX-Down_1",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      469,
+      287,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Green/ConvexDownRight9.png",
+    "role": "block_part",
+    "sprite": "Convex-DownRight_1",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      680,
+      360,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Green/ConcaveUpLeftUpConnection10.png",
+    "role": "block_part",
+    "sprite": "ConcaveUpLeft-UpConnection_0",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      862,
+      540,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Green/ConcaveUpRightUpConnection11.png",
+    "role": "block_part",
+    "sprite": "ConcaveUpRight-UpConnection_0",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      860,
+      360,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Green/ConcaveUpLeftRightConnection12.png",
+    "role": "block_part",
+    "sprite": "ConcaveUpLeft-RightConnection",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      914,
+      468,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Green/ConcaveUpLeft13.png",
+    "role": "block_part",
+    "sprite": "ConcaveUpLeft",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      429,
+      806,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Green/ConcaveUpRight14.png",
+    "role": "block_part",
+    "sprite": "ConcaveUpRight",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      794,
+      72,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Green/ConcaveUpRightLeftConnection15.png",
+    "role": "block_part",
+    "sprite": "ConcaveUpRight-LeftConnection",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      790,
+      612,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Green/ConcaveDownLeftRightConnection16.png",
+    "role": "block_part",
+    "sprite": "ConcaveDownLeft-RightConnection_0",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      829,
+      288,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Green/ConcaveDownLeft17.png",
+    "role": "block_part",
+    "sprite": "ConcaveDownLeft_0",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      554,
+      468,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Green/ConcaveDownRight18.png",
+    "role": "block_part",
+    "sprite": "ConcaveDownRight",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      902,
+      36,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Green/ConcaveDownRightLeftConnection19.png",
+    "role": "block_part",
+    "sprite": "ConcaveDownRight-LeftConnection_0",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      503,
+      168,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Green/ConcaveDownLeftDownConnection20.png",
+    "role": "block_part",
+    "sprite": "ConcaveDownLeft-DownConnection_0",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      646,
+      540,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Green/ConcaveDownRightDownConnection21.png",
+    "role": "block_part",
+    "sprite": "ConcaveDownRight-DownConnection",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      704,
+      828,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Green/ConvexDownLeftShadow22.png",
+    "role": "block_part",
+    "sprite": "Convex-DownLeft-Shadow",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      418,
+      986,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Green/LinearXShadow23.png",
+    "role": "block_part",
+    "sprite": "LinearX-Shadow",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      662,
+      468,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Green/ConvexDownRightShadow24.png",
+    "role": "block_part",
+    "sprite": "Convex-DownRight-Shadow",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      824,
+      360,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Green/ConcaveDownLeftCornerConnection25.png",
+    "role": "block_part",
+    "sprite": "ConcaveDownLeft-CornerConnection",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      572,
+      432,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Green/ConcaveDownRightCornerConnection26.png",
+    "role": "block_part",
+    "sprite": "ConcaveDownRight-CornerConnection_0",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      506,
+      72,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Green/ConcaveUpLeftCornerConnection27.png",
+    "role": "block_part",
+    "sprite": "ConcaveUpLeft-CornerConnection",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      681,
+      720,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Green/ConcaveUpRightCornerConnection28.png",
+    "role": "block_part",
+    "sprite": "ConcaveUpRight-CornerConnection",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      754,
+      540,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Green/DotSprite.png",
+    "role": "raised_stud",
+    "sprite": "stud_green",
+    "width": 52,
+    "height": 52,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      128,
+      477,
+      52,
+      52
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Orange/ConvexUpLeft1.png",
+    "role": "block_part",
+    "sprite": "1-Convex-UpLeft_8",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      827,
+      180,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Orange/LinearXUp2.png",
+    "role": "block_part",
+    "sprite": "2-LinearX-Up_6",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      542,
+      0,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Orange/ConvexUpRight3.png",
+    "role": "block_part",
+    "sprite": "3-Convex-UpRight_0",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      541,
+      252,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Orange/LinearYLeft4.png",
+    "role": "block_part",
+    "sprite": "4-LinearY-Left_1",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      847,
+      108,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Orange/Close5.png",
+    "role": "block_part",
+    "sprite": "5-Close_7",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      667,
+      108,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Orange/LinearYRight6.png",
+    "role": "block_part",
+    "sprite": "6-LinearY-Right_9",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      878,
+      468,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Orange/ConvexDownLeft7.png",
+    "role": "block_part",
+    "sprite": "7-Convex-DownLeft",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      538,
+      540,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Orange/LinearXDown8.png",
+    "role": "block_part",
+    "sprite": "8-LinearX-Down",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      757,
+      252,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Orange/ConvexDownRight9.png",
+    "role": "block_part",
+    "sprite": "9-Convex-DownRight_8",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      608,
+      324,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Orange/ConcaveUpLeftUpConnection10.png",
+    "role": "block_part",
+    "sprite": "10-ConcaveUpLeft-UpConnection_4",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      682,
+      648,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Orange/ConcaveUpRightUpConnection11.png",
+    "role": "block_part",
+    "sprite": "11-ConcaveUpRight-UpConnection_9",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      898,
+      540,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Orange/ConcaveUpLeftRightConnection12.png",
+    "role": "block_part",
+    "sprite": "12-ConcaveUpLeft-RightConnection_3",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      578,
+      36,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Orange/ConcaveUpLeft13.png",
+    "role": "block_part",
+    "sprite": "13-ConcaveUpLeft_9",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      645,
+      792,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Orange/ConcaveUpRight14.png",
+    "role": "block_part",
+    "sprite": "14-ConcaveUpRight",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      310,
+      968,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Orange/ConcaveUpRightLeftConnection15.png",
+    "role": "block_part",
+    "sprite": "15-ConcaveUpRight-LeftConnection",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      211,
+      879,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Orange/ConcaveDownLeftRightConnection16.png",
+    "role": "block_part",
+    "sprite": "16-ConcaveDownLeft-RightConnection_9",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      647,
+      144,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Orange/ConcaveDownLeft17.png",
+    "role": "block_part",
+    "sprite": "17-ConcaveDownLeft_4",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      646,
+      648,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Orange/ConcaveDownRight18.png",
+    "role": "block_part",
+    "sprite": "18-ConcaveDownRight",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      791,
+      180,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Orange/ConcaveDownRightLeftConnection19.png",
+    "role": "block_part",
+    "sprite": "19-ConcaveDownRight-LeftConnection",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      416,
+      950,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Orange/ConcaveDownLeftDownConnection20.png",
+    "role": "block_part",
+    "sprite": "20-ConcaveDownLeft-DownConnection_7",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      485,
+      713,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Orange/ConcaveDownRightDownConnection21.png",
+    "role": "block_part",
+    "sprite": "21-ConcaveDownRight-DownConnection_0",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      686,
+      0,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Orange/ConvexDownLeftShadow22.png",
+    "role": "block_part",
+    "sprite": "22-Convex-DownLeft-Shadow_1",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      36,
+      982,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Orange/LinearXShadow23.png",
+    "role": "block_part",
+    "sprite": "23-LinearX-Shadow_5",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      490,
+      965,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Orange/ConvexDownRightShadow24.png",
+    "role": "block_part",
+    "sprite": "24-Convex-DownRight-Shadow_1",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      590,
+      504,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Orange/ConcaveDownLeftCornerConnection25.png",
+    "role": "block_part",
+    "sprite": "25-ConcaveDownLeft-CornerConnection_4",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      717,
+      720,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Orange/ConcaveDownRightCornerConnection26.png",
+    "role": "block_part",
+    "sprite": "26-ConcaveDownRight-CornerConnection",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      717,
+      756,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Orange/ConcaveUpLeftCornerConnection27.png",
+    "role": "block_part",
+    "sprite": "27-ConcaveUpLeft-CornerConnection_3",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      610,
+      648,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Orange/ConcaveUpRightCornerConnection28.png",
+    "role": "block_part",
+    "sprite": "28-ConcaveUpRight-CornerConnection_7",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      539,
+      180,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Orange/DotSprite.png",
+    "role": "raised_stud",
+    "sprite": "stud_orange",
+    "width": 52,
+    "height": 52,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      0,
+      660,
+      52,
+      52
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Pink/ConvexUpLeft1.png",
+    "role": "block_part",
+    "sprite": "1-Convex-UpLeft_6",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      575,
+      216,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Pink/LinearXUp2.png",
+    "role": "block_part",
+    "sprite": "2-LinearX-Up_4",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      626,
+      504,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Pink/ConvexUpRight3.png",
+    "role": "block_part",
+    "sprite": "3-Convex-UpRight_9",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      718,
+      612,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Pink/LinearYLeft4.png",
+    "role": "block_part",
+    "sprite": "4-LinearY-Left_7",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      827,
+      144,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Pink/Close5.png",
+    "role": "block_part",
+    "sprite": "5-Close",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      902,
+      0,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Pink/LinearYRight6.png",
+    "role": "block_part",
+    "sprite": "6-LinearY-Right_8",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      536,
+      360,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Pink/ConvexDownLeft7.png",
+    "role": "block_part",
+    "sprite": "7-Convex-DownLeft_8",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      202,
+      951,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Pink/LinearXDown8.png",
+    "role": "block_part",
+    "sprite": "8-LinearX-Down_0",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      775,
+      108,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Pink/ConvexDownRight9.png",
+    "role": "block_part",
+    "sprite": "9-Convex-DownRight_3",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      754,
+      612,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Pink/ConcaveUpLeftUpConnection10.png",
+    "role": "block_part",
+    "sprite": "10-ConcaveUpLeft-UpConnection_9",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      524,
+      893,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Pink/ConcaveUpRightUpConnection11.png",
+    "role": "block_part",
+    "sprite": "11-ConcaveUpRight-UpConnection_0",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      662,
+      504,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Pink/ConcaveUpLeftRightConnection12.png",
+    "role": "block_part",
+    "sprite": "12-ConcaveUpLeft-RightConnection_4",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      500,
+      431,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Pink/ConcaveUpLeft13.png",
+    "role": "block_part",
+    "sprite": "13-ConcaveUpLeft_3",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      752,
+      432,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Pink/ConcaveUpRight14.png",
+    "role": "block_part",
+    "sprite": "14-ConcaveUpRight_3",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      863,
+      180,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Pink/ConcaveUpRightLeftConnection15.png",
+    "role": "block_part",
+    "sprite": "15-ConcaveUpRight-LeftConnection_1",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      788,
+      396,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Pink/ConcaveDownLeftRightConnection16.png",
+    "role": "block_part",
+    "sprite": "16-ConcaveDownLeft-RightConnection_8",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      574,
+      576,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Pink/ConcaveDownLeft17.png",
+    "role": "block_part",
+    "sprite": "17-ConcaveDownLeft_1",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      896,
+      360,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Pink/ConcaveDownRight18.png",
+    "role": "block_part",
+    "sprite": "18-ConcaveDownRight_8",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      452,
+      950,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Pink/ConcaveDownRightLeftConnection19.png",
+    "role": "block_part",
+    "sprite": "19-ConcaveDownRight-LeftConnection_3",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      682,
+      540,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Pink/ConcaveDownLeftDownConnection20.png",
+    "role": "block_part",
+    "sprite": "20-ConcaveDownLeft-DownConnection",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      578,
+      72,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Pink/ConcaveDownRightDownConnection21.png",
+    "role": "block_part",
+    "sprite": "21-ConcaveDownRight-DownConnection_6",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      752,
+      324,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Pink/ConvexDownLeftShadow22.png",
+    "role": "block_part",
+    "sprite": "22-Convex-DownLeft-Shadow_7",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      644,
+      324,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Pink/LinearXShadow23.png",
+    "role": "block_part",
+    "sprite": "23-LinearX-Shadow_6",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      938,
+      72,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Pink/ConvexDownRightShadow24.png",
+    "role": "block_part",
+    "sprite": "24-Convex-DownRight-Shadow_8",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      482,
+      482,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Pink/ConcaveDownLeftCornerConnection25.png",
+    "role": "block_part",
+    "sprite": "25-ConcaveDownLeft-CornerConnection_5",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      647,
+      180,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Pink/ConcaveDownRightCornerConnection26.png",
+    "role": "block_part",
+    "sprite": "26-ConcaveDownRight-CornerConnection_5",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      860,
+      324,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Pink/ConcaveUpLeftCornerConnection27.png",
+    "role": "block_part",
+    "sprite": "27-ConcaveUpLeft-CornerConnection_2",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      307,
+      444,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Pink/ConcaveUpRightCornerConnection28.png",
+    "role": "block_part",
+    "sprite": "28-ConcaveUpRight-CornerConnection_2",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      898,
+      576,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Pink/DotSprite.png",
+    "role": "raised_stud",
+    "sprite": "stud_pink",
+    "width": 52,
+    "height": 52,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      101,
+      551,
+      52,
+      52
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Purple/ConvexUpLeft1.png",
+    "role": "block_part",
+    "sprite": "1-Convex-UpLeft_0",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      469,
+      323,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Purple/LinearXUp2.png",
+    "role": "block_part",
+    "sprite": "2-LinearX-Up_3",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      866,
+      72,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Purple/ConvexUpRight3.png",
+    "role": "block_part",
+    "sprite": "3-Convex-UpRight_7",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      668,
+      828,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Purple/LinearYLeft4.png",
+    "role": "block_part",
+    "sprite": "4-LinearY-Left_3",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      650,
+      36,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Purple/Close5.png",
+    "role": "block_part",
+    "sprite": "5-Close_1",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      758,
+      0,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Purple/LinearYRight6.png",
+    "role": "block_part",
+    "sprite": "6-LinearY-Right_1",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      646,
+      576,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Purple/ConvexDownLeft7.png",
+    "role": "block_part",
+    "sprite": "7-Convex-DownLeft_3",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      824,
+      324,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Purple/LinearXDown8.png",
+    "role": "block_part",
+    "sprite": "8-LinearX-Down_4",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      865,
+      252,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Purple/ConvexDownRight9.png",
+    "role": "block_part",
+    "sprite": "9-Convex-DownRight_6",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      613,
+      252,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Purple/ConcaveUpLeftUpConnection10.png",
+    "role": "block_part",
+    "sprite": "10-ConcaveUpLeft-UpConnection",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      753,
+      720,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Purple/ConcaveUpRightUpConnection11.png",
+    "role": "block_part",
+    "sprite": "11-ConcaveUpRight-UpConnection_2",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      863,
+      144,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Purple/ConcaveUpLeftRightConnection12.png",
+    "role": "block_part",
+    "sprite": "12-ConcaveUpLeft-RightConnection_9",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      506,
+      0,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Purple/ConcaveUpLeft13.png",
+    "role": "block_part",
+    "sprite": "13-ConcaveUpLeft_2",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      878,
+      504,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Purple/ConcaveUpRight14.png",
+    "role": "block_part",
+    "sprite": "14-ConcaveUpRight_4",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      611,
+      144,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Purple/ConcaveUpRightLeftConnection15.png",
+    "role": "block_part",
+    "sprite": "15-ConcaveUpRight-LeftConnection_7",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      610,
+      576,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Purple/ConcaveDownLeftRightConnection16.png",
+    "role": "block_part",
+    "sprite": "16-ConcaveDownLeft-RightConnection_2",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      883,
+      108,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Purple/ConcaveDownLeft17.png",
+    "role": "block_part",
+    "sprite": "17-ConcaveDownLeft_3",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      560,
+      842,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Purple/ConcaveDownRight18.png",
+    "role": "block_part",
+    "sprite": "18-ConcaveDownRight_7",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      789,
+      720,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Purple/ConcaveDownRightLeftConnection19.png",
+    "role": "block_part",
+    "sprite": "19-ConcaveDownRight-LeftConnection_5",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      645,
+      720,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Purple/ConcaveDownLeftDownConnection20.png",
+    "role": "block_part",
+    "sprite": "20-ConcaveDownLeft-DownConnection_4",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      650,
+      72,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Purple/ConcaveDownRightDownConnection21.png",
+    "role": "block_part",
+    "sprite": "21-ConcaveDownRight-DownConnection_8",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      866,
+      0,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Purple/ConvexDownLeftShadow22.png",
+    "role": "block_part",
+    "sprite": "22-Convex-DownLeft-Shadow_6",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      538,
+      576,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Purple/LinearXShadow23.png",
+    "role": "block_part",
+    "sprite": "23-LinearX-Shadow_1",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      572,
+      360,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Purple/ConvexDownRightShadow24.png",
+    "role": "block_part",
+    "sprite": "24-Convex-DownRight-Shadow_3",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      862,
+      612,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Purple/ConcaveDownLeftCornerConnection25.png",
+    "role": "block_part",
+    "sprite": "25-ConcaveDownLeft-CornerConnection_8",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      503,
+      240,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Purple/ConcaveDownRightCornerConnection26.png",
+    "role": "block_part",
+    "sprite": "26-ConcaveDownRight-CornerConnection_6",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      716,
+      396,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Purple/ConcaveUpLeftCornerConnection27.png",
+    "role": "block_part",
+    "sprite": "27-ConcaveUpLeft-CornerConnection_9",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      737,
+      684,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Purple/ConcaveUpRightCornerConnection28.png",
+    "role": "block_part",
+    "sprite": "28-ConcaveUpRight-CornerConnection_5",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      430,
+      632,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Purple/DotSprite.png",
+    "role": "raised_stud",
+    "sprite": "stud_purple",
+    "width": 52,
+    "height": 52,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      101,
+      607,
+      52,
+      52
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Red/ConvexUpLeft1.png",
+    "role": "block_part",
+    "sprite": "1-Convex-UpLeft",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      842,
+      504,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Red/LinearXUp2.png",
+    "role": "block_part",
+    "sprite": "2-LinearX-Up_8",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      935,
+      144,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Red/ConvexUpRight3.png",
+    "role": "block_part",
+    "sprite": "3-Convex-UpRight_2",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      698,
+      468,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Red/LinearYLeft4.png",
+    "role": "block_part",
+    "sprite": "4-LinearY-Left",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      770,
+      504,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Red/Close5.png",
+    "role": "block_part",
+    "sprite": "5-Close_4",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      649,
+      288,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Red/LinearYRight6.png",
+    "role": "block_part",
+    "sprite": "6-LinearY-Right_2",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      860,
+      396,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Red/ConvexDownLeft7.png",
+    "role": "block_part",
+    "sprite": "7-Convex-DownLeft_7",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      974,
+      36,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Red/LinearXDown8.png",
+    "role": "block_part",
+    "sprite": "8-LinearX-Down_5",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      416,
+      914,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Red/ConvexDownRight9.png",
+    "role": "block_part",
+    "sprite": "9-Convex-DownRight_0",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      758,
+      72,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Red/ConcaveUpLeftUpConnection10.png",
+    "role": "block_part",
+    "sprite": "10-ConcaveUpLeft-UpConnection_6",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      825,
+      720,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Red/ConcaveUpRightUpConnection11.png",
+    "role": "block_part",
+    "sprite": "11-ConcaveUpRight-UpConnection_3",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      247,
+      921,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Red/ConcaveUpLeftRightConnection12.png",
+    "role": "block_part",
+    "sprite": "12-ConcaveUpLeft-RightConnection_7",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      501,
+      821,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Red/ConcaveUpLeft13.png",
+    "role": "block_part",
+    "sprite": "13-ConcaveUpLeft_8",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      502,
+      590,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Red/ConcaveUpRight14.png",
+    "role": "block_part",
+    "sprite": "14-ConcaveUpRight_2",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      632,
+      900,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Red/ConcaveUpRightLeftConnection15.png",
+    "role": "block_part",
+    "sprite": "15-ConcaveUpRight-LeftConnection_0",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      755,
+      216,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Red/ConcaveDownLeftRightConnection16.png",
+    "role": "block_part",
+    "sprite": "16-ConcaveDownLeft-RightConnection_5",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      521,
+      698,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Red/ConcaveDownLeft17.png",
+    "role": "block_part",
+    "sprite": "17-ConcaveDownLeft",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      238,
+      957,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Red/ConcaveDownRight18.png",
+    "role": "block_part",
+    "sprite": "18-ConcaveDownRight_9",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      611,
+      180,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Red/ConcaveDownRightLeftConnection19.png",
+    "role": "block_part",
+    "sprite": "19-ConcaveDownRight-LeftConnection_8",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      863,
+      216,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Red/ConcaveDownLeftDownConnection20.png",
+    "role": "block_part",
+    "sprite": "20-ConcaveDownLeft-DownConnection_3",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      896,
+      432,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Red/ConcaveDownRightDownConnection21.png",
+    "role": "block_part",
+    "sprite": "21-ConcaveDownRight-DownConnection_9",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      608,
+      360,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Red/ConvexDownLeftShadow22.png",
+    "role": "block_part",
+    "sprite": "22-Convex-DownLeft-Shadow",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      611,
+      216,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Red/LinearXShadow23.png",
+    "role": "block_part",
+    "sprite": "23-LinearX-Shadow_9",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      794,
+      36,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Red/ConvexDownRightShadow24.png",
+    "role": "block_part",
+    "sprite": "24-Convex-DownRight-Shadow_9",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      680,
+      396,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Red/ConcaveDownLeftCornerConnection25.png",
+    "role": "block_part",
+    "sprite": "25-ConcaveDownLeft-CornerConnection_2",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      554,
+      504,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Red/ConcaveDownRightCornerConnection26.png",
+    "role": "block_part",
+    "sprite": "26-ConcaveDownRight-CornerConnection_2",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      502,
+      626,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Red/ConcaveUpLeftCornerConnection27.png",
+    "role": "block_part",
+    "sprite": "27-ConcaveUpLeft-CornerConnection_4",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      718,
+      540,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Red/ConcaveUpRightCornerConnection28.png",
+    "role": "block_part",
+    "sprite": "28-ConcaveUpRight-CornerConnection",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      806,
+      468,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Red/DotSprite.png",
+    "role": "raised_stud",
+    "sprite": "stud_red",
+    "width": 52,
+    "height": 52,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      45,
+      586,
+      52,
+      52
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Turqois/ConvexUpLeft1.png",
+    "role": "block_part",
+    "sprite": "1-Convex-UpLeft_9",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      901,
+      288,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Turqois/LinearXUp2.png",
+    "role": "block_part",
+    "sprite": "2-LinearX-Up_7",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      596,
+      864,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Turqois/ConvexUpRight3.png",
+    "role": "block_part",
+    "sprite": "3-Convex-UpRight_6",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      614,
+      0,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Turqois/LinearYLeft4.png",
+    "role": "block_part",
+    "sprite": "4-LinearY-Left_6",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      502,
+      554,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Turqois/Close5.png",
+    "role": "block_part",
+    "sprite": "5-Close_0",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      899,
+      180,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Turqois/LinearYRight6.png",
+    "role": "block_part",
+    "sprite": "6-LinearY-Right",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      721,
+      252,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Turqois/ConvexDownLeft7.png",
+    "role": "block_part",
+    "sprite": "7-Convex-DownLeft_2",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      344,
+      932,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Turqois/LinearXDown8.png",
+    "role": "block_part",
+    "sprite": "8-LinearX-Down_2",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      680,
+      324,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Turqois/ConvexDownRight9.png",
+    "role": "block_part",
+    "sprite": "9-Convex-DownRight_9",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      896,
+      396,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Turqois/ConcaveUpLeftUpConnection10.png",
+    "role": "block_part",
+    "sprite": "10-ConcaveUpLeft-UpConnection_7",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      827,
+      216,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Turqois/ConcaveUpRightUpConnection11.png",
+    "role": "block_part",
+    "sprite": "11-ConcaveUpRight-UpConnection_1",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      539,
+      216,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Turqois/ConcaveUpLeftRightConnection12.png",
+    "role": "block_part",
+    "sprite": "12-ConcaveUpLeft-RightConnection_1",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      614,
+      72,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Turqois/ConcaveUpLeft13.png",
+    "role": "block_part",
+    "sprite": "13-ConcaveUpLeft_7",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      899,
+      216,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Turqois/ConcaveUpRight14.png",
+    "role": "block_part",
+    "sprite": "14-ConcaveUpRight_7",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      575,
+      180,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Turqois/ConcaveUpRightLeftConnection15.png",
+    "role": "block_part",
+    "sprite": "15-ConcaveUpRight-LeftConnection_2",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      644,
+      396,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Turqois/ConcaveDownLeftRightConnection16.png",
+    "role": "block_part",
+    "sprite": "16-ConcaveDownLeft-RightConnection_0",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      537,
+      734,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Turqois/ConcaveDownLeft17.png",
+    "role": "block_part",
+    "sprite": "17-ConcaveDownLeft_7",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      665,
+      684,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Turqois/ConcaveDownRight18.png",
+    "role": "block_part",
+    "sprite": "18-ConcaveDownRight_0",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      629,
+      684,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Turqois/ConcaveDownRightLeftConnection19.png",
+    "role": "block_part",
+    "sprite": "19-ConcaveDownRight-LeftConnection_7",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      680,
+      432,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Turqois/ConcaveDownLeftDownConnection20.png",
+    "role": "block_part",
+    "sprite": "20-ConcaveDownLeft-DownConnection_2",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      577,
+      288,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Turqois/ConcaveDownRightDownConnection21.png",
+    "role": "block_part",
+    "sprite": "21-ConcaveDownRight-DownConnection_4",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      452,
+      914,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Turqois/ConvexDownLeftShadow22.png",
+    "role": "block_part",
+    "sprite": "22-Convex-DownLeft-Shadow_8",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      938,
+      0,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Turqois/LinearXShadow23.png",
+    "role": "block_part",
+    "sprite": "23-LinearX-Shadow_7",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      380,
+      914,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Turqois/ConvexDownRightShadow24.png",
+    "role": "block_part",
+    "sprite": "24-Convex-DownRight-Shadow_2",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      896,
+      324,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Turqois/ConcaveDownLeftCornerConnection25.png",
+    "role": "block_part",
+    "sprite": "25-ConcaveDownLeft-CornerConnection_7",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      346,
+      986,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Turqois/ConcaveDownRightCornerConnection26.png",
+    "role": "block_part",
+    "sprite": "26-ConcaveDownRight-CornerConnection_8",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      541,
+      288,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Turqois/ConcaveUpLeftCornerConnection27.png",
+    "role": "block_part",
+    "sprite": "27-ConcaveUpLeft-CornerConnection_7",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      524,
+      929,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Turqois/ConcaveUpRightCornerConnection28.png",
+    "role": "block_part",
+    "sprite": "28-ConcaveUpRight-CornerConnection_9",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      793,
+      252,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Turqois/DotSprite.png",
+    "role": "raised_stud",
+    "sprite": "stud_turqoise",
+    "width": 52,
+    "height": 52,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      184,
+      461,
+      52,
+      52
+    ]
+  },
+  {
+    "file": "Textures/Blocks/White/ConvexUpLeft1.png",
+    "role": "block_part",
+    "sprite": "1-Convex-UpLeft_4",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      717,
+      792,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/White/LinearXUp2.png",
+    "role": "block_part",
+    "sprite": "2-LinearX-Up_1",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      274,
+      964,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/White/ConvexUpRight3.png",
+    "role": "block_part",
+    "sprite": "3-Convex-UpRight_1",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      574,
+      540,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/White/LinearYLeft4.png",
+    "role": "block_part",
+    "sprite": "4-LinearY-Left_2",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      644,
+      360,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/White/Close5.png",
+    "role": "block_part",
+    "sprite": "5-Close_5",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      506,
+      36,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/White/LinearYRight6.png",
+    "role": "block_part",
+    "sprite": "6-LinearY-Right_7",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      683,
+      216,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/White/ConvexDownLeft7.png",
+    "role": "block_part",
+    "sprite": "7-Convex-DownLeft_9",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      466,
+      569,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/White/LinearXDown8.png",
+    "role": "block_part",
+    "sprite": "8-LinearX-Down_3",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      698,
+      504,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/White/ConvexDownRight9.png",
+    "role": "block_part",
+    "sprite": "9-Convex-DownRight_7",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      830,
+      72,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/White/ConcaveUpLeftUpConnection10.png",
+    "role": "block_part",
+    "sprite": "10-ConcaveUpLeft-UpConnection_1",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      647,
+      216,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/White/ConcaveUpRightUpConnection11.png",
+    "role": "block_part",
+    "sprite": "11-ConcaveUpRight-UpConnection_6",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      755,
+      144,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/White/ConcaveUpLeftRightConnection12.png",
+    "role": "block_part",
+    "sprite": "12-ConcaveUpLeft-RightConnection_2",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      826,
+      612,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/White/ConcaveUpLeft13.png",
+    "role": "block_part",
+    "sprite": "13-ConcaveUpLeft_6",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      590,
+      468,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/White/ConcaveUpRight14.png",
+    "role": "block_part",
+    "sprite": "14-ConcaveUpRight_8",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      719,
+      216,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/White/ConcaveUpRightLeftConnection15.png",
+    "role": "block_part",
+    "sprite": "15-ConcaveUpRight-LeftConnection_5",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      806,
+      504,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/White/ConcaveDownLeftRightConnection16.png",
+    "role": "block_part",
+    "sprite": "16-ConcaveDownLeft-RightConnection_4",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      632,
+      828,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/White/ConcaveDownLeft17.png",
+    "role": "block_part",
+    "sprite": "17-ConcaveDownLeft_9",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      322,
+      262,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/White/ConcaveDownRight18.png",
+    "role": "block_part",
+    "sprite": "18-ConcaveDownRight_6",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      757,
+      288,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/White/ConcaveDownRightLeftConnection19.png",
+    "role": "block_part",
+    "sprite": "19-ConcaveDownRight-LeftConnection_4",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      596,
+      936,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/White/ConcaveDownLeftDownConnection20.png",
+    "role": "block_part",
+    "sprite": "20-ConcaveDownLeft-DownConnection_5",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      793,
+      288,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/White/ConcaveDownRightDownConnection21.png",
+    "role": "block_part",
+    "sprite": "21-ConcaveDownRight-DownConnection_5",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      449,
+      740,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/White/ConvexDownLeftShadow22.png",
+    "role": "block_part",
+    "sprite": "22-Convex-DownLeft-Shadow_2",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      429,
+      842,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/White/LinearXShadow23.png",
+    "role": "block_part",
+    "sprite": "23-LinearX-Shadow_8",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      211,
+      915,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/White/ConvexDownRightShadow24.png",
+    "role": "block_part",
+    "sprite": "24-Convex-DownRight-Shadow_4",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      809,
+      684,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/White/ConcaveDownLeftCornerConnection25.png",
+    "role": "block_part",
+    "sprite": "25-ConcaveDownLeft-CornerConnection",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      935,
+      180,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/White/ConcaveDownRightCornerConnection26.png",
+    "role": "block_part",
+    "sprite": "26-ConcaveDownRight-CornerConnection_4",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      701,
+      684,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/White/ConcaveUpLeftCornerConnection27.png",
+    "role": "block_part",
+    "sprite": "27-ConcaveUpLeft-CornerConnection",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      752,
+      360,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/White/ConcaveUpRightCornerConnection28.png",
+    "role": "block_part",
+    "sprite": "28-ConcaveUpRight-CornerConnection_6",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      626,
+      468,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/White/DotSprite.png",
+    "role": "raised_stud",
+    "sprite": "stud_white",
+    "width": 48,
+    "height": 53,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      267,
+      676,
+      48,
+      53
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Yellow/ConvexUpLeft1.png",
+    "role": "block_part",
+    "sprite": "1-Convex-UpLeft_5",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      770,
+      468,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Yellow/LinearXUp2.png",
+    "role": "block_part",
+    "sprite": "2-LinearX-Up_0",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      537,
+      770,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Yellow/ConvexUpRight3.png",
+    "role": "block_part",
+    "sprite": "3-Convex-UpRight_4",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      610,
+      540,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Yellow/LinearYLeft4.png",
+    "role": "block_part",
+    "sprite": "4-LinearY-Left_5",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      430,
+      668,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Yellow/Close5.png",
+    "role": "block_part",
+    "sprite": "5-Close_6",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      614,
+      36,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Yellow/LinearYRight6.png",
+    "role": "block_part",
+    "sprite": "6-LinearY-Right_3",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      682,
+      576,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Yellow/ConvexDownLeft7.png",
+    "role": "block_part",
+    "sprite": "7-Convex-DownLeft_4",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      632,
+      936,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Yellow/LinearXDown8.png",
+    "role": "block_part",
+    "sprite": "8-LinearX-Down_1",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      632,
+      864,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Yellow/ConvexDownRight9.png",
+    "role": "block_part",
+    "sprite": "9-Convex-DownRight_1",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      608,
+      396,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Yellow/ConcaveUpLeftUpConnection10.png",
+    "role": "block_part",
+    "sprite": "10-ConcaveUpLeft-UpConnection_2",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      572,
+      396,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Yellow/ConcaveUpRightUpConnection11.png",
+    "role": "block_part",
+    "sprite": "11-ConcaveUpRight-UpConnection_8",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      542,
+      36,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Yellow/ConcaveUpLeftRightConnection12.png",
+    "role": "block_part",
+    "sprite": "12-ConcaveUpLeft-RightConnection_0",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      430,
+      704,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Yellow/ConcaveUpLeft13.png",
+    "role": "block_part",
+    "sprite": "13-ConcaveUpLeft_1",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      578,
+      0,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Yellow/ConcaveUpRight14.png",
+    "role": "block_part",
+    "sprite": "14-ConcaveUpRight_5",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      430,
+      596,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Yellow/ConcaveUpRightLeftConnection15.png",
+    "role": "block_part",
+    "sprite": "15-ConcaveUpRight-LeftConnection_9",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      649,
+      252,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Yellow/ConcaveDownLeftRightConnection16.png",
+    "role": "block_part",
+    "sprite": "16-ConcaveDownLeft-RightConnection_7",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      613,
+      288,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Yellow/ConcaveDownLeft17.png",
+    "role": "block_part",
+    "sprite": "17-ConcaveDownLeft_5",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      454,
+      986,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Yellow/ConcaveDownRight18.png",
+    "role": "block_part",
+    "sprite": "18-ConcaveDownRight_2",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      574,
+      648,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Yellow/ConcaveDownRightLeftConnection19.png",
+    "role": "block_part",
+    "sprite": "19-ConcaveDownRight-LeftConnection_6",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      609,
+      792,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Yellow/ConcaveDownLeftDownConnection20.png",
+    "role": "block_part",
+    "sprite": "20-ConcaveDownLeft-DownConnection_0",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      646,
+      612,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Yellow/ConcaveDownRightDownConnection21.png",
+    "role": "block_part",
+    "sprite": "21-ConcaveDownRight-DownConnection_7",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      722,
+      0,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Yellow/ConvexDownLeftShadow22.png",
+    "role": "block_part",
+    "sprite": "22-Convex-DownLeft-Shadow_0",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      685,
+      252,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Yellow/LinearXShadow23.png",
+    "role": "block_part",
+    "sprite": "23-LinearX-Shadow_2",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      560,
+      878,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Yellow/ConvexDownRightShadow24.png",
+    "role": "block_part",
+    "sprite": "24-Convex-DownRight-Shadow_7",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      734,
+      468,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Yellow/ConcaveDownLeftCornerConnection25.png",
+    "role": "block_part",
+    "sprite": "25-ConcaveDownLeft-CornerConnection_6",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      536,
+      432,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Yellow/ConcaveDownRightCornerConnection26.png",
+    "role": "block_part",
+    "sprite": "26-ConcaveDownRight-CornerConnection_9",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      465,
+      776,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Yellow/ConcaveUpLeftCornerConnection27.png",
+    "role": "block_part",
+    "sprite": "27-ConcaveUpLeft-CornerConnection_8",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      753,
+      756,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Yellow/ConcaveUpRightCornerConnection28.png",
+    "role": "block_part",
+    "sprite": "28-ConcaveUpRight-CornerConnection_3",
+    "width": 32,
+    "height": 32,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      866,
+      36,
+      32,
+      32
+    ]
+  },
+  {
+    "file": "Textures/Blocks/Yellow/DotSprite.png",
+    "role": "raised_stud",
+    "sprite": "stud_yellow",
+    "width": 52,
+    "height": 52,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      157,
+      533,
+      52,
+      52
+    ]
+  },
+  {
+    "file": "Textures/Walls/BottomX.png",
+    "role": "walls",
+    "sprite": "BottomX",
+    "width": 48,
+    "height": 82,
+    "atlas": "sactx-0-2048x2048-ASTC 4x4-GameplayAtlas7-6715da1a.png",
+    "rect": [
+      0,
+      1075,
+      48,
+      82
+    ]
+  },
+  {
+    "file": "Textures/Walls/BottomX_s.png",
+    "role": "walls",
+    "sprite": "BottomX_s",
+    "width": 48,
+    "height": 51,
+    "atlas": "sactx-0-2048x2048-ASTC 4x4-GameplayAtlas7-6715da1a.png",
+    "rect": [
+      351,
+      1193,
+      48,
+      51
+    ]
+  },
+  {
+    "file": "Textures/Walls/BottomXRightConvexConnection.png",
+    "role": "walls",
+    "sprite": "BottomXRightConvexConnection",
+    "width": 48,
+    "height": 82,
+    "atlas": "sactx-0-2048x2048-ASTC 4x4-GameplayAtlas7-6715da1a.png",
+    "rect": [
+      100,
+      943,
+      48,
+      82
+    ]
+  },
+  {
+    "file": "Textures/Walls/ConvexRightBottom.png",
+    "role": "walls",
+    "sprite": "ConvexRightBottom",
+    "width": 66,
+    "height": 74,
+    "atlas": "sactx-0-2048x2048-ASTC 4x4-GameplayAtlas7-6715da1a.png",
+    "rect": [
+      1733,
+      552,
+      66,
+      74
+    ]
+  },
+  {
+    "file": "Textures/Walls/ConvexRightBottom_s.png",
+    "role": "walls",
+    "sprite": "ConvexRightBottom_s",
+    "width": 121,
+    "height": 125,
+    "atlas": "sactx-0-2048x2048-ASTC 4x4-GameplayAtlas7-6715da1a.png",
+    "rect": [
+      392,
+      292,
+      121,
+      125
+    ]
+  },
+  {
+    "file": "Textures/Walls/ConcaveRightBottom.png",
+    "role": "walls",
+    "sprite": "ConcaveRightBottom",
+    "width": 96,
+    "height": 104,
+    "atlas": "sactx-0-2048x2048-ASTC 4x4-GameplayAtlas7-6715da1a.png",
+    "rect": [
+      916,
+      700,
+      96,
+      104
+    ]
+  },
+  {
+    "file": "Textures/Walls/ConcaveRightBottom_s.png",
+    "role": "walls",
+    "sprite": "ConcaveRightBottom_s",
+    "width": 55,
+    "height": 51,
+    "atlas": "sactx-0-2048x2048-ASTC 4x4-GameplayAtlas7-6715da1a.png",
+    "rect": [
+      292,
+      1193,
+      55,
+      51
+    ]
+  },
+  {
+    "file": "Textures/Walls/ConcaveRightTop.png",
+    "role": "walls",
+    "sprite": "ConcaveRightTop",
+    "width": 96,
+    "height": 84,
+    "atlas": "sactx-0-2048x2048-ASTC 4x4-GameplayAtlas7-6715da1a.png",
+    "rect": [
+      1368,
+      500,
+      96,
+      84
+    ]
+  },
+  {
+    "file": "Textures/Walls/ConcaveRightTop Secondary.png",
+    "role": "walls",
+    "sprite": "ConcaveRightTop Secondary",
+    "width": 96,
+    "height": 12,
+    "atlas": "sactx-0-2048x2048-ASTC 4x4-GameplayAtlas7-6715da1a.png",
+    "rect": [
+      483,
+      1297,
+      96,
+      12
+    ]
+  },
+  {
+    "file": "Textures/Walls/ConcaveRightTop_s.png",
+    "role": "walls",
+    "sprite": "ConcaveRightTop_s",
+    "width": 50,
+    "height": 14,
+    "atlas": "sactx-0-2048x2048-ASTC 4x4-GameplayAtlas7-6715da1a.png",
+    "rect": [
+      229,
+      1617,
+      50,
+      14
+    ]
+  },
+  {
+    "file": "Textures/Walls/ConvexRightTop.png",
+    "role": "walls",
+    "sprite": "ConvexRightTop",
+    "width": 66,
+    "height": 82,
+    "atlas": "sactx-0-2048x2048-ASTC 4x4-GameplayAtlas7-6715da1a.png",
+    "rect": [
+      1936,
+      98,
+      66,
+      82
+    ]
+  },
+  {
+    "file": "Textures/Walls/ConvexRightTop_s.png",
+    "role": "walls",
+    "sprite": "ConvexRightTop_s",
+    "width": 121,
+    "height": 89,
+    "atlas": "sactx-0-2048x2048-ASTC 4x4-GameplayAtlas7-6715da1a.png",
+    "rect": [
+      366,
+      523,
+      121,
+      89
+    ]
+  },
+  {
+    "file": "Textures/Walls/RightY.png",
+    "role": "walls",
+    "sprite": "RightY",
+    "width": 66,
+    "height": 48,
+    "atlas": "sactx-0-2048x2048-ASTC 4x4-GameplayAtlas7-6715da1a.png",
+    "rect": [
+      100,
+      544,
+      66,
+      48
+    ]
+  },
+  {
+    "file": "Textures/Walls/RightY_s.png",
+    "role": "walls",
+    "sprite": "RightY_s",
+    "width": 55,
+    "height": 48,
+    "atlas": "sactx-0-2048x2048-ASTC 4x4-GameplayAtlas7-6715da1a.png",
+    "rect": [
+      0,
+      1546,
+      55,
+      48
+    ]
+  },
+  {
+    "file": "Textures/Walls/RightYBottomConvexConnection.png",
+    "role": "walls",
+    "sprite": "RightYBottomConvexConnection",
+    "width": 66,
+    "height": 48,
+    "atlas": "sactx-0-2048x2048-ASTC 4x4-GameplayAtlas7-6715da1a.png",
+    "rect": [
+      1286,
+      878,
+      66,
+      48
+    ]
+  },
+  {
+    "file": "Textures/Walls/TopX.png",
+    "role": "walls",
+    "sprite": "TopX",
+    "width": 48,
+    "height": 70,
+    "atlas": "sactx-0-2048x2048-ASTC 4x4-GameplayAtlas7-6715da1a.png",
+    "rect": [
+      1727,
+      678,
+      48,
+      70
+    ]
+  },
+  {
+    "file": "Textures/Walls/TopX Secondary.png",
+    "role": "walls",
+    "sprite": "TopX Secondary",
+    "width": 48,
+    "height": 12,
+    "atlas": "sactx-0-2048x2048-ASTC 4x4-GameplayAtlas7-6715da1a.png",
+    "rect": [
+      1696,
+      792,
+      48,
+      12
+    ]
+  },
+  {
+    "file": "Textures/Walls/TopXRightConvexConnection.png",
+    "role": "walls",
+    "sprite": "TopXRightConvexConnection",
+    "width": 48,
+    "height": 70,
+    "atlas": "sactx-0-2048x2048-ASTC 4x4-GameplayAtlas7-6715da1a.png",
+    "rect": [
+      0,
+      1246,
+      48,
+      70
+    ]
+  },
+  {
+    "file": "Textures/Walls/TopXRightConvexConnectionSecondary.png",
+    "role": "walls",
+    "sprite": "TopXRightConvexConnectionSecondary",
+    "width": 48,
+    "height": 12,
+    "atlas": "sactx-0-2048x2048-ASTC 4x4-GameplayAtlas7-6715da1a.png",
+    "rect": [
+      1179,
+      1093,
+      48,
+      12
+    ]
+  },
+  {
+    "file": "Textures/Walls/LeftY.png",
+    "role": "walls",
+    "sprite": "LeftY",
+    "width": 66,
+    "height": 48,
+    "atlas": "sactx-0-2048x2048-ASTC 4x4-GameplayAtlas7-6715da1a.png",
+    "rect": [
+      536,
+      690,
+      66,
+      48
+    ]
+  },
+  {
+    "file": "Textures/Walls/LeftY_s.png",
+    "role": "walls",
+    "sprite": "LeftY_s",
+    "width": 19,
+    "height": 48,
+    "atlas": "sactx-0-2048x2048-ASTC 4x4-GameplayAtlas7-6715da1a.png",
+    "rect": [
+      525,
+      1459,
+      19,
+      48
+    ]
+  },
+  {
+    "file": "Textures/Walls/LeftYBottomConvexConnection.png",
+    "role": "walls",
+    "sprite": "LeftYBottomConvexConnection",
+    "width": 66,
+    "height": 48,
+    "atlas": "sactx-0-2048x2048-ASTC 4x4-GameplayAtlas7-6715da1a.png",
+    "rect": [
+      80,
+      1340,
+      66,
+      48
+    ]
+  },
+  {
+    "file": "Textures/Walls/ConvexLeftBottom.png",
+    "role": "walls",
+    "sprite": "ConvexLeftBottom",
+    "width": 66,
+    "height": 74,
+    "atlas": "sactx-0-2048x2048-ASTC 4x4-GameplayAtlas7-6715da1a.png",
+    "rect": [
+      1385,
+      777,
+      66,
+      74
+    ]
+  },
+  {
+    "file": "Textures/Walls/ConvexLeftBottom_s.png",
+    "role": "walls",
+    "sprite": "ConvexLeftBottom_s",
+    "width": 85,
+    "height": 125,
+    "atlas": "sactx-0-2048x2048-ASTC 4x4-GameplayAtlas7-6715da1a.png",
+    "rect": [
+      651,
+      648,
+      85,
+      125
+    ]
+  },
+  {
+    "file": "Textures/Walls/ConvexLeftTop.png",
+    "role": "walls",
+    "sprite": "ConvexLeftTop",
+    "width": 66,
+    "height": 82,
+    "atlas": "sactx-0-2048x2048-ASTC 4x4-GameplayAtlas7-6715da1a.png",
+    "rect": [
+      1494,
+      559,
+      66,
+      82
+    ]
+  },
+  {
+    "file": "Textures/Walls/ConvexLeftTop_s.png",
+    "role": "walls",
+    "sprite": "ConvexLeftTop_s",
+    "width": 45,
+    "height": 82,
+    "atlas": "sactx-0-2048x2048-ASTC 4x4-GameplayAtlas7-6715da1a.png",
+    "rect": [
+      196,
+      943,
+      45,
+      82
+    ]
+  },
+  {
+    "file": "Textures/Walls/BottomXLeftConvexConnection.png",
+    "role": "walls",
+    "sprite": "BottomXLeftConvexConnection",
+    "width": 48,
+    "height": 82,
+    "atlas": "sactx-0-2048x2048-ASTC 4x4-GameplayAtlas7-6715da1a.png",
+    "rect": [
+      0,
+      989,
+      48,
+      82
+    ]
+  },
+  {
+    "file": "Textures/Walls/TopXLeftConvexConnection.png",
+    "role": "walls",
+    "sprite": "TopXLeftConvexConnection",
+    "width": 48,
+    "height": 70,
+    "atlas": "sactx-0-2048x2048-ASTC 4x4-GameplayAtlas7-6715da1a.png",
+    "rect": [
+      417,
+      989,
+      48,
+      70
+    ]
+  },
+  {
+    "file": "Textures/Walls/TopXLeftConvexConnectionSecondary.png",
+    "role": "walls",
+    "sprite": "TopXLeftConvexConnectionSecondary",
+    "width": 48,
+    "height": 12,
+    "atlas": "sactx-0-2048x2048-ASTC 4x4-GameplayAtlas7-6715da1a.png",
+    "rect": [
+      1259,
+      1050,
+      48,
+      12
+    ]
+  },
+  {
+    "file": "Textures/Walls/ConcaveLeftTop.png",
+    "role": "walls",
+    "sprite": "ConcaveLeftTop",
+    "width": 96,
+    "height": 84,
+    "atlas": "sactx-0-2048x2048-ASTC 4x4-GameplayAtlas7-6715da1a.png",
+    "rect": [
+      1216,
+      608,
+      96,
+      84
+    ]
+  },
+  {
+    "file": "Textures/Walls/ConcaveLeftTop Secondary.png",
+    "role": "walls",
+    "sprite": "ConcaveLeftTop Secondary",
+    "width": 96,
+    "height": 12,
+    "atlas": "sactx-0-2048x2048-ASTC 4x4-GameplayAtlas7-6715da1a.png",
+    "rect": [
+      336,
+      1485,
+      96,
+      12
+    ]
+  },
+  {
+    "file": "Textures/Walls/ConcaveLeftTop_s.png",
+    "role": "walls",
+    "sprite": "ConcaveLeftTop_s",
+    "width": 23,
+    "height": 14,
+    "atlas": "sactx-0-2048x2048-ASTC 4x4-GameplayAtlas7-6715da1a.png",
+    "rect": [
+      26,
+      1891,
+      23,
+      14
+    ]
+  },
+  {
+    "file": "Textures/Walls/ConcaveLeftBottom.png",
+    "role": "walls",
+    "sprite": "ConcaveLeftBottom",
+    "width": 96,
+    "height": 104,
+    "atlas": "sactx-0-2048x2048-ASTC 4x4-GameplayAtlas7-6715da1a.png",
+    "rect": [
+      921,
+      808,
+      96,
+      104
+    ]
+  },
+  {
+    "file": "Textures/Walls/ConcaveLeftBottom_s.png",
+    "role": "walls",
+    "sprite": "ConcaveLeftBottom_s",
+    "width": 30,
+    "height": 70,
+    "atlas": "sactx-0-2048x2048-ASTC 4x4-GameplayAtlas7-6715da1a.png",
+    "rect": [
+      405,
+      1265,
+      30,
+      70
+    ]
+  },
+  {
+    "file": "Textures/Walls/TopXLeftPatch.png",
+    "role": "walls",
+    "sprite": "TopXLeftPatch",
+    "width": 14,
+    "height": 12,
+    "atlas": "sactx-0-2048x2048-ASTC 4x4-GameplayAtlas7-6715da1a.png",
+    "rect": [
+      1419,
+      1039,
+      14,
+      12
+    ]
+  },
+  {
+    "file": "Textures/Walls/TopXLeftPatch_s.png",
+    "role": "walls",
+    "sprite": "TopXLeftPatch_s",
+    "width": 14,
+    "height": 12,
+    "atlas": "sactx-0-2048x2048-ASTC 4x4-GameplayAtlas7-6715da1a.png",
+    "rect": [
+      1802,
+      722,
+      14,
+      12
+    ]
+  },
+  {
+    "file": "Textures/Walls/TopXRightPatch.png",
+    "role": "walls",
+    "sprite": "TopXRightPatch",
+    "width": 14,
+    "height": 12,
+    "atlas": "sactx-0-2048x2048-ASTC 4x4-GameplayAtlas7-6715da1a.png",
+    "rect": [
+      517,
+      303,
+      14,
+      12
+    ]
+  },
+  {
+    "file": "Textures/Walls/TopXRightPatch_s.png",
+    "role": "walls",
+    "sprite": "TopXRightPatch_s",
+    "width": 14,
+    "height": 12,
+    "atlas": "sactx-0-2048x2048-ASTC 4x4-GameplayAtlas7-6715da1a.png",
+    "rect": [
+      1252,
+      1118,
+      14,
+      12
+    ]
+  },
+  {
+    "file": "Textures/Walls/BottomXLeftPatch.png",
+    "role": "walls",
+    "sprite": "BottomXLeftPatch",
+    "width": 8,
+    "height": 11,
+    "atlas": "sactx-0-2048x2048-ASTC 4x4-GameplayAtlas7-6715da1a.png",
+    "rect": [
+      366,
+      461,
+      8,
+      11
+    ]
+  },
+  {
+    "file": "Textures/Walls/BottomXRightPatch.png",
+    "role": "walls",
+    "sprite": "BottomXRightPatch",
+    "width": 8,
+    "height": 11,
+    "atlas": "sactx-0-2048x2048-ASTC 4x4-GameplayAtlas7-6715da1a.png",
+    "rect": [
+      829,
+      1372,
+      8,
+      11
+    ]
+  },
+  {
+    "file": "Textures/Walls/ConcaveRightBottomRadius.png",
+    "role": "walls",
+    "sprite": "ConcaveRightBottomRadius",
+    "width": 96,
+    "height": 104,
+    "atlas": "sactx-0-2048x2048-ASTC 4x4-GameplayAtlas7-6715da1a.png",
+    "rect": [
+      479,
+      890,
+      96,
+      104
+    ]
+  },
+  {
+    "file": "Textures/Walls/ConcaveRightBottomRadiusDown.png",
+    "role": "walls",
+    "sprite": "ConcaveRightBottomRadiusDown",
+    "width": 96,
+    "height": 104,
+    "atlas": "sactx-0-2048x2048-ASTC 4x4-GameplayAtlas7-6715da1a.png",
+    "rect": [
+      921,
+      916,
+      96,
+      104
+    ]
+  },
+  {
+    "file": "Textures/Walls/ConcaveRightBottomRadiusBoth.png",
+    "role": "walls",
+    "sprite": "ConcaveRightBottomRadiusBoth",
+    "width": 96,
+    "height": 104,
+    "atlas": "sactx-0-2048x2048-ASTC 4x4-GameplayAtlas7-6715da1a.png",
+    "rect": [
+      821,
+      843,
+      96,
+      104
+    ]
+  },
+  {
+    "file": "Textures/Walls/ConcaveRightTopRadius.png",
+    "role": "walls",
+    "sprite": "ConcaveRightTopRadius",
+    "width": 96,
+    "height": 84,
+    "atlas": "sactx-0-2048x2048-ASTC 4x4-GameplayAtlas7-6715da1a.png",
+    "rect": [
+      1180,
+      520,
+      96,
+      84
+    ]
+  },
+  {
+    "file": "Textures/Walls/ConcaveRightTopRadiusSecondary.png",
+    "role": "walls",
+    "sprite": "ConcaveRightTopRadiusSecondary",
+    "width": 96,
+    "height": 12,
+    "atlas": "sactx-0-2048x2048-ASTC 4x4-GameplayAtlas7-6715da1a.png",
+    "rect": [
+      470,
+      1348,
+      96,
+      12
+    ]
+  },
+  {
+    "file": "Textures/Walls/ConcaveLeftBottomRadius.png",
+    "role": "walls",
+    "sprite": "ConcaveLeftBottomRadius",
+    "width": 96,
+    "height": 104,
+    "atlas": "sactx-0-2048x2048-ASTC 4x4-GameplayAtlas7-6715da1a.png",
+    "rect": [
+      954,
+      0,
+      96,
+      104
+    ]
+  },
+  {
+    "file": "Textures/Walls/ConcaveLeftBottomRadiusDown.png",
+    "role": "walls",
+    "sprite": "ConcaveLeftBottomRadiusDown",
+    "width": 96,
+    "height": 104,
+    "atlas": "sactx-0-2048x2048-ASTC 4x4-GameplayAtlas7-6715da1a.png",
+    "rect": [
+      880,
+      446,
+      96,
+      104
+    ]
+  },
+  {
+    "file": "Textures/Walls/ConcaveLeftBottomRadiusBoth.png",
+    "role": "walls",
+    "sprite": "ConcaveLeftBottomRadiusBoth",
+    "width": 96,
+    "height": 104,
+    "atlas": "sactx-0-2048x2048-ASTC 4x4-GameplayAtlas7-6715da1a.png",
+    "rect": [
+      816,
+      735,
+      96,
+      104
+    ]
+  },
+  {
+    "file": "Textures/Walls/ConcaveLeftTopRadius.png",
+    "role": "walls",
+    "sprite": "ConcaveLeftTopRadius",
+    "width": 96,
+    "height": 84,
+    "atlas": "sactx-0-2048x2048-ASTC 4x4-GameplayAtlas7-6715da1a.png",
+    "rect": [
+      1116,
+      620,
+      96,
+      84
+    ]
+  },
+  {
+    "file": "Textures/Walls/ConcaveLeftTopRadiusSecondary.png",
+    "role": "walls",
+    "sprite": "ConcaveLeftTopRadiusSecondary",
+    "width": 96,
+    "height": 12,
+    "atlas": "sactx-0-2048x2048-ASTC 4x4-GameplayAtlas7-6715da1a.png",
+    "rect": [
+      823,
+      1107,
+      96,
+      12
+    ]
+  },
+  {
+    "file": "Textures/Shadows/HorizontalCellShadow.png",
+    "role": "shadows",
+    "sprite": "HorizontalCellShadow",
+    "width": 96,
+    "height": 96,
+    "atlas": "sactx-0-2048x2048-ASTC 4x4-GameplayAtlas7-6715da1a.png",
+    "rect": [
+      1180,
+      420,
+      96,
+      96
+    ]
+  },
+  {
+    "file": "Textures/Shadows/VerticalCellShadow.png",
+    "role": "shadows",
+    "sprite": "VerticalCellShadow",
+    "width": 96,
+    "height": 96,
+    "atlas": "sactx-0-2048x2048-ASTC 4x4-GameplayAtlas7-6715da1a.png",
+    "rect": [
+      1098,
+      320,
+      96,
+      96
+    ]
+  },
+  {
+    "file": "Textures/Shadows/ConvexRightBottomCellShadow.png",
+    "role": "shadows",
+    "sprite": "ConvexRightBottomCellShadow",
+    "width": 96,
+    "height": 96,
+    "atlas": "sactx-0-2048x2048-ASTC 4x4-GameplayAtlas7-6715da1a.png",
+    "rect": [
+      1280,
+      400,
+      96,
+      96
+    ]
+  },
+  {
+    "file": "Textures/Shadows/ConcaveRightTopCellShadow.png",
+    "role": "shadows",
+    "sprite": "ConcaveRightTopCellShadow",
+    "width": 96,
+    "height": 96,
+    "atlas": "sactx-0-2048x2048-ASTC 4x4-GameplayAtlas7-6715da1a.png",
+    "rect": [
+      1462,
+      0,
+      96,
+      96
+    ]
+  },
+  {
+    "file": "Textures/Shadows/ConcaveLeftTopDoorCellShadow.png",
+    "role": "shadows",
+    "sprite": "ConcaveLeftTopDoorCellShadow",
+    "width": 96,
+    "height": 96,
+    "atlas": "sactx-0-2048x2048-ASTC 4x4-GameplayAtlas7-6715da1a.png",
+    "rect": [
+      1175,
+      110,
+      96,
+      96
+    ]
+  },
+  {
+    "file": "Textures/Shadows/ConvexLeftBottomCellShadow.png",
+    "role": "shadows",
+    "sprite": "ConvexLeftBottomCellShadow",
+    "width": 96,
+    "height": 96,
+    "atlas": "sactx-0-2048x2048-ASTC 4x4-GameplayAtlas7-6715da1a.png",
+    "rect": [
+      1662,
+      0,
+      96,
+      96
+    ]
+  },
+  {
+    "file": "Textures/Shadows/ConcaveLeftTopConnection.png",
+    "role": "shadows",
+    "sprite": "ConcaveLeftTopConnection",
+    "width": 96,
+    "height": 96,
+    "atlas": "sactx-0-2048x2048-ASTC 4x4-GameplayAtlas7-6715da1a.png",
+    "rect": [
+      1275,
+      100,
+      96,
+      96
+    ]
+  },
+  {
+    "file": "Textures/Gates/black_exit_b_h.png",
+    "role": "gate",
+    "sprite": "black_exit_b_h",
+    "width": 12,
+    "height": 12,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      166,
+      975,
+      12,
+      12
+    ]
+  },
+  {
+    "file": "Textures/Gates/black_exit_f_h.png",
+    "role": "gate",
+    "sprite": "black_exit_f_h",
+    "width": 12,
+    "height": 70,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      988,
+      144,
+      12,
+      70
+    ]
+  },
+  {
+    "file": "Textures/Gates/black_exit_f_v.png",
+    "role": "gate",
+    "sprite": "black_exit_f_v",
+    "width": 66,
+    "height": 12,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      721,
+      923,
+      66,
+      12
+    ]
+  },
+  {
+    "file": "Textures/GateArrows/BlueDown.png",
+    "role": "direction_arrow",
+    "sprite": "BlueDown",
+    "width": 57,
+    "height": 41,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      150,
+      878,
+      57,
+      41
+    ]
+  },
+  {
+    "file": "Textures/GateArrows/BlueLeft.png",
+    "role": "direction_arrow",
+    "sprite": "BlueLeft",
+    "width": 36,
+    "height": 60,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      272,
+      789,
+      36,
+      60
+    ]
+  },
+  {
+    "file": "Textures/GateArrows/BlueRight.png",
+    "role": "direction_arrow",
+    "sprite": "BlueRight",
+    "width": 40,
+    "height": 65,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      213,
+      573,
+      40,
+      65
+    ]
+  },
+  {
+    "file": "Textures/GateArrows/BlueUp.png",
+    "role": "direction_arrow",
+    "sprite": "BlueUp",
+    "width": 65,
+    "height": 46,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      431,
+      432,
+      65,
+      46
+    ]
+  },
+  {
+    "file": "Textures/Gates/blue_exit_b_h.png",
+    "role": "gate",
+    "sprite": "blue_exit_b_h",
+    "width": 12,
+    "height": 12,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      944,
+      525,
+      12,
+      12
+    ]
+  },
+  {
+    "file": "Textures/Gates/blue_exit_f_h.png",
+    "role": "gate",
+    "sprite": "blue_exit_f_h",
+    "width": 12,
+    "height": 70,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      924,
+      687,
+      12,
+      70
+    ]
+  },
+  {
+    "file": "Textures/Gates/blue_exit_f_v.png",
+    "role": "gate",
+    "sprite": "blue_exit_f_v",
+    "width": 66,
+    "height": 12,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      754,
+      939,
+      66,
+      12
+    ]
+  },
+  {
+    "file": "Textures/GateArrows/DarkBlueDown.png",
+    "role": "direction_arrow",
+    "sprite": "DarkBlueDown",
+    "width": 57,
+    "height": 41,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      404,
+      551,
+      57,
+      41
+    ]
+  },
+  {
+    "file": "Textures/GateArrows/DarkBlueLeft.png",
+    "role": "direction_arrow",
+    "sprite": "DarkBlueLeft",
+    "width": 41,
+    "height": 65,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      90,
+      719,
+      41,
+      65
+    ]
+  },
+  {
+    "file": "Textures/GateArrows/DarkBlueRight.png",
+    "role": "direction_arrow",
+    "sprite": "DarkBlueRight",
+    "width": 40,
+    "height": 65,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      257,
+      607,
+      40,
+      65
+    ]
+  },
+  {
+    "file": "Textures/GateArrows/DarkBlueUp.png",
+    "role": "direction_arrow",
+    "sprite": "DarkBlueUp",
+    "width": 65,
+    "height": 46,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      362,
+      432,
+      65,
+      46
+    ]
+  },
+  {
+    "file": "Textures/Gates/darkblue_exit_b_h.png",
+    "role": "gate",
+    "sprite": "darkblue_exit_b_h",
+    "width": 12,
+    "height": 12,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      240,
+      500,
+      12,
+      12
+    ]
+  },
+  {
+    "file": "Textures/Gates/darkblue_exit_f_h.png",
+    "role": "gate",
+    "sprite": "darkblue_exit_f_h",
+    "width": 12,
+    "height": 70,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      895,
+      852,
+      12,
+      70
+    ]
+  },
+  {
+    "file": "Textures/Gates/darkblue_exit_f_v.png",
+    "role": "gate",
+    "sprite": "darkblue_exit_f_v",
+    "width": 66,
+    "height": 12,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      685,
+      972,
+      66,
+      12
+    ]
+  },
+  {
+    "file": "Textures/GateArrows/DarkGreenDown.png",
+    "role": "direction_arrow",
+    "sprite": "DarkGreenDown",
+    "width": 57,
+    "height": 41,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      211,
+      834,
+      57,
+      41
+    ]
+  },
+  {
+    "file": "Textures/GateArrows/DarkGreenLeft.png",
+    "role": "direction_arrow",
+    "sprite": "DarkGreenLeft",
+    "width": 41,
+    "height": 65,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      269,
+      538,
+      41,
+      65
+    ]
+  },
+  {
+    "file": "Textures/GateArrows/DarkGreenRight.png",
+    "role": "direction_arrow",
+    "sprite": "DarkGreenRight",
+    "width": 40,
+    "height": 64,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      179,
+      658,
+      40,
+      64
+    ]
+  },
+  {
+    "file": "Textures/GateArrows/DarkGreenUp.png",
+    "role": "direction_arrow",
+    "sprite": "DarkGreenUp",
+    "width": 65,
+    "height": 46,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      400,
+      282,
+      65,
+      46
+    ]
+  },
+  {
+    "file": "Textures/Gates/darkgreen_exit_b_h.png",
+    "role": "gate",
+    "sprite": "darkgreen_exit_b_h",
+    "width": 12,
+    "height": 12,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      202,
+      642,
+      12,
+      12
+    ]
+  },
+  {
+    "file": "Textures/Gates/darkgreen_exit_f_h.png",
+    "role": "gate",
+    "sprite": "darkgreen_exit_f_h",
+    "width": 12,
+    "height": 70,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      965,
+      377,
+      12,
+      70
+    ]
+  },
+  {
+    "file": "Textures/Gates/darkgreen_exit_f_v.png",
+    "role": "gate",
+    "sprite": "darkgreen_exit_f_v",
+    "width": 66,
+    "height": 12,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      824,
+      942,
+      66,
+      12
+    ]
+  },
+  {
+    "file": "Textures/GateArrows/GreenDown.png",
+    "role": "direction_arrow",
+    "sprite": "GreenDown",
+    "width": 57,
+    "height": 41,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      132,
+      788,
+      57,
+      41
+    ]
+  },
+  {
+    "file": "Textures/GateArrows/GreenLeft.png",
+    "role": "direction_arrow",
+    "sprite": "GreenLeft",
+    "width": 36,
+    "height": 60,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      319,
+      665,
+      36,
+      60
+    ]
+  },
+  {
+    "file": "Textures/GateArrows/GreenRight.png",
+    "role": "direction_arrow",
+    "sprite": "GreenRight",
+    "width": 40,
+    "height": 64,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      0,
+      853,
+      40,
+      64
+    ]
+  },
+  {
+    "file": "Textures/GateArrows/GreenUp.png",
+    "role": "direction_arrow",
+    "sprite": "GreenUp",
+    "width": 65,
+    "height": 46,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      0,
+      536,
+      65,
+      46
+    ]
+  },
+  {
+    "file": "Textures/Gates/green_exit_b_h.png",
+    "role": "gate",
+    "sprite": "green_exit_b_h",
+    "width": 12,
+    "height": 12,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      988,
+      218,
+      12,
+      12
+    ]
+  },
+  {
+    "file": "Textures/Gates/green_exit_f_h.png",
+    "role": "gate",
+    "sprite": "green_exit_f_h",
+    "width": 12,
+    "height": 70,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      908,
+      704,
+      12,
+      70
+    ]
+  },
+  {
+    "file": "Textures/Gates/green_exit_f_v.png",
+    "role": "gate",
+    "sprite": "green_exit_f_v",
+    "width": 66,
+    "height": 12,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      791,
+      923,
+      66,
+      12
+    ]
+  },
+  {
+    "file": "Textures/GateArrows/OrangeDown.png",
+    "role": "direction_arrow",
+    "sprite": "OrangeDown",
+    "width": 57,
+    "height": 41,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      259,
+      744,
+      57,
+      41
+    ]
+  },
+  {
+    "file": "Textures/GateArrows/OrangeLeft.png",
+    "role": "direction_arrow",
+    "sprite": "OrangeLeft",
+    "width": 41,
+    "height": 65,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      157,
+      589,
+      41,
+      65
+    ]
+  },
+  {
+    "file": "Textures/GateArrows/OrangeRight.png",
+    "role": "direction_arrow",
+    "sprite": "OrangeRight",
+    "width": 40,
+    "height": 64,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      44,
+      788,
+      40,
+      64
+    ]
+  },
+  {
+    "file": "Textures/GateArrows/OrangeUp.png",
+    "role": "direction_arrow",
+    "sprite": "OrangeUp",
+    "width": 65,
+    "height": 46,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      400,
+      332,
+      65,
+      46
+    ]
+  },
+  {
+    "file": "Textures/Gates/orange_exit_b_h.png",
+    "role": "gate",
+    "sprite": "orange_exit_b_h",
+    "width": 12,
+    "height": 12,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      862,
+      704,
+      12,
+      12
+    ]
+  },
+  {
+    "file": "Textures/Gates/orange_exit_f_h.png",
+    "role": "gate",
+    "sprite": "orange_exit_f_h",
+    "width": 12,
+    "height": 70,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      954,
+      216,
+      12,
+      70
+    ]
+  },
+  {
+    "file": "Textures/Gates/orange_exit_f_v.png",
+    "role": "gate",
+    "sprite": "orange_exit_f_v",
+    "width": 66,
+    "height": 12,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      940,
+      687,
+      66,
+      12
+    ]
+  },
+  {
+    "file": "Textures/GateArrows/PinkDown.png",
+    "role": "direction_arrow",
+    "sprite": "PinkDown",
+    "width": 57,
+    "height": 41,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      88,
+      901,
+      57,
+      41
+    ]
+  },
+  {
+    "file": "Textures/GateArrows/PinkLeft.png",
+    "role": "direction_arrow",
+    "sprite": "PinkLeft",
+    "width": 41,
+    "height": 65,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      314,
+      538,
+      41,
+      65
+    ]
+  },
+  {
+    "file": "Textures/GateArrows/PinkRight.png",
+    "role": "direction_arrow",
+    "sprite": "PinkRight",
+    "width": 40,
+    "height": 64,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      135,
+      663,
+      40,
+      64
+    ]
+  },
+  {
+    "file": "Textures/GateArrows/PinkUp.png",
+    "role": "direction_arrow",
+    "sprite": "PinkUp",
+    "width": 65,
+    "height": 46,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      182,
+      411,
+      65,
+      46
+    ]
+  },
+  {
+    "file": "Textures/Gates/pink_exit_b_h.png",
+    "role": "gate",
+    "sprite": "pink_exit_b_h",
+    "width": 12,
+    "height": 12,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      256,
+      500,
+      12,
+      12
+    ]
+  },
+  {
+    "file": "Textures/Gates/pink_exit_f_h.png",
+    "role": "gate",
+    "sprite": "pink_exit_f_h",
+    "width": 12,
+    "height": 70,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      911,
+      778,
+      12,
+      70
+    ]
+  },
+  {
+    "file": "Textures/Gates/pink_exit_f_v.png",
+    "role": "gate",
+    "sprite": "pink_exit_f_v",
+    "width": 66,
+    "height": 12,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      861,
+      926,
+      66,
+      12
+    ]
+  },
+  {
+    "file": "Textures/GateArrows/PurpleDown.png",
+    "role": "direction_arrow",
+    "sprite": "PurpleDown",
+    "width": 57,
+    "height": 41,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      301,
+      620,
+      57,
+      41
+    ]
+  },
+  {
+    "file": "Textures/GateArrows/PurpleLeft.png",
+    "role": "direction_arrow",
+    "sprite": "PurpleLeft",
+    "width": 41,
+    "height": 65,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      363,
+      482,
+      41,
+      65
+    ]
+  },
+  {
+    "file": "Textures/GateArrows/PurpleRight.png",
+    "role": "direction_arrow",
+    "sprite": "PurpleRight",
+    "width": 40,
+    "height": 64,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      408,
+      482,
+      40,
+      64
+    ]
+  },
+  {
+    "file": "Textures/GateArrows/PurpleUp.png",
+    "role": "direction_arrow",
+    "sprite": "PurpleUp",
+    "width": 65,
+    "height": 46,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      293,
+      394,
+      65,
+      46
+    ]
+  },
+  {
+    "file": "Textures/Gates/purple_exit_b_h.png",
+    "role": "gate",
+    "sprite": "purple_exit_b_h",
+    "width": 12,
+    "height": 12,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      958,
+      703,
+      12,
+      12
+    ]
+  },
+  {
+    "file": "Textures/Gates/purple_exit_f_h.png",
+    "role": "gate",
+    "sprite": "purple_exit_f_h",
+    "width": 12,
+    "height": 70,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      892,
+      704,
+      12,
+      70
+    ]
+  },
+  {
+    "file": "Textures/Gates/purple_exit_f_v.png",
+    "role": "gate",
+    "sprite": "purple_exit_f_v",
+    "width": 66,
+    "height": 12,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      113,
+      285,
+      66,
+      12
+    ]
+  },
+  {
+    "file": "Textures/GateArrows/RedDown.png",
+    "role": "direction_arrow",
+    "sprite": "RedDown",
+    "width": 58,
+    "height": 41,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      197,
+      744,
+      58,
+      41
+    ]
+  },
+  {
+    "file": "Textures/GateArrows/RedLeft.png",
+    "role": "direction_arrow",
+    "sprite": "RedLeft",
+    "width": 41,
+    "height": 65,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      0,
+      716,
+      41,
+      65
+    ]
+  },
+  {
+    "file": "Textures/GateArrows/RedRight.png",
+    "role": "direction_arrow",
+    "sprite": "RedRight",
+    "width": 40,
+    "height": 64,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      223,
+      676,
+      40,
+      64
+    ]
+  },
+  {
+    "file": "Textures/GateArrows/RedUp.png",
+    "role": "direction_arrow",
+    "sprite": "RedUp",
+    "width": 65,
+    "height": 46,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      431,
+      382,
+      65,
+      46
+    ]
+  },
+  {
+    "file": "Textures/Gates/red_exit_b_h.png",
+    "role": "gate",
+    "sprite": "red_exit_b_h",
+    "width": 12,
+    "height": 12,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      910,
+      953,
+      12,
+      12
+    ]
+  },
+  {
+    "file": "Textures/Gates/red_exit_f_h.png",
+    "role": "gate",
+    "sprite": "red_exit_f_h",
+    "width": 12,
+    "height": 70,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      863,
+      807,
+      12,
+      70
+    ]
+  },
+  {
+    "file": "Textures/Gates/red_exit_f_v.png",
+    "role": "gate",
+    "sprite": "red_exit_f_v",
+    "width": 66,
+    "height": 12,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      685,
+      956,
+      66,
+      12
+    ]
+  },
+  {
+    "file": "Textures/Floor/TiledCell.png",
+    "role": "floor",
+    "sprite": "TiledCell",
+    "width": 96,
+    "height": 96,
+    "atlas": "sactx-0-2048x2048-ASTC 4x4-GameplayAtlas7-6715da1a.png",
+    "rect": [
+      1562,
+      0,
+      96,
+      96
+    ]
+  },
+  {
+    "file": "Textures/GateArrows/TurqoiseDown.png",
+    "role": "direction_arrow",
+    "sprite": "TurqoiseDown",
+    "width": 57,
+    "height": 41,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      211,
+      789,
+      57,
+      41
+    ]
+  },
+  {
+    "file": "Textures/GateArrows/TurqoiseLeft.png",
+    "role": "direction_arrow",
+    "sprite": "TurqoiseLeft",
+    "width": 41,
+    "height": 65,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      359,
+      551,
+      41,
+      65
+    ]
+  },
+  {
+    "file": "Textures/GateArrows/TurqoiseRight.png",
+    "role": "direction_arrow",
+    "sprite": "TurqoiseRight",
+    "width": 40,
+    "height": 64,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      0,
+      785,
+      40,
+      64
+    ]
+  },
+  {
+    "file": "Textures/GateArrows/TurqoiseUp.png",
+    "role": "direction_arrow",
+    "sprite": "TurqoiseUp",
+    "width": 65,
+    "height": 46,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      0,
+      486,
+      65,
+      46
+    ]
+  },
+  {
+    "file": "Textures/Gates/turqois_exit_b_h.png",
+    "role": "gate",
+    "sprite": "turqois_exit_b_h",
+    "width": 12,
+    "height": 12,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      937,
+      307,
+      12,
+      12
+    ]
+  },
+  {
+    "file": "Textures/Gates/turqois_exit_f_h.png",
+    "role": "gate",
+    "sprite": "turqois_exit_f_h",
+    "width": 12,
+    "height": 70,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      895,
+      778,
+      12,
+      70
+    ]
+  },
+  {
+    "file": "Textures/Gates/turqois_exit_f_v.png",
+    "role": "gate",
+    "sprite": "turqois_exit_f_v",
+    "width": 66,
+    "height": 12,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      911,
+      852,
+      66,
+      12
+    ]
+  },
+  {
+    "file": "Textures/Walls/wall_behind_shadow.png",
+    "role": "wall",
+    "sprite": "wall behind shadow",
+    "width": 99,
+    "height": 5,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-GameplayAtlas3-f5f07473.png",
+    "rect": [
+      788,
+      370,
+      99,
+      5
+    ]
+  },
+  {
+    "file": "Textures/Walls/wall_behind.png",
+    "role": "wall",
+    "sprite": "wall behind",
+    "width": 98,
+    "height": 19,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-GameplayAtlas3-f5f07473.png",
+    "rect": [
+      649,
+      394,
+      98,
+      19
+    ]
+  },
+  {
+    "file": "Textures/Walls/wall_front_bottom.png",
+    "role": "wall",
+    "sprite": "wall front bottom",
+    "width": 98,
+    "height": 17,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-GameplayAtlas3-f5f07473.png",
+    "rect": [
+      671,
+      239,
+      98,
+      17
+    ]
+  },
+  {
+    "file": "Textures/Walls/wall_front_top.png",
+    "role": "wall",
+    "sprite": "wall front top",
+    "width": 98,
+    "height": 27,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-GameplayAtlas3-f5f07473.png",
+    "rect": [
+      547,
+      416,
+      98,
+      27
+    ]
+  },
+  {
+    "file": "Textures/Walls/wall_front.png",
+    "role": "wall",
+    "sprite": "wall front",
+    "width": 98,
+    "height": 38,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-GameplayAtlas3-f5f07473.png",
+    "rect": [
+      363,
+      938,
+      98,
+      38
+    ]
+  },
+  {
+    "file": "Textures/Walls/wall_left_shadow.png",
+    "role": "wall",
+    "sprite": "wall left shadow",
+    "width": 10,
+    "height": 120,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-GameplayAtlas3-f5f07473.png",
+    "rect": [
+      748,
+      260,
+      10,
+      120
+    ]
+  },
+  {
+    "file": "Textures/Walls/wall_left.png",
+    "role": "wall",
+    "sprite": "wall left",
+    "width": 17,
+    "height": 120,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-GameplayAtlas3-f5f07473.png",
+    "rect": [
+      579,
+      552,
+      17,
+      120
+    ]
+  },
+  {
+    "file": "Textures/Walls/wall_right_shadow.png",
+    "role": "wall",
+    "sprite": "wall right shadow",
+    "width": 10,
+    "height": 120,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-GameplayAtlas3-f5f07473.png",
+    "rect": [
+      557,
+      799,
+      10,
+      120
+    ]
+  },
+  {
+    "file": "Textures/Walls/wall_right.png",
+    "role": "wall",
+    "sprite": "wall right",
+    "width": 17,
+    "height": 120,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-GameplayAtlas3-f5f07473.png",
+    "rect": [
+      768,
+      115,
+      17,
+      120
+    ]
+  },
+  {
+    "file": "Textures/Gates/white_exit_b_h.png",
+    "role": "gate",
+    "sprite": "white_exit_b_h",
+    "width": 12,
+    "height": 12,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      894,
+      953,
+      12,
+      12
+    ]
+  },
+  {
+    "file": "Textures/Gates/white_exit_f_h.png",
+    "role": "gate",
+    "sprite": "white_exit_f_h",
+    "width": 12,
+    "height": 70,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      879,
+      807,
+      12,
+      70
+    ]
+  },
+  {
+    "file": "Textures/Gates/white_exit_f_v.png",
+    "role": "gate",
+    "sprite": "white_exit_f_v",
+    "width": 66,
+    "height": 12,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      937,
+      291,
+      66,
+      12
+    ]
+  },
+  {
+    "file": "Textures/GateArrows/YellowDown.png",
+    "role": "direction_arrow",
+    "sprite": "YellowDown",
+    "width": 57,
+    "height": 41,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      150,
+      833,
+      57,
+      41
+    ]
+  },
+  {
+    "file": "Textures/GateArrows/YellowLeft.png",
+    "role": "direction_arrow",
+    "sprite": "YellowLeft",
+    "width": 36,
+    "height": 59,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      320,
+      729,
+      36,
+      59
+    ]
+  },
+  {
+    "file": "Textures/GateArrows/YellowRight.png",
+    "role": "direction_arrow",
+    "sprite": "YellowRight",
+    "width": 40,
+    "height": 64,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      88,
+      788,
+      40,
+      64
+    ]
+  },
+  {
+    "file": "Textures/GateArrows/YellowUp.png",
+    "role": "direction_arrow",
+    "sprite": "YellowUp",
+    "width": 65,
+    "height": 46,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      400,
+      232,
+      65,
+      46
+    ]
+  },
+  {
+    "file": "Textures/Gates/yellow_exit_b_h.png",
+    "role": "gate",
+    "sprite": "yellow_exit_b_h",
+    "width": 12,
+    "height": 12,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      469,
+      359,
+      12,
+      12
+    ]
+  },
+  {
+    "file": "Textures/Gates/yellow_exit_f_h.png",
+    "role": "gate",
+    "sprite": "yellow_exit_f_h",
+    "width": 12,
+    "height": 70,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      949,
+      377,
+      12,
+      70
+    ]
+  },
+  {
+    "file": "Textures/Gates/yellow_exit_f_v.png",
+    "role": "gate",
+    "sprite": "yellow_exit_f_v",
+    "width": 66,
+    "height": 12,
+    "atlas": "sactx-0-1024x1024-ASTC 4x4-CommonNineSliceAtlas-ffe7aa9e.png",
+    "rect": [
+      595,
+      989,
+      66,
+      12
+    ]
+  }
+]

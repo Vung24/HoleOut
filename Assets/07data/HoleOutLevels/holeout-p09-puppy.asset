@@ -1,0 +1,591 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87e1c988461dd8f448b57509c0c4ba6a, type: 3}
+  m_Name: holeout-p09-puppy
+  m_EditorClassIdentifier: HoleOut.Runtime::HoleOut.Runtime.HoleOutLevelSO
+  displayName: "C\xFAn n\xE2u"
+  source: p09-puppy.txt
+  visuals: {fileID: 0}
+  data:
+    levelId: holeout-p09-puppy
+    grid:
+    - YYYYYYYYYYYYYYYYYY
+    - YYYYYYYYYYYYYYYYYY
+    - YYTTTYYYYYYYYTTTYY
+    - YTTTTTOOOOOOTTTTTY
+    - YTTTTOOOOOOOOTTTTY
+    - YTTTOOOOOOOOOOTTTY
+    - YTTTOODDOOOODDOTTY
+    - YYTTOODDOOOODDOTYY
+    - YYTTOOOOOOOOOOOTYY
+    - IIITOOOWWWWWOOOIII
+    - IIIIOOWWDDDWWOOIII
+    - IIIIOOWWDDDWWOOIII
+    - IIIIOOWWWWWWWOOIII
+    - IIIIIOOWWRWWOOIIII
+    - IIIIIIOOWRWOOIIIII
+    - IIIIIIIOOOOOIIIIII
+    - IIIIIIIIIIIIIIIIII
+    - IIIIIIIIIIIIIIIIII
+    displayMode: 1
+    visibleRows: 18
+    pictureScale: 1
+    dockSlots: 4
+    waves:
+    - blocks:
+      - id: 0
+        gx: 1
+        gy: 2
+        w: 1
+        h: 2
+        shape: 0
+        color: O
+        capacity: 75
+        mystery: 0
+      - id: 1
+        gx: 4
+        gy: 0
+        w: 1
+        h: 1
+        shape: 0
+        color: R
+        capacity: 2
+        mystery: 0
+      - id: 2
+        gx: 0
+        gy: 3
+        w: 1
+        h: 1
+        shape: 0
+        color: T
+        capacity: 6
+        mystery: 0
+      - id: 3
+        gx: 4
+        gy: 3
+        w: 1
+        h: 1
+        shape: 0
+        color: W
+        capacity: 26
+        mystery: 0
+      - id: 4
+        gx: 1
+        gy: 0
+        w: 1
+        h: 1
+        shape: 0
+        color: Y
+        capacity: 64
+        mystery: 0
+      - id: 5
+        gx: 3
+        gy: 1
+        w: 2
+        h: 2
+        shape: 0
+        color: I
+        capacity: 83
+        mystery: 0
+      - id: 6
+        gx: 2
+        gy: 2
+        w: 1
+        h: 1
+        shape: 0
+        color: D
+        capacity: 14
+        mystery: 0
+      - id: 7
+        gx: 5
+        gy: 2
+        w: 1
+        h: 1
+        shape: 0
+        color: T
+        capacity: 21
+        mystery: 0
+      - id: 8
+        gx: 2
+        gy: 0
+        w: 1
+        h: 1
+        shape: 0
+        color: T
+        capacity: 15
+        mystery: 0
+      - id: 9
+        gx: 5
+        gy: 1
+        w: 1
+        h: 1
+        shape: 0
+        color: O
+        capacity: 5
+        mystery: 0
+      - id: 10
+        gx: 5
+        gy: 0
+        w: 1
+        h: 1
+        shape: 0
+        color: I
+        capacity: 13
+        mystery: 0
+    gates:
+    - color: D
+      side: 0
+      start: 1
+      len: 1
+    - color: I
+      side: 1
+      start: 3
+      len: 2
+    - color: O
+      side: 0
+      start: 3
+      len: 2
+    - color: R
+      side: 3
+      start: 3
+      len: 1
+    - color: T
+      side: 3
+      start: 1
+      len: 1
+    - color: W
+      side: 1
+      start: 0
+      len: 1
+    - color: Y
+      side: 0
+      start: 5
+      len: 1
+  charScale: 0
+  tutorialFirstDrag: 0
+  solution:
+    levelId: holeout-p09-puppy
+    dataVersion: 1365006206
+    verifiedMode: 1
+    seed: 1
+    steps:
+    - kind: 0
+      block: 3
+      path:
+      - x: 5
+        y: 3
+      door: 0
+    - kind: 0
+      block: 4
+      path:
+      - x: 0
+        y: 0
+      door: 0
+    - kind: 0
+      block: 5
+      path:
+      - x: 3
+        y: 2
+      door: 0
+    - kind: 0
+      block: 6
+      path:
+      - x: 2
+        y: 3
+      door: 0
+    - kind: 0
+      block: 8
+      path:
+      - x: 1
+        y: 0
+      door: 0
+    - kind: 1
+      block: 0
+      path:
+      - x: 1
+        y: 1
+      - x: 2
+        y: 1
+      - x: 2
+        y: 0
+      - x: 3
+        y: 0
+      door: 0
+    - kind: 0
+      block: 5
+      path:
+      - x: 3
+        y: 1
+      door: 0
+    - kind: 0
+      block: 3
+      path:
+      - x: 4
+        y: 3
+      door: 0
+    - kind: 0
+      block: 3
+      path:
+      - x: 3
+        y: 3
+      door: 0
+    - kind: 0
+      block: 5
+      path:
+      - x: 2
+        y: 1
+      door: 0
+    - kind: 1
+      block: 1
+      path:
+      - x: 4
+        y: 1
+      - x: 4
+        y: 2
+      - x: 4
+        y: 3
+      - x: 5
+        y: 3
+      door: 3
+    - kind: 0
+      block: 5
+      path:
+      - x: 2
+        y: 0
+      door: 0
+    - kind: 0
+      block: 7
+      path:
+      - x: 5
+        y: 3
+      door: 0
+    - kind: 0
+      block: 9
+      path:
+      - x: 5
+        y: 2
+      door: 0
+    - kind: 1
+      block: 2
+      path:
+      - x: 0
+        y: 2
+      - x: 1
+        y: 2
+      - x: 2
+        y: 2
+      - x: 3
+        y: 2
+      - x: 4
+        y: 2
+      - x: 4
+        y: 1
+      - x: 5
+        y: 1
+      door: 3
+    - kind: 0
+      block: 3
+      path:
+      - x: 3
+        y: 2
+      door: 0
+    - kind: 0
+      block: 3
+      path:
+      - x: 2
+        y: 2
+      door: 0
+    - kind: 1
+      block: 5
+      path:
+      - x: 3
+        y: 0
+      - x: 3
+        y: 1
+      - x: 3
+        y: 2
+      door: 1
+    - kind: 1
+      block: 3
+      path:
+      - x: 1
+        y: 2
+      - x: 1
+        y: 3
+      - x: 0
+        y: 3
+      door: 1
+    - kind: 0
+      block: 10
+      path:
+      - x: 5
+        y: 1
+      door: 0
+    - kind: 1
+      block: 4
+      path:
+      - x: 0
+        y: 1
+      - x: 1
+        y: 1
+      - x: 2
+        y: 1
+      - x: 2
+        y: 0
+      - x: 3
+        y: 0
+      - x: 4
+        y: 0
+      - x: 5
+        y: 0
+      door: 0
+    - kind: 0
+      block: 8
+      path:
+      - x: 2
+        y: 0
+      door: 0
+    - kind: 1
+      block: 6
+      path:
+      - x: 2
+        y: 2
+      - x: 2
+        y: 1
+      - x: 1
+        y: 1
+      - x: 1
+        y: 0
+      door: 0
+    - kind: 0
+      block: 10
+      path:
+      - x: 5
+        y: 0
+      door: 0
+    - kind: 1
+      block: 7
+      path:
+      - x: 4
+        y: 3
+      - x: 4
+        y: 2
+      - x: 4
+        y: 1
+      - x: 5
+        y: 1
+      door: 3
+    - kind: 1
+      block: 8
+      path:
+      - x: 3
+        y: 0
+      - x: 4
+        y: 0
+      - x: 4
+        y: 1
+      - x: 5
+        y: 1
+      door: 3
+    - kind: 1
+      block: 9
+      path:
+      - x: 5
+        y: 1
+      - x: 4
+        y: 1
+      - x: 4
+        y: 0
+      door: 0
+    - kind: 1
+      block: 10
+      path:
+      - x: 5
+        y: 1
+      - x: 5
+        y: 2
+      - x: 5
+        y: 3
+      - x: 4
+        y: 3
+      door: 1
+  lastReplay: "Ch\u01B0a \u0111\u1EA1t c\u1EA5p Th\u01B0\u1EDDng sau 3 l\u1EA7n th\u1EED;
+    gi\u1EEF b\u1EA3n kh\xF3 nh\u1EA5t (\u0111o \u0111\u01B0\u1EE3c: D\u1EC5). B\u1EA5m
+    \"Th\u1EED c\xE1ch kh\xE1c\" ho\u1EB7c d\xF9ng tranh nhi\u1EC1u m\xE0u h\u01A1n.
+    11 kh\u1ED1i, 28 b\u01B0\u1EDBc, ch\u01A1i l\u1EA1i 3 l\u1EA7n \u0111\u1EC1u
+    th\u1EAFng. Ch\u1ECDn b\u1EEBa th\u1EAFng 28% \xB7 b\u1EABy sai s\u1ED1 0 \xB7
+    ch\u01A1i tham thua 0/4."
+  targetTier: "Th\u01B0\u1EDDng"
+  lastReport:
+    solvable: 1
+    robust: 1
+    searchExhausted: 0
+    referenceSource: solution
+    referenceOrder: 000000000100000002000000050000000300000004000000060000000700000008000000090000000a000000
+    randomSamples: 300
+    randomWins: 84
+    greedy:
+    - policy: 0
+      won: 1
+      launched: 11
+    - policy: 1
+      won: 1
+      launched: 11
+    - policy: 2
+      won: 1
+      launched: 11
+    - policy: 3
+      won: 1
+      launched: 11
+    greedyLosses: 0
+    wrongCapacityTraps: 0
+    wrongCapacityTrapsWave1: 0
+    boardAnalyzed: 1
+    boardError: 
+    baitSteps: 1
+    totalUnlockMoves: 17
+    longestBreather: 7
+    steps:
+    - blockId: 0
+      wave: 0
+      color: O
+      capacity: 75
+      wrongCapacityTraps: 0
+      losingChoices: 0
+      choices: 11
+      directBlocks: 0
+      baitBlocks: 0
+      wrongCapacityBait: 0
+      unlockMoves: 5
+      freeSlotsAfter: 3
+    - blockId: 1
+      wave: 0
+      color: R
+      capacity: 2
+      wrongCapacityTraps: 0
+      losingChoices: 0
+      choices: 10
+      directBlocks: 2
+      baitBlocks: 0
+      wrongCapacityBait: 0
+      unlockMoves: 4
+      freeSlotsAfter: 2
+    - blockId: 2
+      wave: 0
+      color: T
+      capacity: 6
+      wrongCapacityTraps: 0
+      losingChoices: 0
+      choices: 9
+      directBlocks: 2
+      baitBlocks: 0
+      wrongCapacityBait: 0
+      unlockMoves: 3
+      freeSlotsAfter: 1
+    - blockId: 5
+      wave: 0
+      color: I
+      capacity: 83
+      wrongCapacityTraps: 0
+      losingChoices: 6
+      choices: 8
+      directBlocks: 5
+      baitBlocks: 4
+      wrongCapacityBait: 0
+      unlockMoves: 2
+      freeSlotsAfter: 4
+    - blockId: 3
+      wave: 0
+      color: W
+      capacity: 26
+      wrongCapacityTraps: 0
+      losingChoices: 0
+      choices: 7
+      directBlocks: 4
+      baitBlocks: 0
+      wrongCapacityBait: 0
+      unlockMoves: 0
+      freeSlotsAfter: 4
+    - blockId: 4
+      wave: 0
+      color: Y
+      capacity: 64
+      wrongCapacityTraps: 0
+      losingChoices: 0
+      choices: 6
+      directBlocks: 4
+      baitBlocks: 0
+      wrongCapacityBait: 0
+      unlockMoves: 1
+      freeSlotsAfter: 4
+    - blockId: 6
+      wave: 0
+      color: D
+      capacity: 14
+      wrongCapacityTraps: 0
+      losingChoices: 0
+      choices: 5
+      directBlocks: 2
+      baitBlocks: 0
+      wrongCapacityBait: 0
+      unlockMoves: 1
+      freeSlotsAfter: 4
+    - blockId: 7
+      wave: 0
+      color: T
+      capacity: 21
+      wrongCapacityTraps: 0
+      losingChoices: 0
+      choices: 4
+      directBlocks: 2
+      baitBlocks: 0
+      wrongCapacityBait: 0
+      unlockMoves: 1
+      freeSlotsAfter: 4
+    - blockId: 8
+      wave: 0
+      color: T
+      capacity: 15
+      wrongCapacityTraps: 0
+      losingChoices: 0
+      choices: 3
+      directBlocks: 2
+      baitBlocks: 0
+      wrongCapacityBait: 0
+      unlockMoves: 0
+      freeSlotsAfter: 4
+    - blockId: 9
+      wave: 0
+      color: O
+      capacity: 5
+      wrongCapacityTraps: 0
+      losingChoices: 0
+      choices: 2
+      directBlocks: 1
+      baitBlocks: 0
+      wrongCapacityBait: 0
+      unlockMoves: 0
+      freeSlotsAfter: 4
+    - blockId: 10
+      wave: 0
+      color: I
+      capacity: 13
+      wrongCapacityTraps: 0
+      losingChoices: 0
+      choices: 1
+      directBlocks: 0
+      baitBlocks: 0
+      wrongCapacityBait: 0
+      unlockMoves: 0
+      freeSlotsAfter: 4
+    notes: []
+  lastReportVersion: 1365006206

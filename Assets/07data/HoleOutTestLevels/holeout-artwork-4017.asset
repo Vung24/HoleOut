@@ -1,0 +1,197 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87e1c988461dd8f448b57509c0c4ba6a, type: 3}
+  m_Name: holeout-artwork-4017
+  m_EditorClassIdentifier: HoleOut.Runtime::HoleOut.Runtime.HoleOutLevelSO
+  displayName: Tranh 4017
+  source: Artwork4017.json
+  visuals: {fileID: 11400000, guid: e3d3f06897d09644e85767db0e778b87, type: 2}
+  data:
+    levelId: artwork-4017
+    grid:
+    - OOOOOOOOOOODKKDOOOOOOOOOO
+    - OOOOOOOODDDKKKKDDDOOOOOOO
+    - OOOOOODKKKKKKKKKKKKDOOOOO
+    - OOOODKKGGKKKKKKKKGGKKDOOO
+    - OOOODKGKKKKKDDKKKKKGKDOOO
+    - OOODKKKKKGGGDDGGGKKKKKDOO
+    - OOODKKKKGGDYYYYDGGKKKKDOO
+    - OODDKKGGDYYYCYYYYDGGKKDOO
+    - ODKKKGGDYYYYYYYYYYDGGKKDO
+    - DDKKGGDYYYYYYYYCYYYDGGKKO
+    - KKKGGDYYYCYCYYCYYYYYDGGKD
+    - KGGGDYYYYYYYYYYYCYYYYDGGK
+    - GDDDYYYYCYCYCYYCYCYCYYDDG
+    - DOOODYYYYYYYYYCYCYYYYDOOD
+    - OOOODYYCYCYYCYYYYYCYYDOOO
+    - OOOODYCYYYCYYCYYCYYYYDOOO
+    - OOOOODYYYYYCYYCYYYYYDOOOO
+    - OOOOODYCYCYYCYYYCYCYDOOOO
+    - OOOOODYYCYYYYYCYYYYYDOOOO
+    - OOOOODYCYYCYCYYCYYCYDOOOO
+    - OOOOOODYYYYCYYYYCYYDOOOOO
+    - OOOOOOODYYYYCYCYYYDOOOOOO
+    - OOOOOOOODYYCYYYYYDOOOOOOO
+    - OOOOOOOOODDYCCYDDOOOOOOOO
+    - OOOOOOOOOOODDDDOOOOOOOOOO
+    displayMode: 1
+    visibleRows: 25
+    pictureScale: 1
+    dockSlots: 6
+    waves:
+    - blocks:
+      - id: 1
+        gx: 0
+        gy: 1
+        w: 2
+        h: 1
+        shape: 0
+        color: D
+        capacity: 77
+        mystery: 0
+      - id: 2
+        gx: 2
+        gy: 1
+        w: 2
+        h: 1
+        shape: 0
+        color: G
+        capacity: 39
+        mystery: 0
+      - id: 3
+        gx: 4
+        gy: 1
+        w: 2
+        h: 1
+        shape: 0
+        color: O
+        capacity: 210
+        mystery: 0
+      - id: 4
+        gx: 0
+        gy: 2
+        w: 2
+        h: 1
+        shape: 0
+        color: Y
+        capacity: 177
+        mystery: 0
+      - id: 5
+        gx: 2
+        gy: 2
+        w: 2
+        h: 1
+        shape: 0
+        color: K
+        capacity: 79
+        mystery: 0
+      - id: 6
+        gx: 4
+        gy: 2
+        w: 2
+        h: 1
+        shape: 0
+        color: C
+        capacity: 43
+        mystery: 0
+    gates:
+    - color: D
+      side: 0
+      start: 0
+      len: 2
+    - color: G
+      side: 0
+      start: 2
+      len: 2
+    - color: O
+      side: 0
+      start: 4
+      len: 2
+    - color: Y
+      side: 1
+      start: 0
+      len: 2
+    - color: K
+      side: 1
+      start: 2
+      len: 2
+    - color: C
+      side: 1
+      start: 4
+      len: 2
+  charScale: 0
+  tutorialFirstDrag: 0
+  tutorialFirstScroll: 0
+  solution:
+    levelId: artwork-4017
+    dataVersion: 1
+    verifiedMode: 1
+    seed: 1
+    steps:
+    - kind: 1
+      block: 1
+      path:
+      - x: 0
+        y: 0
+      door: 0
+    - kind: 1
+      block: 2
+      path:
+      - x: 2
+        y: 0
+      door: 0
+    - kind: 1
+      block: 3
+      path:
+      - x: 4
+        y: 0
+      door: 0
+    - kind: 1
+      block: 4
+      path:
+      - x: 0
+        y: 3
+      door: 1
+    - kind: 1
+      block: 5
+      path:
+      - x: 2
+        y: 3
+      door: 1
+    - kind: 1
+      block: 6
+      path:
+      - x: 4
+        y: 3
+      door: 1
+  lastReplay: "\u0110\u1EA1t: 6 b\u01B0\u1EDBc, 51.9s m\xF4 ph\u1ECFng"
+  targetTier: "Kh\xF3"
+  lastReport:
+    solvable: 0
+    robust: 0
+    searchExhausted: 0
+    referenceSource: 
+    referenceOrder: 
+    randomSamples: 0
+    randomWins: 0
+    greedy: []
+    greedyLosses: 0
+    wrongCapacityTraps: 0
+    wrongCapacityTrapsWave1: 0
+    boardAnalyzed: 0
+    boardError: 
+    baitSteps: 0
+    totalUnlockMoves: 0
+    longestBreather: 0
+    steps: []
+    notes: []
+  lastReportVersion: 0

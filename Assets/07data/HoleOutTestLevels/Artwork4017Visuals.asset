@@ -1,0 +1,309 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb980268816921949b0e1908f7663b15, type: 3}
+  m_Name: Artwork4017Visuals
+  m_EditorClassIdentifier: HoleOut.Runtime::HoleOut.Runtime.HoleOutVisualsSO
+  agentPrefab: {fileID: 6717283315118137911, guid: fe7f851daa7628d45a64202285b5cf71, type: 3}
+  holePrefab: {fileID: 1893836145920697725, guid: 0fdfb4d7570f76844bbd377b090e96dd, type: 3}
+  dockSlotPrefab: {fileID: 1505181053122850527, guid: 34d25d9fd37953e428fc863648754a0c, type: 3}
+  holeCompleteEffect: {fileID: 6502610416432887424, guid: 7a4b40e1ffd934b4f810d6b0ce52e08e, type: 3}
+  boardPrefab: {fileID: 1317052195947344600, guid: 4a2da31cf29097d4d8736fa3030221e1, type: 3}
+  blockPrefab: {fileID: 2236351037494940508, guid: 3d1ff999f30e1804788d138f8660fa76, type: 3}
+  boardBlocks:
+  - {fileID: 3542095728429169849, guid: 8401e1a9a3e056c4e95b6c2214f6af2f, type: 3}
+  - {fileID: 2121884848308847448, guid: 45ff7b0d32a93314ba7227fa263825c3, type: 3}
+  - {fileID: 5679760393879925246, guid: d055f013963c80a459b88c1d1ad1bf6d, type: 3}
+  - {fileID: 5694565884620777911, guid: e579ae5d3615c9a449292f94f0b88027, type: 3}
+  - {fileID: 5517069500923151932, guid: 0ed034a40ede66c46b22c91bab996172, type: 3}
+  lBoardBlock: {fileID: 6545985027718697565, guid: c790359772f75d749b01c169fc6f0220, type: 3}
+  pictureTrayPrefab: {fileID: 7390997624617061415, guid: 3a6b0ce238ae4264f880ad764bd27c3d, type: 3}
+  dockTrayPrefab: {fileID: 975423153183571583, guid: 97baa6efb28119145b662e9de563bce0, type: 3}
+  useSeatedMaterial: 1
+  pictureCellFill: 1.08
+  pictureCellDepthRatio: 1
+  pictureCellTilt: 0
+  pictureCellHeight: 0.95
+  pictureColorSoftness: 0.08
+  intro:
+    sideBand: 0.33
+    bandJitter: 0.12
+    offscreenMargin: 1.5
+    streamSpread: 1.5
+    startDelayMax: 0.2
+    runMin: 0.6
+    runMax: 1.1
+    hold: {x: 0.03, y: 0.12}
+    sitDuration: 0.15
+    sway: 0.6
+    hopHeight: 0.16
+    stepRate: 4.5
+  dockHoleFill: 0.68
+  dockSocketFill: 0.72
+  dockFlightHeight: 0.9
+  dockWarnColor: {r: 0.55, g: 0.14, b: 0.2, a: 1}
+  dockWarnStrength: 0.7
+  holeCatchPunch: 0.1
+  holeCatchSparks: 5
+  holeCatchSparkSpeed: 2.2
+  holeCatchSparkSize: 0.14
+  holeCatchSparkMesh: {fileID: 10200, guid: 0000000000000000e000000000000000, type: 0}
+  holeCatchSparkMaterial: {fileID: 2100000, guid: ce59de1fff5adce4792b06c817954275, type: 2}
+  font: {fileID: 11400000, guid: 34d9942093d53ad44964362e1269469e, type: 2}
+  boardMaterial: {fileID: 2100000, guid: 0623f8f4c3dee814093b5e0ee5bc8d68, type: 2}
+  pictureMaterial: {fileID: 2100000, guid: d7563697fd5efa04bab5cfcca2aa4f7c, type: 2}
+  showPictureTrayFill: 1
+  groundMaterial: {fileID: 2100000, guid: 4864f50d8cb333e4683f25b918f8e91c, type: 2}
+  groundTint: {r: 0.28, g: 0.28, b: 0.34, a: 1}
+  trayMaterial: {fileID: 2100000, guid: 6839c5922db36664dae9966c528d4353, type: 2}
+  rimMaterial: {fileID: 2100000, guid: 8541c9c66e48e864892de853ca0276db, type: 2}
+  gateDragHighlight: 0.3
+  blockLiftDuration: 0.1
+  blockLiftBounce: 1.6
+  blockSettleSharpness: 28
+  boardCellSprite: {fileID: 21300000, guid: 5068c2368c33b4b7f7cf3a8002d309b3, type: 3}
+  roundedSprite: {fileID: 21300000, guid: 9052aab1ed9d6894dbc47e42cb037e31, type: 2}
+  backgroundColor: {r: 0.133, g: 0.173, b: 0.416, a: 1}
+  colors:
+  - code: D
+    color: {r: 0.2509804, g: 0.24705882, b: 0.2509804, a: 1}
+    agent: {fileID: 2100000, guid: 0f0f18b04d72397408d2b0c6b7f6bd1b, type: 2}
+    seated: {fileID: 2100000, guid: 1ba30b9e573cada41b2720186096730e, type: 2}
+    hole: {fileID: 2100000, guid: 98bf11a4a4c1d6f4ca194081bebcbde6, type: 2}
+    holeStencil: {fileID: 2100000, guid: db54780dba5958c4c9638baf1be9690c, type: 2}
+    holeDoors:
+    - {fileID: 2100000, guid: b6a71f43d0dc3214f87f18bb1ce29fb7, type: 2}
+    - {fileID: 2100000, guid: d132e4dc1aaf97c4abfeccfe2f637039, type: 2}
+    - {fileID: 2100000, guid: 720abce679888b948a632982a10c5158, type: 2}
+    holeCylinder:
+    - {fileID: 2100000, guid: a442365b5fd13c24b8ec5a043811c547, type: 2}
+    - {fileID: 2100000, guid: d4b6f632949daec4b8087f2ec383711a, type: 2}
+    - {fileID: 2100000, guid: 1dcdef526a42f7a49b333b5a71482e37, type: 2}
+    - {fileID: 2100000, guid: 9492e86e8e1144340b16411f044f214a, type: 2}
+    gateBarX: {fileID: 21300000, guid: 578e559dd4459343bbeafdab9e3b5b94, type: 3}
+    gateBarZ: {fileID: 21300000, guid: 5eb7a8d33c273c8e852d3d6437ffe4de, type: 3}
+    arrowUp: {fileID: 0}
+    arrowDown: {fileID: 0}
+    arrowLeft: {fileID: 0}
+    arrowRight: {fileID: 0}
+    blockParts:
+    - {fileID: 21300000, guid: 48b65ae1a1ba5ee61acca3b419991c7a, type: 3}
+    - {fileID: 21300000, guid: 18a6bc211eb738962272d0d349fb56a3, type: 3}
+    - {fileID: 21300000, guid: 07e47607d7e15874ff62515702304a3f, type: 3}
+    - {fileID: 21300000, guid: f247692765e10811676d0cb4c68fab38, type: 3}
+    - {fileID: 21300000, guid: 258ed3c5d551cbfefc9a2e66f36bdd3f, type: 3}
+    - {fileID: 21300000, guid: 84f8960b00f9ea94f7c4b42b79b0df6f, type: 3}
+    - {fileID: 21300000, guid: 13cef428843d7b9df6bef6565138e1aa, type: 3}
+    - {fileID: 21300000, guid: 4019d829c45d24152755ea166ec5ab20, type: 3}
+    - {fileID: 21300000, guid: 5aae41347379f523454dad04e9153835, type: 3}
+    - {fileID: 21300000, guid: 9dceed0205e7cc17a778a05e0874380b, type: 3}
+    - {fileID: 21300000, guid: 6f79c00affcc626911c39791d6ff289a, type: 3}
+    - {fileID: 21300000, guid: 3e41c7094a624cc7d25e105a5a126bb6, type: 3}
+    - {fileID: 21300000, guid: 00ca50df1e40c2a7f2cb5ffcca761894, type: 3}
+    - {fileID: 21300000, guid: 457db2376c583e49bdfd64c3b26d5b5a, type: 3}
+    - {fileID: 21300000, guid: e6722b148a01a51c7b09ad2b5f691dd2, type: 3}
+    - {fileID: 21300000, guid: 27354079c5b73ad90b2c3e0af1e07231, type: 3}
+    blockTint: {r: 0.2509804, g: 0.24705882, b: 0.2509804, a: 1}
+  - code: G
+    color: {r: 0.45490196, g: 0.7882353, b: 0.15294118, a: 1}
+    agent: {fileID: 2100000, guid: 5e00c781130343942a27fcc9313bde5d, type: 2}
+    seated: {fileID: 2100000, guid: 7db4d72b36477ab41b7a94190bf714f0, type: 2}
+    hole: {fileID: 2100000, guid: c2c6af6fa96475e45a16850a1991709f, type: 2}
+    holeStencil: {fileID: 2100000, guid: c39366d8c5ebbe549b77fad4beea4b60, type: 2}
+    holeDoors:
+    - {fileID: 2100000, guid: e69d74fbf6c95344087bdec7ede8d820, type: 2}
+    - {fileID: 2100000, guid: b2a7e671082027f4a889b1666301625f, type: 2}
+    - {fileID: 2100000, guid: 7c53baef51c31174188549e25d51e26a, type: 2}
+    holeCylinder:
+    - {fileID: 2100000, guid: f7a6d439464d438498a52e5862de1b2b, type: 2}
+    - {fileID: 2100000, guid: a0afda6d25a49294eac3737615f195e1, type: 2}
+    - {fileID: 2100000, guid: 3b53fab819e2d8a41aa11c93b0c757e8, type: 2}
+    - {fileID: 2100000, guid: 9a7df2421d9c6c64e827dcd6a7fe4f75, type: 2}
+    gateBarX: {fileID: 21300000, guid: e25156749f714e055eab4dad7ae743fa, type: 3}
+    gateBarZ: {fileID: 21300000, guid: ee52056c3fcd5594d8a9e5472d719ffe, type: 3}
+    arrowUp: {fileID: 21300000, guid: e616e5d1531d63c7fdccc348030f9b01, type: 3}
+    arrowDown: {fileID: 21300000, guid: c7e2e68ba3198d0d396c4970e46ae71e, type: 3}
+    arrowLeft: {fileID: 21300000, guid: 100c0c48bc3ea4a0fe997c99b5fa49e2, type: 3}
+    arrowRight: {fileID: 21300000, guid: d6cdac0aa118456d211e39147f543987, type: 3}
+    blockParts:
+    - {fileID: 21300000, guid: 9b37cdcfa4fe3e75d49b5b75f97cbac4, type: 3}
+    - {fileID: 21300000, guid: f600e9d8efb9ddf3cc04eb9042c4706d, type: 3}
+    - {fileID: 21300000, guid: 2237be98f309acb5364b51984f0a7139, type: 3}
+    - {fileID: 21300000, guid: d4e561abf4b1d3e5f0c5105b232e3d61, type: 3}
+    - {fileID: 21300000, guid: a33378d0ad197bd50de852f2857a4681, type: 3}
+    - {fileID: 21300000, guid: b858047bca58486336e7b9f5c0e3dfd9, type: 3}
+    - {fileID: 21300000, guid: 89114fcf330d1c3c196288443c39727e, type: 3}
+    - {fileID: 21300000, guid: 83107ef2031de268d50e5fd91f85f87e, type: 3}
+    - {fileID: 21300000, guid: 0fe99ab60e7f126e93bff61a8c628573, type: 3}
+    - {fileID: 21300000, guid: c368b528e9cee8576f831f35876dc358, type: 3}
+    - {fileID: 21300000, guid: a35d174aef298f20653724af064d4bb6, type: 3}
+    - {fileID: 21300000, guid: fe2c2de306ab38cadb01592c02b184c5, type: 3}
+    - {fileID: 21300000, guid: d3bda67a2718cd67aaf8528e955db5fb, type: 3}
+    - {fileID: 21300000, guid: 1527c0d4b415ece92037eb20f7e1bd3c, type: 3}
+    - {fileID: 21300000, guid: 598b6eb76e4b289081eb2c86df84a53b, type: 3}
+    - {fileID: 21300000, guid: 214decffa557e470502df12de678beab, type: 3}
+    blockTint: {r: 0.45490196, g: 0.7882353, b: 0.15294118, a: 1}
+  - code: O
+    color: {r: 1, g: 0.5019608, b: 0, a: 1}
+    agent: {fileID: 2100000, guid: 790d9d8b1a40ad94a804b2362e1489fc, type: 2}
+    seated: {fileID: 2100000, guid: 736d9c54746495943904d59339ae0ecb, type: 2}
+    hole: {fileID: 2100000, guid: 8154c70c44605194a8178f57bde050f1, type: 2}
+    holeStencil: {fileID: 2100000, guid: a27c7be83476e9144a9fe53ee86872a7, type: 2}
+    holeDoors:
+    - {fileID: 2100000, guid: ed9ef37f16294e14199194eda9ec5c13, type: 2}
+    - {fileID: 2100000, guid: a4bc562a705f6a54080c40a285e704a1, type: 2}
+    - {fileID: 2100000, guid: 4dc4fb1fcdfc2f546a4daf180d91d651, type: 2}
+    holeCylinder:
+    - {fileID: 2100000, guid: 161454f5c8d1dc246b8404101cbe5d85, type: 2}
+    - {fileID: 2100000, guid: 62547d46533b72b42963db86a19e8e52, type: 2}
+    - {fileID: 2100000, guid: 99feb622da9af6d41afc299a7c16254a, type: 2}
+    - {fileID: 2100000, guid: 6a02e92d6893e6644a99d638664e8b2b, type: 2}
+    gateBarX: {fileID: 21300000, guid: 799d5b3ddecf353af8ddfa70516d7a97, type: 3}
+    gateBarZ: {fileID: 21300000, guid: f7ea67c8f96c36296662e3959e0997a5, type: 3}
+    arrowUp: {fileID: 21300000, guid: 5edd143cf9315c206afd96a140b05036, type: 3}
+    arrowDown: {fileID: 21300000, guid: 3ec01381733437a0e7980d10e26f505e, type: 3}
+    arrowLeft: {fileID: 21300000, guid: 9e05687f840321b8a01d612ac4c911ef, type: 3}
+    arrowRight: {fileID: 21300000, guid: 59adb131e445356af084a6f5a5cdc8de, type: 3}
+    blockParts:
+    - {fileID: 21300000, guid: 50f177f699d6b88aa1682880d1d6ac0a, type: 3}
+    - {fileID: 21300000, guid: 3f1b0d4062793992cedcaff395d61c81, type: 3}
+    - {fileID: 21300000, guid: 26c64e9d388631f459a8299c1679febe, type: 3}
+    - {fileID: 21300000, guid: 3c8e4a315aee3b8be1b09c9afb975b08, type: 3}
+    - {fileID: 21300000, guid: 282fc163f5518caff0f870d725963ad8, type: 3}
+    - {fileID: 21300000, guid: cb375149a1b71403cccd710fbe60f2f8, type: 3}
+    - {fileID: 21300000, guid: ae37d58c978d2e7080cf17700467a5b9, type: 3}
+    - {fileID: 21300000, guid: a019984bda0a9ec71e753b262ca003d4, type: 3}
+    - {fileID: 21300000, guid: 1ae29019b0bdf23286f418eaabb5d4e3, type: 3}
+    - {fileID: 21300000, guid: 46e876061524097852daf0a9ab42db53, type: 3}
+    - {fileID: 21300000, guid: c9a0811056ea15db8c999662f402523e, type: 3}
+    - {fileID: 21300000, guid: 442c49608ad800118221241d6b5493bd, type: 3}
+    - {fileID: 21300000, guid: f46e6c112a445bdb55b2b91fe2977e37, type: 3}
+    - {fileID: 21300000, guid: f5b45df66249f9bd9d2af6612c3b3480, type: 3}
+    - {fileID: 21300000, guid: e2a7347f994624165326117aa007b263, type: 3}
+    - {fileID: 21300000, guid: 1cdbf364173e1ee13333f3a2b40daf62, type: 3}
+    blockTint: {r: 1, g: 0.5019608, b: 0, a: 1}
+  - code: Y
+    color: {r: 0.96862745, g: 0.8235294, b: 0.019607844, a: 1}
+    agent: {fileID: 2100000, guid: 59d899e03342ac24e8f6a5634936af4c, type: 2}
+    seated: {fileID: 2100000, guid: fe63f3ec1cc6c5449a417a20055b3eb9, type: 2}
+    hole: {fileID: 2100000, guid: efe4c34f07205714eac93a86079721e6, type: 2}
+    holeStencil: {fileID: 2100000, guid: c7dfe8526b9b44049bcf98bfa8c25b8c, type: 2}
+    holeDoors:
+    - {fileID: 2100000, guid: 0f07f8394a0db6d42b5e30ef32285df7, type: 2}
+    - {fileID: 2100000, guid: 0f8a9f961b6185049b1296c7dd846ff0, type: 2}
+    - {fileID: 2100000, guid: 0532d875c3189f04f9943b8b4ad946d4, type: 2}
+    holeCylinder:
+    - {fileID: 2100000, guid: bfc91deb0f17acd4ea72ca60347d8b20, type: 2}
+    - {fileID: 2100000, guid: 525d1181b1997904181f3ff2d89f5118, type: 2}
+    - {fileID: 2100000, guid: 90d985793e3c9ad498b7af4cec22c1f0, type: 2}
+    - {fileID: 2100000, guid: d046a4e36647a5c4a8b9fb4e7dcc3a31, type: 2}
+    gateBarX: {fileID: 21300000, guid: 2dbad1e7e45ad090302530f02539aea6, type: 3}
+    gateBarZ: {fileID: 21300000, guid: a28c564c1e31cf7ef7573c785e0e2477, type: 3}
+    arrowUp: {fileID: 21300000, guid: c306850e225df74b1187c26b3b95b322, type: 3}
+    arrowDown: {fileID: 21300000, guid: 5bbb7ccda38363de03585a25ffd733e2, type: 3}
+    arrowLeft: {fileID: 21300000, guid: 860853fd3b4a894a88ac295d59a98969, type: 3}
+    arrowRight: {fileID: 21300000, guid: c94637f32f5d968cd2ecbbfb2c10af00, type: 3}
+    blockParts:
+    - {fileID: 21300000, guid: 641d1d2d2212579ecddfaaebcce1e40f, type: 3}
+    - {fileID: 21300000, guid: 2f65b50d795dfbcbd0607fb329ecb460, type: 3}
+    - {fileID: 21300000, guid: 628b209984d09d4ecd56ff6c08749f4e, type: 3}
+    - {fileID: 21300000, guid: 77cb1c7fd053afc4a36445f697db7ec7, type: 3}
+    - {fileID: 21300000, guid: 57b6b432d3aae67efff32507512f6267, type: 3}
+    - {fileID: 21300000, guid: b0d6e621f053c4fb7e654a8ab661deee, type: 3}
+    - {fileID: 21300000, guid: 1c8fdeed3fc71870af60bef676d4fd45, type: 3}
+    - {fileID: 21300000, guid: 740aa92beb873a382fef322ae66d141d, type: 3}
+    - {fileID: 21300000, guid: 9d61a0c080c52200c4a1a664905e6f7f, type: 3}
+    - {fileID: 21300000, guid: d124280dc641a39b9007cd69463407ad, type: 3}
+    - {fileID: 21300000, guid: 40f58e1fb41e4a92af7dfb645babef56, type: 3}
+    - {fileID: 21300000, guid: 01ac72bf40e45e9d27507d8c5b06945c, type: 3}
+    - {fileID: 21300000, guid: 1b1cd6f30f53a64018f0beb855c3ab01, type: 3}
+    - {fileID: 21300000, guid: 2c87bc40ba85d329211176e7708c8826, type: 3}
+    - {fileID: 21300000, guid: c65b22be1b886a064ad7d5b028d380dd, type: 3}
+    - {fileID: 21300000, guid: 36cb365eaba38f74e8930679a8a6959f, type: 3}
+    blockTint: {r: 0.96862745, g: 0.8235294, b: 0.019607844, a: 1}
+  - code: K
+    color: {r: 0.023529412, g: 0.49803922, b: 0.07450981, a: 1}
+    agent: {fileID: 2100000, guid: a4f607c856b5427409e438fa75cc7231, type: 2}
+    seated: {fileID: 2100000, guid: b14b0d13d48317d4ca3acc7e77ca4aaf, type: 2}
+    hole: {fileID: 2100000, guid: b2c54230ae603804a9ff7dd25fdd6b45, type: 2}
+    holeStencil: {fileID: 2100000, guid: ecdcb260a8c137d43bfffaadbd12df78, type: 2}
+    holeDoors:
+    - {fileID: 2100000, guid: eac61093e2989e741862d31636ef7b2d, type: 2}
+    - {fileID: 2100000, guid: 43f99f40724f5414081276376959bc14, type: 2}
+    - {fileID: 2100000, guid: d3ed463a5087a7842b143af152974e21, type: 2}
+    holeCylinder:
+    - {fileID: 2100000, guid: 0f85e3f6bd9edb04da44fddcc75df3dc, type: 2}
+    - {fileID: 2100000, guid: 2b30cfe16f3e3af4e91a9be0176571de, type: 2}
+    - {fileID: 2100000, guid: 32a23459a075b5b4392d4118fc3f75e0, type: 2}
+    - {fileID: 2100000, guid: 438c280664a270e4da8d9a2d4833d8d2, type: 2}
+    gateBarX: {fileID: 21300000, guid: 57c3355d4d1b898a0f87a782c7fd2474, type: 3}
+    gateBarZ: {fileID: 21300000, guid: 9cb7b0058a13e733f71834251bf385a2, type: 3}
+    arrowUp: {fileID: 21300000, guid: 054492182ca24fb430b204c175c6ca44, type: 3}
+    arrowDown: {fileID: 21300000, guid: 6ed6cf38c6f8aa9153587d14086d5922, type: 3}
+    arrowLeft: {fileID: 21300000, guid: abd92fd71588faa4af345b1e561851d0, type: 3}
+    arrowRight: {fileID: 21300000, guid: 29f9423cb37fe2e67173cd19f5e6b6f0, type: 3}
+    blockParts:
+    - {fileID: 21300000, guid: 955351a33cc878ed9ad802993a5dc181, type: 3}
+    - {fileID: 21300000, guid: 65a6b7f1b398dfb2587cc17270035fa9, type: 3}
+    - {fileID: 21300000, guid: 31557ae80c905f4a8ddbbbb42e6bca4a, type: 3}
+    - {fileID: 21300000, guid: 6a71b965aa8f994b7ba7cf7a7432323f, type: 3}
+    - {fileID: 21300000, guid: 2ee8796f3250d0e7602e19b9e26c4460, type: 3}
+    - {fileID: 21300000, guid: e98c54e771c14a88c51aa43ab4918fd1, type: 3}
+    - {fileID: 21300000, guid: b0ac3808f4fa0df906ee3ddede300824, type: 3}
+    - {fileID: 21300000, guid: ddb1ee935674e67810b5862527ef6203, type: 3}
+    - {fileID: 21300000, guid: 31491182844f32ff301593987e363064, type: 3}
+    - {fileID: 21300000, guid: 082c80b054ceb2de29682113b20a5611, type: 3}
+    - {fileID: 21300000, guid: 08ebe04d7eb90823ac4762f0ab67086c, type: 3}
+    - {fileID: 21300000, guid: 65a92b48470612c707142e764ff10655, type: 3}
+    - {fileID: 21300000, guid: d3f7594161b5575c7de79deaac4cf628, type: 3}
+    - {fileID: 21300000, guid: 7fa79acb8870fd642dcde9549fcc7e5a, type: 3}
+    - {fileID: 21300000, guid: fe00d6ff970fc3b57b74e9bdc8856482, type: 3}
+    - {fileID: 21300000, guid: b1debebc90418de145d1b0db1bffe9e5, type: 3}
+    blockTint: {r: 0.023529412, g: 0.49803922, b: 0.07450981, a: 1}
+  - code: C
+    color: {r: 0.89411765, g: 0.78431374, b: 0.5686275, a: 1}
+    agent: {fileID: 2100000, guid: 8a52331e670ad2c4db8a6dd3675483c5, type: 2}
+    seated: {fileID: 2100000, guid: c6c5c688a94807d47ab297424de602d1, type: 2}
+    hole: {fileID: 2100000, guid: 707d811d8a0f05045812050bba136026, type: 2}
+    holeStencil: {fileID: 2100000, guid: 5f6ebe8f04a135d4194f188175bbff5a, type: 2}
+    holeDoors:
+    - {fileID: 2100000, guid: 93219e7559bd99741af5978a5441c56b, type: 2}
+    - {fileID: 2100000, guid: 37b455632ef50854992aba0e44e8f405, type: 2}
+    - {fileID: 2100000, guid: 995f78920b23e334a8f205109ba99335, type: 2}
+    holeCylinder:
+    - {fileID: 2100000, guid: d29564bbc165ada4cb751c5e99cf8837, type: 2}
+    - {fileID: 2100000, guid: 8f5429189269c214f8c09ff7309889a8, type: 2}
+    - {fileID: 2100000, guid: 1af2c60e49eedc2428ab5cb89e1b6e56, type: 2}
+    - {fileID: 2100000, guid: 804fa0149a38c9943a4d1564fca419cc, type: 2}
+    gateBarX: {fileID: 21300000, guid: 744ba1fd19eab1e27c3cd1b424f30408, type: 3}
+    gateBarZ: {fileID: 21300000, guid: 17d66c0e16fcf7fe381190af2731edd9, type: 3}
+    arrowUp: {fileID: 0}
+    arrowDown: {fileID: 0}
+    arrowLeft: {fileID: 0}
+    arrowRight: {fileID: 0}
+    blockParts:
+    - {fileID: 21300000, guid: d44bdaca8545ee4138ddd34d44b96776, type: 3}
+    - {fileID: 21300000, guid: 5b70c1203ff32080dc9336bc593b0d47, type: 3}
+    - {fileID: 21300000, guid: f5700a4f89dcc3dff6b222716d8a8162, type: 3}
+    - {fileID: 21300000, guid: 18759c592dfb82f03881d0454c363e62, type: 3}
+    - {fileID: 21300000, guid: 2b9518dca47db4de63065dcb4726f2e4, type: 3}
+    - {fileID: 21300000, guid: ef374766b924e9532239f3baa5593da5, type: 3}
+    - {fileID: 21300000, guid: 3f81d24cb6ac3823f5fe7b86a4afe54b, type: 3}
+    - {fileID: 21300000, guid: 8ef404eeb1609a61bb5dda5d47b198f0, type: 3}
+    - {fileID: 21300000, guid: d387210394f283dbd47b6ce0a4b4bf00, type: 3}
+    - {fileID: 21300000, guid: ab4bd475719e9770e47ac0081c428dce, type: 3}
+    - {fileID: 21300000, guid: b11b1ccedf452510b9898ab1d1846912, type: 3}
+    - {fileID: 21300000, guid: 28c52ab79d6f5beebd9045a83a810317, type: 3}
+    - {fileID: 21300000, guid: 8643886de29a243cade40dac0ae67d4d, type: 3}
+    - {fileID: 21300000, guid: d0daa148011bd15a035d5059f6e4da9f, type: 3}
+    - {fileID: 21300000, guid: e79ea3918b3812760535b6d44234caa2, type: 3}
+    - {fileID: 21300000, guid: 713313e50b849339657ab16cd1777fc4, type: 3}
+    blockTint: {r: 0.89411765, g: 0.78431374, b: 0.5686275, a: 1}
