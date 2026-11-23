@@ -14,6 +14,7 @@ namespace HoleOut.Runtime
         readonly Camera _camera;
         readonly GameHud _hud;
         Vector2Int _fittedScreen;
+        Rect _fittedSafeArea;
         readonly System.Collections.Generic.List<Vector3> _corners = new System.Collections.Generic.List<Vector3>();
 
         public CameraFitter(Camera camera, GameHud hud)
@@ -22,13 +23,15 @@ namespace HoleOut.Runtime
             _hud = hud;
         }
 
-        public bool ScreenChanged => Screen.width != _fittedScreen.x || Screen.height != _fittedScreen.y;
+        public bool ScreenChanged => Screen.width != _fittedScreen.x || Screen.height != _fittedScreen.y
+            || Screen.safeArea != _fittedSafeArea;
 
         /// <summary>Chiếu 8 góc khung lên mặt phẳng camera, rồi chọn cỡ ortho và vị trí theo vùng trống.</summary>
         public void Fit(GameView view, float pitch)
         {
             if (_camera == null || view == null) return;
             _fittedScreen = new Vector2Int(Screen.width, Screen.height);
+            _fittedSafeArea = Screen.safeArea;
             _camera.orthographic = true;
             var rot = Quaternion.Euler(pitch, 0, 0);
             var inv = Quaternion.Inverse(rot);

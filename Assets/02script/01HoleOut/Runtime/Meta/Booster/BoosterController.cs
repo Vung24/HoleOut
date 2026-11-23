@@ -47,6 +47,8 @@ namespace HoleOut.Runtime
             _view = view;
             _levelNumber = levelNumber;
             _pending = null;
+            _notice = null;
+            _noticeUntil = 0;
         }
 
         public void CancelPending() => _pending = null;
@@ -94,25 +96,41 @@ namespace HoleOut.Runtime
             if (!IsUnlocked(s) || !CanUse(type)) return;
             if (BoosterInventory.Count(s) <= 0)
             {
-                // Hết lượt: mua một lượt bằng coin rồi dùng luôn.
                 int price = PriceOf(type);
                 if (price <= 0) return;
-                if (!CoinWallet.Shared.TrySpend(price))
+                var simulation = _sim;
+                _pending = null;
+                _hud.ShowBoosterPurchase(type, price, CoinWallet.Shared.Balance >= price, () =>
                 {
-                    _notice = $"Cần {price} coin";
-                    _noticeUntil = Time.unscaledTime + 2f;
-                    return;
-                }
-                BoosterInventory.Set(type, 1);            }
+                    if (_sim != simulation || !CanUse(type)) return;
+                    if (BoosterInventory.Count(s) <= 0)
+                    {
+                        if (!CoinWallet.Shared.TrySpend(price))
+                        {
+                            _notice = $"Cần {price} coin";
+                            _noticeUntil = Time.unscaledTime + 2f;
+                            return;
+                        }
+                        BoosterInventory.Set(type, 1);
+                    }
+                    Activate(s);
+                });
+                return;
+            }
+            Activate(s);
+        }
+
+        void Activate(BoosterSettings s)
+        {
             _input.Cancel(_sim);
 
-            if (type == BoosterType.ExtraSlot)
+            if (s.type == BoosterType.ExtraSlot)
             {
                 if (_sim.TryAddSlot()) BoosterInventory.TryConsume(s);
                 _pending = null;
                 return;
             }
-            _pending = type;
+            _pending = s.type;
         }
 
         /// <summary>Chạm khi booster chờ mục tiêu. Chạm trượt mục tiêu giữ nguyên lượt chọn.</summary>

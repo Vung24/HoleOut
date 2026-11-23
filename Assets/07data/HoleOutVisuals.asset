@@ -49,7 +49,7 @@ MonoBehaviour:
     hopHeight: 0.16
     stepRate: 4.5
   dockHoleFill: 0.68
-  dockSocketFill: 0.72
+  dockSocketFill: 0.62
   dockFlightHeight: 0.9
   dockWarnColor: {r: 0.55, g: 0.14, b: 0.2, a: 1}
   dockWarnStrength: 0.7

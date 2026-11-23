@@ -43,14 +43,26 @@ namespace HoleOut.Runtime
 
         public void ShowBoosterUnlocked(BoosterType type)
         {
-            string body = type switch
+            Show("Booster mới!", DescribeBooster(type), "Đã hiểu", true, Hide, null, null);
+        }
+
+        public void ShowBoosterPurchase(BoosterType type, int price, bool affordable, Action onPurchase)
+        {
+            string priceText = affordable ? $"Giá: {price} coin." : $"Cần {price} coin để mua.";
+            Show("Mua thêm lượt", $"{DescribeBooster(type)}\n{priceText}", "Mua", affordable, () =>
+            {
+                Hide();
+                onPurchase();
+            }, "Đóng", Hide);
+        }
+
+        static string DescribeBooster(BoosterType type) =>
+            type switch
             {
                 BoosterType.Lift => "Nhấc khối: chạm một khối để đưa thẳng ra cổng cùng màu.",
                 BoosterType.ExtraSlot => "Thêm khay: mở thêm một chỗ trên khay chờ.",
                 _ => "Nam châm: chạm một hố trên khay để hút ngay nhân vật cùng màu."
             };
-            Show("Booster mới!", body, "Đã hiểu", true, Hide, null, null);
-        }
 
         public void ShowWaves(int waveCount)
         {

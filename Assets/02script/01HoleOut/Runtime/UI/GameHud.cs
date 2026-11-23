@@ -21,11 +21,14 @@ namespace HoleOut.Runtime
         [SerializeField] Sprite _multiWavePill;
         Sprite _defaultPill;
         [SerializeField] RectTransform _topBarBottom, _bottomBar, _safe;
+        [SerializeField] Image _pictureProgressFill;
+        [SerializeField] TMP_Text _pictureProgressText;
         [SerializeField] SettingsView _settingsView = new();
         [SerializeField] BoosterBar _boosterBar = new();
         [SerializeField] GameplayPopup _gameplayPopup = new();
 
         static readonly Vector3[] Corners = new Vector3[4];
+        int _shownPercent = -1;
 
         public bool PanelVisible => _gameplayPopup.Visible;
         public bool BlocksBoardInput => PanelVisible || _settingsView.Visible;
@@ -44,6 +47,17 @@ namespace HoleOut.Runtime
             string label = "Màn " + levelNumber;
             if (_level.text != label) _level.text = label;
             _settingsView.SetLevel(label);
+        }
+
+        public void SetPictureProgress(int completed, int total)
+        {
+            float fraction = total > 0 ? Mathf.Clamp01((float)completed / total) : 0f;
+            int percent = total > 0 ? (int)(100L * Mathf.Clamp(completed, 0, total) / total) : 0;
+            if (_pictureProgressFill && _pictureProgressFill.fillAmount != fraction)
+                _pictureProgressFill.fillAmount = fraction;
+            if (_shownPercent == percent) return;
+            _shownPercent = percent;
+            if (_pictureProgressText) _pictureProgressText.SetText("{0}%", percent);
         }
 
         /// <summary>Đổi nền ô tên màn theo số đợt; báo popup khi vào màn nhiều đợt nếu chưa có popup khác.</summary>
@@ -80,6 +94,12 @@ namespace HoleOut.Runtime
         {
             _settingsView.Hide();
             _gameplayPopup.ShowBoosterUnlocked(type);
+        }
+
+        public void ShowBoosterPurchase(BoosterType type, int price, bool affordable, Action onPurchase)
+        {
+            _settingsView.Hide();
+            _gameplayPopup.ShowBoosterPurchase(type, price, affordable, onPurchase);
         }
 
         public void ShowJammed(bool canContinue)
@@ -126,11 +146,22 @@ namespace HoleOut.Runtime
 
         void ApplySafeArea()
         {
-            if (_safe == null || Screen.width <= 0 || Screen.height <= 0) return;
-            var area = Screen.safeArea;
-            _safe.anchorMin = new Vector2(area.xMin / Screen.width, area.yMin / Screen.height);
-            _safe.anchorMax = new Vector2(area.xMax / Screen.width, area.yMax / Screen.height);
-            _safe.offsetMin = _safe.offsetMax = Vector2.zero;
+            SafeAreaLayout.Apply(_safe);
+        }
+    }
+
+    internal static class SafeAreaLayout
+    {
+        public static void Apply(RectTransform rect)
+        {
+            if (!rect || Screen.width <= 0 || Screen.height <= 0) return;
+            Rect area = Screen.safeArea;
+            var min = new Vector2(area.xMin / Screen.width, area.yMin / Screen.height);
+            var max = new Vector2(area.xMax / Screen.width, area.yMax / Screen.height);
+            if (rect.anchorMin == min && rect.anchorMax == max) return;
+            rect.anchorMin = min;
+            rect.anchorMax = max;
+            rect.offsetMin = rect.offsetMax = Vector2.zero;
         }
     }
 }

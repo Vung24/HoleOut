@@ -1,6 +1,5 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
-using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using TMPro;
 
@@ -17,6 +16,7 @@ namespace HoleOut.Runtime
         [SerializeField] Button instructionsButton;
         [SerializeField] Button closeInstructionsButton;
         [SerializeField] CanvasGroup homeControls;
+        [SerializeField] RectTransform safeArea;
         [SerializeField] EventSystem eventSystem;
         [SerializeField] GameObject instructions;
         [SerializeField] GameObject settings;
@@ -44,7 +44,9 @@ namespace HoleOut.Runtime
         [SerializeField] EconomySO economy;
         [SerializeField] GameObject daily;
         [SerializeField] RectTransform dailyGrid;
+        [SerializeField] Button dailyButton;
         [SerializeField] Button dailyClaimButton;
+        [SerializeField] TMP_Text dailyClaimLabel;
         [SerializeField] TMP_FontAsset dailyFont;
         [SerializeField] Sprite dailyTodaySprite;
         [SerializeField] Sprite dailyCoinIcon;
@@ -56,17 +58,21 @@ namespace HoleOut.Runtime
 
         void Start()
         {
+            SafeAreaLayout.Apply(safeArea);
             int index = campaign ? PlayerProgress.ResolveIndex(campaign.levels.ConvertAll(l => l ? l.name : "")) : PlayerProgress.LevelIndex;
             if (playLabel) playLabel.text = $"Chơi màn {index + 1}";
-            if (DailyAvailable) ShowDaily();
         }
+
+        void Update() => SafeAreaLayout.Apply(safeArea);
 
         DailyReward DailyRules => new DailyReward(economy ? economy.dailyCoins.Length : 7);
         static int Today => DailyReward.DayNumber(System.DateTime.Now);
-        bool DailyAvailable => economy && daily && economy.dailyCoins.Length > 0 && DailyRules.CanClaim(DailyRewardSave.Load(), Today);
 
         public void ShowDaily()
         {
+            if (!daily || !economy || economy.dailyCoins.Length == 0) return;
+            bool canClaim = DailyRules.CanClaim(DailyRewardSave.Load(), Today);
+            if (dailyClaimLabel) dailyClaimLabel.text = canClaim ? "Nhận" : "Đóng";
             BuildDaily();
             SetDialog(daily, true, dailyClaimButton);
         }
@@ -82,7 +88,7 @@ namespace HoleOut.Runtime
                 if (dailyCoinFly && coinCounter && dailyClaimButton)
                     dailyCoinFly.Play((RectTransform)dailyClaimButton.transform, coinCounter.Icon);
             }
-            SetDialog(daily, false, playButton);
+            SetDialog(daily, false, dailyButton);
         }
 
         /// <summary>7 ô theo chu kỳ: đã nhận (mờ, "Đã nhận"), hôm nay (nền nổi bật), sắp tới.</summary>

@@ -190,6 +190,8 @@ namespace HoleOut.Runtime
 
         void UpdateHud()
         {
+            var picture = _sim.Picture;
+            _hud.SetPictureProgress(picture.Total - picture.Remaining, picture.Total);
             _boosters.Refresh();
             if (_sim.Status == GameStatus.Won && !_hud.PanelVisible)
             {

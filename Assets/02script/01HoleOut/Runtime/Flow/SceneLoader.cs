@@ -15,7 +15,7 @@ namespace HoleOut.Runtime
 
         public static bool Load(string scene, Color color, TMP_FontAsset font)
         {
-            if (_busy || string.IsNullOrEmpty(scene)) return false;
+            if (_busy || string.IsNullOrEmpty(scene) || !Application.CanStreamedLevelBeLoaded(scene)) return false;
             _busy = true;
             var go = new GameObject("SceneFade");
             Object.DontDestroyOnLoad(go);

@@ -265,13 +265,15 @@ namespace HoleOut.Runtime
             return b;
         }
 
-        static Rect PictureTrayBounds()
+        Rect PictureTrayBounds()
         {
             var (frameMin, frameMax) = DefaultBoardLayout.FrameBounds();
             var c0 = BoardSpace.ToWorld(frameMin);
             var c1 = BoardSpace.ToWorld(frameMax);
+            // Camera nhìn chéo: đỉnh ô hàng xa nhô lên che mép trên, nên mép xa chừa thêm đúng chiều cao ô.
+            float farExtra = _cell * _pictureVisuals.CellHeight;
             return Rect.MinMaxRect(Mathf.Min(c0.x, c1.x) - TrayMargin, Mathf.Min(c0.z, c1.z) - TrayMargin,
-                Mathf.Max(c0.x, c1.x) + TrayMargin, Mathf.Max(c0.z, c1.z) + TrayMargin);
+                Mathf.Max(c0.x, c1.x) + TrayMargin, Mathf.Max(c0.z, c1.z) + TrayMargin + farExtra);
         }
 
         static Transform Group(string name, Transform parent)

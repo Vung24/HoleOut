@@ -816,9 +816,9 @@ MonoBehaviour:
   - {fileID: 5605730161993249942}
   - {fileID: 1889715470803776013}
   - {fileID: 3313803878556819507}
-  holeCenter: {x: 0, y: 0.38680002, z: 0.96}
-  labelDiameter: 0.3988
-  baseVertexGreen: 0
+  holeCenter: {x: 0, y: 0.38, z: 0}
+  labelDiameter: 0.42
+  baseVertexGreen: 0.73333335
   bodyHeight: 0.25
   bevelWidth: 0.045
   holeOffset: {x: 0, y: -0.04}
@@ -3105,7 +3105,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e36abb9734e6f3d44b0738b8fb5d47f5, type: 2}
+  - {fileID: 2100000, guid: c73c525f5349397409b9033f0028dd2c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3245,7 +3245,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5702794191644899009}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: 0.955911}
+  m_LocalPosition: {x: 0, y: 0.38, z: 0}
   m_LocalScale: {x: 0.543347, y: 0.543347, z: 0.543347}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3253,7 +3253,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0003199697, y: 0.38680002}
+  m_AnchoredPosition: {x: 0, y: 0.38}
   m_SizeDelta: {x: 0.72, y: 0.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!23 &1889715470803776013
@@ -3415,7 +3415,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1715312825509502656
 Transform:
   m_ObjectHideFlags: 0
