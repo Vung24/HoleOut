@@ -21,3 +21,7 @@ Backups/
 *.VC.db
 /Assets/07data/TextAsset/gen-lang-client-0548377306-ae5a1425f29f.json
 /Assets/07data/TextAsset/gen-lang-client-0548377306-ae5a1425f29f.json.meta
+Captures/
+Tools/
+Reference/
+Docs/
