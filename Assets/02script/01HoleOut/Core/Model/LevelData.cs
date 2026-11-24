@@ -22,6 +22,10 @@ namespace HoleOut.Core
         public string color;
         public int capacity;
         public bool mystery;
+        /// <summary>Số khối khác còn phải rời bàn trước khi khối này kéo được. 0 = không đóng băng.</summary>
+        public int ice;
+
+        public bool Frozen => ice > 0;
 
         public bool ContainsCell(double localX, double localY) =>
             localX >= 0 && localX < w && localY >= 0 && localY < h && ShapeContains((int)localX, (int)localY);

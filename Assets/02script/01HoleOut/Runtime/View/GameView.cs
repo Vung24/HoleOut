@@ -205,6 +205,12 @@ namespace HoleOut.Runtime
             _holes.SetTargeting(holes);
         }
 
+        /// <summary>Làm nổi khối được hướng dẫn chỉ vào; -1 để tắt.</summary>
+        public void SetTutorialFocus(int blockId) => _blocks?.SetFocus(blockId);
+
+        /// <summary>Renderer của khối hướng dẫn và cổng cùng màu.</summary>
+        public void CollectTutorialFocus(List<Renderer> into) => _blocks?.CollectFocus(into);
+
         /// <summary>Id hố đã đáp lên khay nằm dưới tia chạm; -1 nếu không trúng.</summary>
         public int HoleAt(Ray ray) => _holes.HoleAt(ray);
 

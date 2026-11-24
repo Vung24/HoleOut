@@ -21,6 +21,10 @@ namespace HoleOut.Core
         BlockLifted,
         SlotAdded,
         MagnetPulled,
+        /// <summary>Khối băng giảm một lớp, vẫn còn băng (Id = khối, Value = số lớp còn lại).</summary>
+        BlockIceCracked,
+        /// <summary>Khối băng tan hẳn, từ giờ kéo được (Id = khối).</summary>
+        BlockThawed,
     }
 
     /// <summary>Sự kiện mô phỏng. Id/Value tùy loại: id khối/hố/nhân vật, số đợt, hàng cuộn...</summary>

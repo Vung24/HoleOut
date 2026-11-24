@@ -32,6 +32,7 @@ namespace HoleOut.Core
                 }
                 var target = board.Find(b => b.id == order[k]);
                 if (target == null) return Fail($"Bước {k + 1}: khối {order[k]} không có trên bàn đợt {wave + 1}.");
+                if (target.Frozen) return Fail($"Bước {k + 1}: khối {target.id} còn {target.ice} lớp băng.");
 
                 var moves = BoardReach.Unlock(target, board, level.gates, boardStateLimit);
                 if (moves == null) return Fail($"Bước {k + 1}: khối {target.id} ({target.color}{target.capacity}) không ra được cổng.");
@@ -42,6 +43,7 @@ namespace HoleOut.Core
                 if (!exit.HasValue) return Fail($"Bước {k + 1}: khối {target.id} không tìm được đường ra cổng.");
                 steps.Add(new SolutionStep { kind = SolutionStepKind.Exit, block = target.id, path = exit.Value.path, door = exit.Value.door });
                 board.Remove(target);
+                BlockBoard.ThawAfterExit(board);
             }
             if (board.Count > 0 || wave < level.waves.Count - 1) return Fail("Thứ tự chưa đưa hết khối ra.");
             return new SolutionBuildResult

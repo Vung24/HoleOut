@@ -80,6 +80,9 @@ namespace HoleOut.EditorTools
             (new FeedbackCue(GameEventType.BlockBlocked, 0f, 0f, 0f, HapticType.Light, 0.25f), null),
             (new FeedbackCue(GameEventType.BlockExited, 0.9f, 0.05f, 0f, HapticType.Medium, 0f), "Hole Tap"),
             (new FeedbackCue(GameEventType.BlockRevealed, 0.8f, 0.05f, 0.08f, HapticType.Light, 0.1f), "Hiden tile"),
+            // Băng nứt nhẹ khi mất một lớp, vỡ to khi tan hẳn.
+            (new FeedbackCue(GameEventType.BlockIceCracked, 0.45f, 0.08f, 0.05f, HapticType.Light, 0.1f), "Ice brake"),
+            (new FeedbackCue(GameEventType.BlockThawed, 1f, 0.05f, 0.05f, HapticType.Medium, 0f), "Ice brake"),
             (new FeedbackCue(GameEventType.HoleDocked, 0f, 0f, 0f, HapticType.Light, 0.1f), null),
             (new FeedbackCue(GameEventType.RunnerLanded, 0.45f, 0.04f, 0.05f, HapticType.Light, 0.12f) { chainPitchStep = 0.015f, chainPitchMax = 0.2f }, "Hole jump"),
             (new FeedbackCue(GameEventType.HoleClosing, 0.9f, 0f, 0f, HapticType.Medium, 0f), "Hole complete"),

@@ -259,6 +259,7 @@ namespace HoleOut.Core
                     if (b.color == target.color && b.capacity != target.capacity) step.wrongCapacityBait++;
                 }
 
+                if (target.Frozen) { report.boardError = $"Bước {k + 1}: khối {target.id} còn {target.ice} lớp băng."; return; }
                 var moves = BoardReach.Unlock(target, board, level.gates, options.BoardStateLimit);
                 if (moves == null)
                 {
@@ -267,6 +268,7 @@ namespace HoleOut.Core
                 }
                 step.unlockMoves = moves.Count;
                 board.Remove(target);
+                BlockBoard.ThawAfterExit(board);
                 model.LaunchInPlace(s, id);
             }
             report.boardAnalyzed = true;

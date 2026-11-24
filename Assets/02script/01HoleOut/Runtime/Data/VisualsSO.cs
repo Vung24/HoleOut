@@ -123,6 +123,8 @@ namespace HoleOut.Runtime
         [Range(5, 60)] public float blockSettleSharpness = 28f;
         [Tooltip("Ô nền bàn khối, lát mỗi ô một sprite. Trống thì chỉ dùng mặt khay.")]
         public Sprite boardCellSprite;
+        [Tooltip("Vỏ băng phủ khối đóng băng: nứt khi khối khác rời bàn, vỡ khi hết lớp.")]
+        public IceSettings ice = new IceSettings();
 
         [Header("UI")]
         [Tooltip("Sprite bo góc 9-slice cho panel và nút.")]

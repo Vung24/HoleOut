@@ -167,19 +167,33 @@ namespace HoleOut.Core
             return -1;
         }
 
-        /// <summary>Các khối người chơi có thể đưa ra lúc này (chỉ xét số, không xét đường đi).</summary>
+        /// <summary>Các khối người chơi có thể đưa ra lúc này (chỉ xét số và băng, không xét đường đi).</summary>
         public void Choices(DrainState s, List<int> into)
         {
             into.Clear();
             if (s.Status != DrainStatus.Playing || s.Dock.Count >= Slots) return;
             int wave = CurrentWave(s);
+            int exited = LaunchedInWave(s, wave);
             for (int i = 0; i < Blocks.Count; i++)
-                if (BlockWave[i] == wave && !s.IsLaunched(i)) into.Add(i);
+                if (BlockWave[i] == wave && !s.IsLaunched(i) && Blocks[i].ice <= exited) into.Add(i);
         }
 
         public bool CanLaunch(DrainState s, int block) =>
             s.Status == DrainStatus.Playing && s.Dock.Count < Slots && block >= 0 && block < Blocks.Count &&
-            !s.IsLaunched(block) && BlockWave[block] == CurrentWave(s);
+            !s.IsLaunched(block) && BlockWave[block] == CurrentWave(s) &&
+            Blocks[block].ice <= LaunchedInWave(s, BlockWave[block]);
+
+        /// <summary>
+        /// Số khối của đợt đã rời bàn. Mỗi lần rời bàn làm mọi khối băng cùng đợt giảm một lớp
+        /// (<see cref="BlockBoard.ThawAfterExit"/>), nên khối hết băng khi số này đạt số lớp ban đầu.
+        /// </summary>
+        int LaunchedInWave(DrainState s, int wave)
+        {
+            int n = 0;
+            for (int i = 0; i < Blocks.Count; i++)
+                if (BlockWave[i] == wave && s.IsLaunched(i)) n++;
+            return n;
+        }
 
         public DrainState Launch(DrainState s, int block)
         {

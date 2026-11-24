@@ -31,9 +31,6 @@ namespace HoleOut.Runtime
 
         public bool HasPending => _pending.HasValue;
 
-        /// <summary>Gợi ý hiện khi không có booster nào chờ mục tiêu (ví dụ hướng dẫn màn đầu); null để ẩn.</summary>
-        public string IdleHint { get; set; }
-
         /// <summary>Giá mua thêm một lượt bằng coin (0 = không bán).</summary>
         public System.Func<BoosterType, int> Price { get; set; }
 
@@ -172,7 +169,7 @@ namespace HoleOut.Runtime
             }
             _hud.SetBoosterHint(_pending == BoosterType.Lift ? "Chạm một khối để nhấc ra cổng"
                 : _pending == BoosterType.Magnet ? "Chạm một hố trên khay để hút cùng màu"
-                : Time.unscaledTime < _noticeUntil ? _notice : IdleHint);
+                : Time.unscaledTime < _noticeUntil ? _notice : null);
             _view.SetBoosterTargeting(_pending == BoosterType.Lift, _pending == BoosterType.Magnet);
         }
     }

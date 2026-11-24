@@ -13,10 +13,11 @@ namespace HoleOut.Runtime
         [SerializeField] Button playButton;
         [Tooltip("Chữ trên nút Chơi; hiện số màn sẽ vào.")]
         [SerializeField] TMP_Text playLabel;
-        [SerializeField] Button instructionsButton;
         [SerializeField] Button closeInstructionsButton;
         [SerializeField] CanvasGroup homeControls;
         [SerializeField] RectTransform safeArea;
+        [Tooltip("Thanh tab đáy; đóng popup thì quay về tab Trang chủ.")]
+        [SerializeField] NavigationBar navigation;
         [SerializeField] EventSystem eventSystem;
         [SerializeField] GameObject instructions;
         [SerializeField] GameObject settings;
@@ -163,14 +164,16 @@ namespace HoleOut.Runtime
                 playButton.interactable = true;
         }
 
+        /// <summary>Mở từ dòng "Cách chơi" trong Cài đặt: đóng Cài đặt rồi hiện hướng dẫn.</summary>
         public void ShowInstructions()
         {
+            if (settings) settings.SetActive(false);
             SetDialog(instructions, true, closeInstructionsButton);
         }
 
         public void HideInstructions()
         {
-            SetDialog(instructions, false, instructionsButton);
+            SetDialog(instructions, false, settingsButton);
         }
 
         public void ShowSettings()
@@ -256,6 +259,7 @@ namespace HoleOut.Runtime
         {
             dialog.SetActive(open);
             homeControls.interactable = !open;
+            if (!open && navigation) navigation.SelectHome();
             eventSystem.SetSelectedGameObject(focus.gameObject);
         }
     }

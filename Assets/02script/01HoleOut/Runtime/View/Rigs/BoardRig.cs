@@ -116,6 +116,13 @@ namespace HoleOut.Runtime
             }
         }
 
+        /// <summary>Thêm renderer của các cổng mã <paramref name="code"/> vào danh sách.</summary>
+        public void CollectGateRenderers(string code, List<Renderer> into)
+        {
+            foreach (var (renderer, gateCode, _) in _shownGates)
+                if (gateCode == code) into.Add(renderer);
+        }
+
         void ShowWall(int sideStart, int start, int end)
         {
             var wall = walls[sideStart + start].transform;

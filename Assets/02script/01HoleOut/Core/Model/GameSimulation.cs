@@ -42,6 +42,7 @@ namespace HoleOut.Core
 
         readonly List<GameEvent> _events = new List<GameEvent>();
         readonly List<int> _revealBuffer = new List<int>();
+        readonly List<int> _thawBuffer = new List<int>();
         readonly SeededRandom _rng;
         readonly DiveBag _dives;
         int _runnerSerial;
@@ -85,7 +86,7 @@ namespace HoleOut.Core
         {
             if (Status != GameStatus.Playing || _dragId >= 0) return false;
             var b = Board.Find(blockId);
-            if (b == null) return false;
+            if (b == null || b.Frozen) return false;
             _dragId = blockId;
             _dragX = b.gx;
             _dragY = b.gy;
@@ -140,11 +141,23 @@ namespace HoleOut.Core
             if (gate == null) return false;
             Board.Remove(b);
             Emit(GameEventType.BlockExited, b.id, (int)side);
+            ThawAfterExit();
             if (Board.TrySpawnNextWave()) Emit(GameEventType.WaveSpawned, 0, Board.WaveNumber);
             RevealMysteries();
             var hole = Dock.Launch(b, launchStart);
             Emit(GameEventType.HoleLaunched, hole.Id, hole.SlotIndex);
             return true;
+        }
+
+        void ThawAfterExit()
+        {
+            _thawBuffer.Clear();
+            BlockBoard.ThawAfterExit(Board.Blocks, _thawBuffer);
+            foreach (var id in _thawBuffer)
+            {
+                int left = Board.Find(id).ice;
+                Emit(left > 0 ? GameEventType.BlockIceCracked : GameEventType.BlockThawed, id, left);
+            }
         }
 
         void RevealMysteries()
@@ -176,7 +189,7 @@ namespace HoleOut.Core
 
         /// <summary>
         /// Nhấc khối: khối bay qua mọi vật cản tới vị trí sát cổng cùng màu gần nhất rồi thoát như bình thường.
-        /// Cần khay còn chỗ; khối bí ẩn chưa lộ màu không nhấc được.
+        /// Cần khay còn chỗ; khối bí ẩn chưa lộ màu và khối còn băng không nhấc được.
         /// </summary>
         public bool TryLiftBlock(int blockId, out GateSide side)
         {

@@ -44,6 +44,8 @@ namespace HoleOut.Runtime
         [SerializeField] GameHud _hud;
         [Tooltip("Âm thanh và rung theo sự kiện (tùy chọn).")]
         [SerializeField] GameFeedback _feedback;
+        [Tooltip("Layer trống, chỉ dùng tạm khi chụp khối/cổng được làm sáng trong hướng dẫn.")]
+        [SerializeField] string tutorialFocusLayer = "TutorialFocus";
 
         /// <summary>Khóa SessionState: GUID màn Level Editor yêu cầu chơi thử ở lần Play kế tiếp.</summary>
         public const string EditorTestLevelKey = "HoleOut.EditorTestLevel";
@@ -53,6 +55,7 @@ namespace HoleOut.Runtime
         VisualsSO _activeVisuals;
         BoardInput _input;
         BoosterController _boosters;
+        DragTutorial _tutorial;
         CameraFitter _cameraFitter;
         int _levelIndex;
         int _runId;
@@ -72,6 +75,7 @@ namespace HoleOut.Runtime
             }
             _input = new BoardInput(viewCamera, dragFollowSpeed);
             _boosters = new BoosterController(boosters, _hud, _input, viewCamera);
+            _tutorial = new DragTutorial(_hud, viewCamera, LayerMask.NameToLayer(tutorialFocusLayer));
             _cameraFitter = new CameraFitter(viewCamera, _hud);
 
             _hud.Init();
@@ -134,7 +138,11 @@ namespace HoleOut.Runtime
         bool _claiming;
         string _winBody;
 
-        void OnDestroy() => _view?.Dispose();
+        void OnDestroy()
+        {
+            _tutorial?.End();
+            _view?.Dispose();
+        }
 
         public void LoadLevel(int index)
         {
@@ -158,8 +166,8 @@ namespace HoleOut.Runtime
             BoardSpace.SetLean(boardUpright * (90 - cameraPitch), cameraPitch);
             _view.Bind(_sim);
             _boosters.Bind(_sim, _view, _levelIndex + 1);
-            // Hướng dẫn màn đầu: gợi ý thao tác tới khi khối đầu tiên ra cổng.
-            _boosters.IdleHint = level.tutorialFirstDrag ? "Kéo khối tới cổng cùng màu" : null;
+            // Hướng dẫn màn đầu: tay chỉ và làm nổi khối/cổng tới khi khối đầu tiên ra cổng.
+            _tutorial.Begin(level, _sim, _view);
             _hud.HidePanel();
             _hud.SetLevel(_levelIndex + 1);
             _boosters.AnnounceUnlock();
@@ -174,9 +182,7 @@ namespace HoleOut.Runtime
             HandleInput();
             _sim.Step(Mathf.Min(Time.deltaTime, maxStep));
             _view.ProcessEvents(_sim.Events);
-            if (_boosters.IdleHint != null)
-                foreach (var e in _sim.Events)
-                    if (e.Type == GameEventType.BlockExited) { _boosters.IdleHint = null; break; }
+            _tutorial.Tick(_sim.Events, _boosters.BoardInputOpen && !_boosters.HasPending);
             if (_feedback) _feedback.Process(_sim.Events);
             _sim.ClearEvents();
             _view.Render(Time.time);
@@ -190,8 +196,6 @@ namespace HoleOut.Runtime
 
         void UpdateHud()
         {
-            var picture = _sim.Picture;
-            _hud.SetPictureProgress(picture.Total - picture.Remaining, picture.Total);
             _boosters.Refresh();
             if (_sim.Status == GameStatus.Won && !_hud.PanelVisible)
             {

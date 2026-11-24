@@ -69,7 +69,7 @@ namespace HoleOut.Core
         public static GateData FindGate(BlockData b, double x, double y, IReadOnlyList<GateData> gates, GateSide side)
         {
             const double eps = 1e-6;
-            if (b.mystery) return null;
+            if (b.mystery || b.Frozen) return null;
             bool vertical = side == GateSide.Top || side == GateSide.Bottom;
             double edge = side == GateSide.Top ? y
                 : side == GateSide.Bottom ? y + b.h - BoardHeight

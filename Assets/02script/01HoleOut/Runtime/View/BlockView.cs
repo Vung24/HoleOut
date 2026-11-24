@@ -38,6 +38,23 @@ namespace HoleOut.Runtime
         /// <summary>Booster nhấc đang chờ chọn khối: khối nhấc được nhún nhẹ.</summary>
         public void SetTargeting(bool on) => _targeting = on;
 
+        int _focusId = -1;
+
+        /// <summary>Khối được hướng dẫn chỉ vào: nhún và phồng nhịp, cổng cùng màu sáng theo; -1 để tắt.</summary>
+        public void SetFocus(int blockId) => _focusId = blockId;
+
+        readonly List<Renderer> _rigRenderers = new List<Renderer>();
+
+        /// <summary>Renderer của khối đang được chỉ và các cổng cùng màu (để làm sáng riêng trên lớp tối).</summary>
+        public void CollectFocus(List<Renderer> into)
+        {
+            var block = _sim.Board.Find(_focusId);
+            if (block == null || !_blocks.TryGetValue(_focusId, out var rig) || !rig) return;
+            rig.GetComponentsInChildren(false, _rigRenderers);
+            into.AddRange(_rigRenderers);
+            _board.CollectGateRenderers(block.color, into);
+        }
+
         /// <summary>Khối chạm cổng khi khay đầy: lắc ngang ngắn như lắc đầu.</summary>
         public void PlayDockFull(int blockId)
         {
@@ -66,7 +83,8 @@ namespace HoleOut.Runtime
         {
             float dt = Mathf.Min(Time.deltaTime, 0.05f);
             _alive.Clear();
-            string draggedColor = null;
+            string draggedColor = null, focusColor = null;
+            float focusPulse = Mathf.Abs(Mathf.Sin(Time.time * 4));
             foreach (var b in _sim.Board.Blocks)
             {
                 _alive.Add(b.id);
@@ -76,11 +94,14 @@ namespace HoleOut.Runtime
                 rig.SetSelected(dragging);
                 if (dragging && !b.mystery) draggedColor = b.color;
                 float lift = UpdateLift(b.id, dragging, dt);
-                rig.SetLiftScale(lift);
+                bool focused = b.id == _focusId && !dragging;
+                if (focused) focusColor = b.color;
+                rig.SetLiftScale(focused ? lift + focusPulse * 1.5f : lift);
                 bool moved = dragging && _sim.HasDragResult;
                 double vx = moved ? _sim.LastDrag.VisualX : b.gx, vy = moved ? _sim.LastDrag.VisualY : b.gy;
                 var target = BoardSpace.BoardToWorld(vx, vy, b.w, b.h, Mathf.Lerp(RestY, DragY, Mathf.Clamp01(lift)));
-                if (_targeting && !b.mystery) target += BoardSpace.LeanRotation * Vector3.up * Mathf.Abs(Mathf.Sin(Time.time * 6 + b.id)) * 0.12f;
+                if (_targeting && !b.mystery && !b.Frozen) target += BoardSpace.LeanRotation * Vector3.up * Mathf.Abs(Mathf.Sin(Time.time * 6 + b.id)) * 0.12f;
+                else if (focused) target += BoardSpace.LeanRotation * Vector3.up * focusPulse * 0.12f;
                 target += ShakeOffset(b.id);
                 if (dragging) rig.transform.position = target;
                 else
@@ -90,11 +111,13 @@ namespace HoleOut.Runtime
                     float k = 1 - Mathf.Exp(-_visuals.BlockSettleSharpness * dt);
                     rig.transform.position = Vector3.Lerp(p, target, k);
                 }
-                rig.SetLook(_visuals.Palette.Get(b.mystery ? "M" : b.color), b.mystery, b.capacity);
+                rig.SetLook(_visuals.Palette.Get(b.mystery ? "M" : b.color), b.mystery, b.capacity, b.ice);
+                rig.SetIce(b.ice, _visuals.Ice);
             }
-            // Gợi ý đích: cổng cùng màu khối đang kéo sáng nhịp nhẹ.
+            // Gợi ý đích: cổng cùng màu khối đang kéo (hoặc khối hướng dẫn) sáng nhịp nhẹ.
             float pulse = 0.5f + 0.5f * Mathf.Sin(Time.time * 7f);
-            _board.SetGateHighlight(draggedColor, _visuals.GateDragHighlight * pulse);
+            if (draggedColor != null) _board.SetGateHighlight(draggedColor, _visuals.GateDragHighlight * pulse);
+            else _board.SetGateHighlight(focusColor, _visuals.GateDragHighlight * focusPulse);
             _dead.Clear();
             foreach (var id in _blocks.Keys) if (!_alive.Contains(id)) _dead.Add(id);
             foreach (var id in _dead) { if (_blocks[id]) Object.Destroy(_blocks[id].gameObject); _blocks.Remove(id); }

@@ -44,10 +44,14 @@ namespace HoleOut.Core
             for (int wi = 0; wi < (level.waves?.Count ?? 0); wi++)
             {
                 var blocks = level.waves[wi].blocks;
+                bool hasFreeBlock = blocks.Count == 0;
                 for (int i = 0; i < blocks.Count; i++)
                 {
                     var b = blocks[i];
                     if (!ids.Add(b.id)) errors.Add($"ID khối {b.id} bị trùng.");
+                    if (b.ice < 0 || b.ice >= blocks.Count)
+                        errors.Add($"Khối {b.id} có {b.ice} lớp băng; đợt {wi + 1} có {blocks.Count} khối nên cần 0..{blocks.Count - 1}.");
+                    hasFreeBlock |= b.ice == 0;
                     if (b.w < 1 || b.h < 1 || b.gx < 0 || b.gy < 0 || b.gx + b.w > DragSolver.BoardWidth || b.gy + b.h > DragSolver.BoardHeight)
                         errors.Add($"Khối {b.id} ở ({b.gx},{b.gy}) cỡ {b.w}×{b.h} nằm ngoài bàn.");
                     var frame = BlockData.FrameOf(b.shape);
@@ -68,6 +72,7 @@ namespace HoleOut.Core
                     foreach (var g in level.gates) hasGate |= g.color == b.color && DragSolver.Fits(b, g);
                     if (!hasGate) errors.Add($"Khối {b.id} ({b.color} {b.w}×{b.h}) không có cổng cùng màu đủ rộng.");
                 }
+                if (!hasFreeBlock) errors.Add($"Đợt {wi + 1}: mọi khối đều đóng băng, không khối nào kéo được đầu tiên.");
             }
 
             foreach (var kv in pixels)

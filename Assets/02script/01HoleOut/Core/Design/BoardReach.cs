@@ -109,7 +109,8 @@ namespace HoleOut.Core
                 for (int i = 0; i < n; i++)
                 {
                     var b = blocks[i];
-                    if (b == target) continue;
+                    // Khối còn băng không dời được.
+                    if (b == target || b.Frozen) continue;
                     for (int d = 0; d < 4; d++)
                     {
                         Apply(blocks, pos);

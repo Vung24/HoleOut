@@ -15,7 +15,9 @@ namespace HoleOut.Runtime
 
         public static bool Load(string scene, Color color, TMP_FontAsset font)
         {
-            if (_busy || string.IsNullOrEmpty(scene) || !Application.CanStreamedLevelBeLoaded(scene)) return false;
+            if (_busy || string.IsNullOrEmpty(scene)) return false;
+            int buildIndex = SceneUtility.GetBuildIndexByScenePath(scene);
+            if (buildIndex < 0 && !Application.CanStreamedLevelBeLoaded(scene)) return false;
             _busy = true;
             var go = new GameObject("SceneFade");
             Object.DontDestroyOnLoad(go);
@@ -51,17 +53,17 @@ namespace HoleOut.Runtime
             label.raycastTarget = false;
             loading.SetActive(false);
 
-            go.AddComponent<Runner>().StartCoroutine(Run(scene, group, label));
+            go.AddComponent<Runner>().StartCoroutine(Run(scene, buildIndex, group, label));
             return true;
         }
 
-        static IEnumerator Run(string scene, CanvasGroup group, TMP_Text label)
+        static IEnumerator Run(string scene, int buildIndex, CanvasGroup group, TMP_Text label)
         {
             yield return Fade(group, 0, 1);
             label.gameObject.SetActive(true);
             label.text = "Đang tải…";
             float start = Time.unscaledTime;
-            var op = SceneManager.LoadSceneAsync(scene);
+            var op = buildIndex >= 0 ? SceneManager.LoadSceneAsync(buildIndex) : SceneManager.LoadSceneAsync(scene);
             while ((op != null && !op.isDone) || Time.unscaledTime - start < MinimumLoadingTime)
                 yield return null;
             yield return null;

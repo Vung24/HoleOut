@@ -51,18 +51,11 @@ namespace HoleOut.EditorTools
             }
             visuals.boardBlocks = rectangles;
             visuals.lBoardBlock = LoadShape("L");
-            visuals.tBoardBlock = LoadOrBuild("T", TCells);
-            visuals.plusBoardBlock = LoadOrBuild("Plus", PlusCells);
+            visuals.tBoardBlock = LoadShape("T");
+            visuals.plusBoardBlock = LoadShape("Plus");
             EditorUtility.SetDirty(visuals);
             AssetDatabase.SaveAssets();
         }
-
-        // Ô theo trục z hướng lên (hàng trên của bàn có y lớn nhất), khớp cách dựng khối L.
-        static readonly Vector2Int[] TCells = { new Vector2Int(0, 0), new Vector2Int(1, 0), new Vector2Int(2, 0), new Vector2Int(1, 1) };
-        static readonly Vector2Int[] PlusCells = { new Vector2Int(1, 2), new Vector2Int(0, 1), new Vector2Int(1, 1), new Vector2Int(2, 1), new Vector2Int(1, 0) };
-
-        static BoardBlockRig LoadOrBuild(string shapeName, Vector2Int[] cells) =>
-            AssetDatabase.LoadAssetAtPath<BoardBlockRig>(ShapePath(shapeName)) ?? BuildShape(shapeName, cells);
 
         static BoardBlockRig LoadShape(string shapeName)
         {

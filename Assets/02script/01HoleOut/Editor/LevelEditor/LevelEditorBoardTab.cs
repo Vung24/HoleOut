@@ -112,7 +112,7 @@ namespace HoleOut.EditorTools
                 var label = new GUIStyle(EditorStyles.boldLabel) { alignment = TextAnchor.MiddleCenter, fontSize = 15 };
                 label.normal.textColor = LevelEditorContext.TextOn(c);
                 var first = BlockCellRect(o, b.gx, b.gy);
-                GUI.Label(new Rect(first.x, first.y + 4, first.width, first.height * 0.6f), $"{(b.mystery ? "?" : "")}{b.color}{b.capacity}", label);
+                GUI.Label(new Rect(first.x, first.y + 4, first.width, first.height * 0.6f), $"{(b.mystery ? "?" : "")}{b.color}{b.capacity}{(b.Frozen ? $" [{b.ice}]" : "")}", label);
                 var small = new GUIStyle(EditorStyles.miniLabel) { alignment = TextAnchor.MiddleCenter };
                 small.normal.textColor = label.normal.textColor;
                 _status.TryGetValue(b.id, out var st);
@@ -145,6 +145,7 @@ namespace HoleOut.EditorTools
             var src = Data.waves[_wave].blocks;
             foreach (var b in src)
             {
+                if (b.Frozen) { _status[b.id] = $"băng {b.ice}"; continue; }
                 var copies = src.Select(x => { var c = x.Copy(); c.mystery = false; return c; }).ToList();
                 var target = copies.First(x => x.id == b.id);
                 if (BoardReach.CanExit(target, copies, Data.gates)) { _status[b.id] = "ra ngay"; continue; }
@@ -258,6 +259,7 @@ namespace HoleOut.EditorTools
             int newColor = EditorGUILayout.Popup("Màu", ci, colors);
             int cap = EditorGUILayout.DelayedIntField("Số", b.capacity);
             bool mystery = EditorGUILayout.Toggle("Bí ẩn", b.mystery);
+            int ice = EditorGUILayout.DelayedIntField(new GUIContent("Băng", "Số khối khác phải rời bàn trước khi khối này kéo được. 0 = không băng."), b.ice);
 
             if (newShape != shape)
             {
@@ -278,6 +280,8 @@ namespace HoleOut.EditorTools
             if (colors.Length > 0 && colors[newColor] != b.color) { _ctx.Record("Đổi màu khối"); b.color = colors[newColor]; _ctx.Changed(); }
             if (cap != b.capacity && cap > 0) { _ctx.Record("Đổi số khối"); b.capacity = cap; _ctx.Changed(); }
             if (mystery != b.mystery) { _ctx.Record("Đổi khối bí ẩn"); b.mystery = mystery; _ctx.Changed(); }
+            ice = Mathf.Clamp(ice, 0, Mathf.Max(0, blocks.Count - 1));
+            if (ice != b.ice) { _ctx.Record("Đổi lớp băng"); b.ice = ice; _ctx.Changed(); }
 
             if (GUILayout.Button("Xóa khối"))
             {

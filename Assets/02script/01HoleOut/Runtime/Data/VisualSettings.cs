@@ -37,6 +37,7 @@ namespace HoleOut.Runtime
         public float BlockSettleSharpness => _source.blockSettleSharpness;
         public float DockFullAlertDuration => _source.dockFullAlertDuration;
         public float DockFullShake => _source.dockFullShake;
+        public IceSettings Ice => _source.ice;
 
         public BoardBlockRig BoardBlock(int w, int h, BlockShape shape) => _source.GetBoardBlock(w, h, shape);
     }

@@ -21,14 +21,13 @@ namespace HoleOut.Runtime
         [SerializeField] Sprite _multiWavePill;
         Sprite _defaultPill;
         [SerializeField] RectTransform _topBarBottom, _bottomBar, _safe;
-        [SerializeField] Image _pictureProgressFill;
-        [SerializeField] TMP_Text _pictureProgressText;
         [SerializeField] SettingsView _settingsView = new();
         [SerializeField] BoosterBar _boosterBar = new();
         [SerializeField] GameplayPopup _gameplayPopup = new();
+        [Tooltip("Lớp hướng dẫn: phủ tối, ngón tay, lời nhắn (tùy chọn).")]
+        [SerializeField] TutorialOverlay _tutorial;
 
         static readonly Vector3[] Corners = new Vector3[4];
-        int _shownPercent = -1;
 
         public bool PanelVisible => _gameplayPopup.Visible;
         public bool BlocksBoardInput => PanelVisible || _settingsView.Visible;
@@ -47,17 +46,6 @@ namespace HoleOut.Runtime
             string label = "Màn " + levelNumber;
             if (_level.text != label) _level.text = label;
             _settingsView.SetLevel(label);
-        }
-
-        public void SetPictureProgress(int completed, int total)
-        {
-            float fraction = total > 0 ? Mathf.Clamp01((float)completed / total) : 0f;
-            int percent = total > 0 ? (int)(100L * Mathf.Clamp(completed, 0, total) / total) : 0;
-            if (_pictureProgressFill && _pictureProgressFill.fillAmount != fraction)
-                _pictureProgressFill.fillAmount = fraction;
-            if (_shownPercent == percent) return;
-            _shownPercent = percent;
-            if (_pictureProgressText) _pictureProgressText.SetText("{0}%", percent);
         }
 
         /// <summary>Đổi nền ô tên màn theo số đợt; báo popup khi vào màn nhiều đợt nếu chưa có popup khác.</summary>
@@ -82,6 +70,17 @@ namespace HoleOut.Runtime
         }
 
         public void SetBoosterHint(string text) => _boosterBar.SetHint(text);
+
+        /// <summary>Hiện hướng dẫn: ảnh vật thể làm sáng trên lớp tối và đường kéo theo pixel màn hình; null để bỏ từng phần.</summary>
+        public void ShowTutorial(string message, Texture focus, System.Collections.Generic.IReadOnlyList<Vector2> fingerPath)
+        {
+            if (_tutorial) _tutorial.Show(message, focus, fingerPath);
+        }
+
+        public void HideTutorial()
+        {
+            if (_tutorial) _tutorial.Hide();
+        }
 
         public void ShowWon(int coins = 0, int doubledCoins = 0, string body = null)
         {

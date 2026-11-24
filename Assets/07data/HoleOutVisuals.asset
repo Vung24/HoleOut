@@ -53,6 +53,8 @@ MonoBehaviour:
   dockFlightHeight: 0.9
   dockWarnColor: {r: 0.55, g: 0.14, b: 0.2, a: 1}
   dockWarnStrength: 0.7
+  dockFullAlertDuration: 0.4
+  dockFullShake: 0.1
   holeCatchPunch: 0.1
   holeCatchSparks: 5
   holeCatchSparkSpeed: 2.2
@@ -71,6 +73,19 @@ MonoBehaviour:
   blockLiftBounce: 1.6
   blockSettleSharpness: 28
   boardCellSprite: {fileID: 21300000, guid: 5068c2368c33b4b7f7cf3a8002d309b3, type: 3}
+  ice:
+    material: {fileID: 2100000, guid: 918f77bd8b844024286f68d8dab884a4, type: 2}
+    margin: 0.035
+    topClearance: 0.05
+    maxCrack: 0.85
+    crackDuration: 0.28
+    countPunch: 1.45
+    shellPunch: 1.05
+    shardCount: 10
+    shatterDuration: 0.55
+    shardSpeed: 2.4
+    shardSize: 0.16
+    shardGravity: 9
   roundedSprite: {fileID: 21300000, guid: 9052aab1ed9d6894dbc47e42cb037e31, type: 2}
   backgroundColor: {r: 0.133, g: 0.173, b: 0.416, a: 1}
   colors:

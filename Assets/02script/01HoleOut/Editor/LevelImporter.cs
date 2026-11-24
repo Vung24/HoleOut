@@ -239,6 +239,7 @@ namespace HoleOut.EditorTools
                 w = (int?)t["w"] ?? 1, h = (int?)t["h"] ?? 1,
                 color = (string)t["color"], capacity = (int)t["capacity"],
                 mystery = (bool?)t["mystery"] ?? false,
+                ice = (int?)t["ice"] ?? 0,
             }).ToList()
         };
 
@@ -284,6 +285,8 @@ namespace HoleOut.EditorTools
                 {
                     sb.Append($"{b.id},{b.gx},{b.gy},{b.w},{b.h},{b.color},{b.capacity},{b.mystery}");
                     if (b.shape != BlockShape.Rectangle) sb.Append(',').Append(b.shape);
+                    // Chỉ thêm khi có băng để dấu vân của màn cũ giữ nguyên.
+                    if (b.ice > 0) sb.Append(",ice").Append(b.ice);
                     sb.Append(';');
                 }
             }

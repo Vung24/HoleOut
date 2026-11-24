@@ -58,6 +58,21 @@ namespace HoleOut.Core
         }
 
         /// <summary>
+        /// Luật băng: mỗi khi một khối rời bàn, mọi khối đóng băng còn lại trên bàn giảm một lớp.
+        /// Khối của đợt sau chưa lên bàn nên không bị tính. Ghi id khối vừa giảm vào <paramref name="changed"/> nếu có.
+        /// </summary>
+        public static void ThawAfterExit(List<BlockData> blocks, List<int> changed = null)
+        {
+            for (int i = 0; i < blocks.Count; i++)
+            {
+                var b = blocks[i];
+                if (!b.Frozen) continue;
+                b.ice--;
+                changed?.Add(b.id);
+            }
+        }
+
+        /// <summary>
         /// Khối bí ẩn lộ màu khi dịch được ít nhất một ô theo một hướng, hoặc bàn còn tối đa 7 khối.
         /// Ghi id khối vừa lộ vào <paramref name="revealed"/>.
         /// </summary>

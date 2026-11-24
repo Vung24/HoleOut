@@ -1,6 +1,4 @@
-#if UNITY_EDITOR
 using System.Collections.Generic;
-#endif
 using TMPro;
 using UnityEngine;
 
@@ -384,8 +382,9 @@ namespace HoleOut.Runtime
         int[] _baseOrders;
         bool _selected;
         VisualsSO.ColorVisual _shownLook;
-        int _shownCapacity = int.MinValue;
-        bool _shownMystery;
+        string _shownLabel;
+        int _shownIce;
+        IceShell _ice;
 
         void Awake()
         {
@@ -405,7 +404,8 @@ namespace HoleOut.Runtime
         /// <summary>Độ phóng khi nhấc theo tỉ lệ 0 (nằm) → 1 (đang kéo); có thể vượt nhẹ ngoài [0, 1] để nảy.</summary>
         public void SetLiftScale(float amount) => visual.localScale = Vector3.one * (1 + (SelectedScale - 1) * amount);
 
-        public void SetLook(VisualsSO.ColorVisual look, bool mystery, int capacity)
+        /// <summary>Số trên khối: số lớp băng khi còn băng, "?" khi bí ẩn, còn lại là sức chứa.</summary>
+        public void SetLook(VisualsSO.ColorVisual look, bool mystery, int capacity, int ice = 0)
         {
             if (look != null && look != _shownLook)
             {
@@ -413,11 +413,40 @@ namespace HoleOut.Runtime
                 SetSolidColor(look.color, look.seated);
                 if (holeRoot && holeRoot.gameObject.activeSelf) SetHoleColor(look.color);
             }
-            if (_shownMystery == mystery && (mystery || _shownCapacity == capacity)) return;
-            _shownMystery = mystery;
-            _shownCapacity = capacity;
-            label.text = mystery ? "?" : capacity.ToString();
+            string text = ice > 0 ? ice.ToString() : mystery ? "?" : capacity.ToString();
+            if (text == _shownLabel) return;
+            _shownLabel = text;
+            label.text = text;
             UpdateLabelLayout();
+        }
+
+        /// <summary>
+        /// Vỏ băng theo số lớp còn lại: dựng khi khối có băng, nứt khi giảm, vỡ khi về 0.
+        /// Gọi sau <see cref="SetLook"/> để số trên khối đã cập nhật trước nhịp phồng.
+        /// </summary>
+        public void SetIce(int ice, IceSettings settings)
+        {
+            if (ice == _shownIce) return;
+            int before = _shownIce;
+            _shownIce = ice;
+            if (_ice == null)
+            {
+                if (ice > 0 && before == 0 && settings != null && settings.material) _ice = CreateIce(ice, settings);
+                return;
+            }
+            if (ice > 0) _ice.Crack(ice);
+            else { _ice.Shatter(); _ice = null; }
+        }
+
+        IceShell CreateIce(int layers, IceSettings settings)
+        {
+            // Ô của khối lấy từ BoxCollider trên gốc rig, cùng nguồn với BuildSolidGeometry.
+            var cells = new List<Vector2>();
+            foreach (var box in GetComponents<BoxCollider>())
+                cells.Add(new Vector2(Mathf.Round(box.center.x * 2) * 0.5f, Mathf.Round(box.center.z * 2) * 0.5f));
+            if (cells.Count == 0) return null;
+            float top = transform.InverseTransformPoint(HoleWorldPosition).y + settings.topClearance;
+            return IceShell.Create(transform, cells, top, label.transform, settings, layers);
         }
     }
 }
