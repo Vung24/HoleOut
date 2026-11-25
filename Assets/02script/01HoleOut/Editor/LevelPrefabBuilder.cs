@@ -62,7 +62,8 @@ namespace HoleOut.EditorTools
 
             const float groove = 0.013f;
             var cellMesh = SavedPanel("HoleOutBoardCell", bc - groove, bc - groove, 0.012f, -0.01f, 0.004f, 0.003f);
-            var cellMaterial = SurfaceMaterial("HoleOutBoardCell", new Color(0.15f, 0.16f, 0.30f));
+            // Đường lưới do shader ô vẽ dọc mép (rộng tối thiểu theo pixel), không dựa vào khe hình học.
+            var cellMaterial = CellMaterial((bc - groove) * 0.5f);
             var cells = Group("Cells", root.transform);
             for (int x = 0; x < width; x++)
                 for (int y = 0; y < height; y++)
@@ -352,6 +353,24 @@ namespace HoleOut.EditorTools
             var saved = PersistMesh(mesh, name);
             UnityEngine.Object.DestroyImmediate(mesh);
             return saved;
+        }
+
+        /// <summary>Material ô bàn; giữ màu đã chỉnh trên Inspector, chỉ cập nhật nửa cạnh ô theo mesh.</summary>
+        static Material CellMaterial(float halfSize)
+        {
+            string path = MaterialFolder + "/HoleOutBoardCell.mat";
+            var shader = Shader.Find("HoleOut/Board Cell");
+            var material = AssetDatabase.LoadAssetAtPath<Material>(path);
+            if (!material)
+            {
+                material = new Material(shader) { enableInstancing = true };
+                material.SetColor("_BaseColor", new Color(0.15f, 0.16f, 0.30f));
+                AssetDatabase.CreateAsset(material, path);
+            }
+            else if (material.shader != shader) material.shader = shader;
+            material.SetFloat("_HalfSize", halfSize);
+            EditorUtility.SetDirty(material);
+            return material;
         }
 
         static Material GateMaterial()
